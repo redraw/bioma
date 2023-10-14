@@ -1,0 +1,76 @@
+---
+import site from "@/site.json";
+const { src, alt, params, class: className, effect = "pixelate" } = Astro.props;
+
+export function transform(src, params = null) {
+  return src
+    .replace(
+      `https://res.cloudinary.com/${site.cloudinaryName}`,
+      new URL("/media", Astro.site)
+    )
+    .replace(/\/image\/upload\/[^/]+\/v[^/]+\//, params ? `/${params}/` : "/");
+}
+---
+
+<img
+  data-src={transform(src, params)}
+  src={transform(src, "c_scale,f_auto,q_auto,w_160")}
+  loading="lazy"
+  decoding="async"
+  alt={alt}
+  class:list={[className, {
+    "blurred": effect === "blur",
+    "pixelated": effect === "pixelate",
+  }]}
+  data-effect={effect}
+/>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    // Get all images with the 'data-src' attribute
+    const lazyImages = document.querySelectorAll("img[data-src]");
+
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Check if the image is in view
+          const img = entry.target as HTMLImageElement;
+
+          // Set the high-quality image URL
+          img.height = img.clientHeight;
+          img.src = img.getAttribute("data-src"); // High-quality URL
+
+          // Remove blur after image has loaded
+          img.onload = () => {
+            img.style.opacity = "0";
+            img.classList.remove("blurred", "pixelated"); // Remove blur class
+            img.style.opacity = "1"
+          };
+
+          // Stop observing this image
+          observer.unobserve(img);
+        }
+      });
+    }, {
+      rootMargin: "100px",
+    });
+
+    // Observe all lazy-loaded images
+    lazyImages.forEach((img) => {
+      observer.observe(img);
+    });
+  });
+</script>
+
+<style>
+  img {
+    transition: filter 0.3s;
+  }
+  .blurred {
+    filter: blur(5px);
+  }
+  .pixelated {
+    image-rendering: pixelated;
+  }
+</style>

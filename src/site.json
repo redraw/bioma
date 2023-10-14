@@ -1,0 +1,23 @@
+{
+  "name": "BIOMA",
+  "description": "ARQUITECTURA. Diseño + branding",
+  "url": "https://bioma.terrestre.ar",
+  "cloudinaryName": "biomaarquitectos",
+  "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713741539/LABERINTO/2.TWB_AXO-min_gnofud.jpg",
+  "homeGridLogoColumns": 4,
+  "socialLinks": [
+    {
+      "link": "https://behance.net/biomaarquitectos",
+      "icon": "mdi:behance"
+    },
+    {
+      "link": "https://instagram.com/biomaarquitectos",
+      "icon": "mdi:instagram"
+    },
+    {
+      "link": "mailto:asdf@gmail.com",
+      "icon": "mdi:email"
+    }
+  ],
+  "debug": true
+}

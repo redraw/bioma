@@ -1,0 +1,253 @@
+local_backend: true
+site_url: https://bioma.terrestre.ar
+
+editor:
+  preview: false
+
+media_folder: "src/images"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: biomaarquitectos
+    api_key: 121323357266367
+    default_transformations:
+      - - fetch_format: auto
+          width: 160
+          quality: auto
+          crop: scale
+
+backend:
+  name: github
+  repo: redraw/bioma
+  branch: main
+  base_url: https://redraw-decap-cms-oauth.vercel.app
+  auth_endpoint: oauth
+
+fields:
+  slider: &SLIDER
+    - label: "Imagenes"
+      name: "images"
+      widget: "image"
+      required: false
+      hint: &COMPRESS_HINT "https://imagecompressor.com <- comprimir antes de subir!"
+      media_library:
+        config:
+          multiple: true
+    - label: "Autoplay"
+      name: "autoplay"
+      widget: "boolean"
+      default: false
+    - label: "Autoplay Delay (milisegundos)"
+      name: "autoplay-delay"
+      widget: "number"
+      required: false
+    - label: "Effect"
+      name: "effect"
+      widget: "select"
+      options:
+        - "fade"
+        - "slide"
+      default: "fade"
+
+collections:
+  - name: "proyectos"
+    label: "Proyectos"
+    folder: "src/pages/proyectos"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} | {{category}}"
+    preview_path: "/proyectos/{{slug}}"
+    sortable_fields: ["title", "created"]
+    fields:
+      - label: "Layout"
+        name: "layout"
+        default: "../../layouts/ProyectoLayout.astro"
+        widget: "hidden"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Categoria"
+        name: "category"
+        widget: "relation"
+        collection: "categorias"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+        required: false
+      - label: "Created"
+        name: "created"
+        widget: "datetime"
+        format: "LLL"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Cover"
+        name: "cover"
+        widget: "image"
+        hint: *COMPRESS_HINT
+      - label: "Logo"
+        name: "logo"
+        widget: "image"
+        hint: *COMPRESS_HINT
+      - label: "Mostrar Home Grid"
+        name: "mostrar_home_grid"
+        widget: "boolean"
+        default: true
+      - label: "Mostrar Home Sliders"
+        name: "mostrar_home_sliders"
+        widget: "boolean"
+        default: false
+      - label: "Slider Fotos"
+        name: "slider_fotos"
+        required: false
+        widget: "object"
+        collapsed: true
+        fields: *SLIDER
+      - label: "Slider Planos"
+        name: "slider_planos"
+        required: false
+        widget: "object"
+        collapsed: true
+        fields: *SLIDER
+      - label: "Estructura"
+        name: "blocks"
+        widget: "list"
+        types:
+          - label: "Texto"
+            name: "text"
+            widget: "object"
+            fields:
+              - label: "Contenido"
+                name: "content"
+                widget: "markdown"
+          - label: "Grid"
+            name: "grid"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Ratio"
+                name: "ratio"
+                widget: "select"
+                options:
+                  - "1"
+                  - "1/1"
+                  - "1/2"
+                  - "2/1"
+                  - "1/3"
+                  - "3/1"
+                default: "1/1"
+              - label: "Align"
+                name: "align"
+                widget: "select"
+                options:
+                  - "center"
+                  - "start"
+                  - "end"
+                  - "stretch"
+                  - "between"
+                  - "around"
+                default: "center"
+              - label: "Gap"
+                name: "gap"
+                widget: "number"
+                step: 4
+                min: 0
+                max: 20
+                default: 4
+              - label: "Columnas"
+                name: "columns"
+                widget: "list"
+                summary: "Columna"
+                fields:
+                  - label: "Imagenes"
+                    name: "images"
+                    widget: "image"
+                    hint: *COMPRESS_HINT
+                    media_library:
+                      config:
+                        multiple: true
+          - label: "Masonry"
+            name: "masonry"
+            widget: "object"
+            fields:
+              - label: "Imagenes"
+                name: "images"
+                widget: "image"
+                hint: *COMPRESS_HINT
+                media_library:
+                  config:
+                    multiple: true
+              - label: "Columnas"
+                name: "columns"
+                widget: "number"
+                default: 1
+              - label: "Gap"
+                name: "gap"
+                widget: "number"
+                step: 4
+                min: 0
+                max: 20
+                default: 4
+          - label: "Slider"
+            name: "slider"
+            widget: "object"
+            fields: *SLIDER
+
+  - name: "categorias"
+    label: "Categorias"
+    folder: "src/pages/categorias"
+    create: true
+    delete: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/site.json"
+        name: "site"
+        label: "Site"
+        fields:
+          - label: "Site Name"
+            name: "name"
+            widget: "string"
+            required: false
+          - label: "Site Description"
+            name: "description"
+            widget: "text"
+            required: false
+          - label: "Site Cover"
+            name: "cover"
+            widget: "image"
+            hint: *COMPRESS_HINT
+            required: false
+          - label: "Site Favicon"
+            name: "favicon"
+            widget: "image"
+            required: false
+          - label: "Home Grid Logo Columnas"
+            name: "homeGridLogoColumns"
+            widget: "number"
+            default: 4
+          - label: "Debug"
+            name: "debug"
+            widget: "boolean"
+            default: false
+          - label: "Site Social Links"
+            name: "socialLinks"
+            required: false
+            widget: "list"
+            fields:
+              - label: "Social Link"
+                name: "link"
+                widget: "string"
+              - label: "Social Icon"
+                name: "icon"
+                widget: "string"

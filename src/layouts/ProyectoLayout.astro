@@ -1,0 +1,85 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Image from "../components/CloudinaryImage.astro";
+import { Markdown } from "astro-remote";
+
+// blocks
+import Text from "@/components/blocks/Text.astro";
+import Slider from "@/components/blocks/Slider.astro";
+import Grid from "@/components/blocks/Grid.astro";
+import Masonry from "@/components/blocks/Masonry.astro";
+
+const { title, description, created, draft, cover, logo, blocks } =
+  Astro.props.frontmatter;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} image={cover} />
+    {draft ? <meta name="robots" content="noindex" /> : null}
+  </head>
+
+  <body>
+    <Header />
+    <main class="container mx-auto">
+      <article>
+        <div class="w-full">
+          {
+            cover && (
+              <Image
+                src={cover}
+                alt={title}
+                params="c_limit,w_2560,f_webp"
+                class="h-[80vh] w-full object-cover"
+              />
+            )
+          }
+        </div>
+        <div class="my-4">
+          <div class="mb-2 float-left text-center w-24" transition:name={`logo-${title}`}>
+            <Image
+              src={logo}
+              alt={title}
+              class="mb-2"
+              transition:name={`logo-${title}`}
+            />
+            <h2 class="text-xs uppercase tracking-wider">{title}</h2>
+          </div>
+          <div class="px-4 py-2">
+            <!-- render description markdown field-->
+            {
+              description && (
+                <div class="font-thin text-sm">
+                  <Markdown content={description} />
+                </div>
+              )
+            }
+          </div>
+        </div>
+        <div class="h-12 clear-both"></div>
+        {
+          blocks &&
+            blocks.map((block) =>
+              block.type === "text" ? (
+                <Text block={block} />
+              ) : block.type === "slider" ? (
+                <Slider block={block} />
+              ) : block.type === "grid" ? (
+                <Grid block={block} />
+              ) : block.type === "masonry" ? (
+                <Masonry block={block} />
+              ) : block.type === "video" ? (
+                <iframe class="w-full" src={block.url} allowfullscreen />
+              ) : null
+            )
+        }
+        <div class="prose">
+          <slot />
+        </div>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
