@@ -1,0 +1,9 @@
+---
+import { Markdown } from "astro-remote";
+
+const { block } = Astro.props;
+---
+
+<div class="p-4">
+  <Markdown content={block.content} />
+</div>

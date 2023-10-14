@@ -1,0 +1,53 @@
+---
+import { Icon } from "astro-icon";
+import site from "@/site.json";
+---
+
+<header class="fixed top-0 w-full z-10">
+  <div class="navbar p-4 min-h-0">
+    <div class="flex-1">
+      <a class="text-2xl md:text-4xl hover:text-inherit" href="/">{site.name}</a
+      >
+    </div>
+    <label class="flex-none swap z-20">
+      <input id="menu" type="checkbox" />
+      <div class="swap-off">
+        <Icon name="mdi:plus" width="32" />
+      </div>
+      <div class="swap-on">
+        <Icon name="mdi:close" width="32" />
+      </div>
+    </label>
+  </div>
+
+  <div
+    id="backdrop"
+    class="flex invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full"
+  >
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-8">{site.name}</h1>
+      <nav class="mb-8">
+        <ul>
+          <li>
+            <a href="/contacto">contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("astro:page-load", () => {
+      const backdrop = document.getElementById("backdrop");
+      const checkbox = document.getElementById("menu");
+
+      function toggleMenu() {
+        if (checkbox.checked) {
+          backdrop.classList.remove("invisible", "opacity-0");
+        } else {
+          backdrop.classList.add("invisible", "opacity-0");
+        }
+      }
+      checkbox.addEventListener("click", toggleMenu);
+    });
+  </script>
+</header>

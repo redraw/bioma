@@ -1,0 +1,43 @@
+---
+import Lightbox from "../Lightbox.astro";
+import Image from "../CloudinaryImage.astro";
+import { transform as imageURL } from "../CloudinaryImage.astro";
+
+const { block } = Astro.props;
+---
+
+<div
+  class:list={[
+    "columns",
+    `sm:columns-${block.columns ?? 1}`,
+    {
+      0: "gap-0",
+      4: "md:gap-4",
+      8: "md:gap-8",
+      12: "md:gap-12",
+      16: "md:gap-16",
+      20: "md:gap-20",
+    }[block.gap ?? 4],
+    {
+      0: "space-y-0",
+      4: "space-y-4",
+      8: "space-y-8",
+      12: "space-y-12",
+      16: "space-y-16",
+      20: "space-y-20",
+    }[block.gap ?? 4],
+    "my-4 sm:my-8 lg:my-12",
+  ]}
+>
+  {
+    block.images.map((url) => (
+      <Lightbox src={imageURL(url)} class="w-full flex">
+        <Image
+          src={url}
+          params="c_limit,w_2560,f_webp"
+          class="w-full"
+        />
+      </Lightbox>
+    ))
+  }
+</div>

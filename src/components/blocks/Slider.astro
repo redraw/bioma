@@ -1,0 +1,36 @@
+---
+import Image from "@/components/CloudinaryImage.astro";
+
+const { images, ...params } = Astro.props;
+
+if (!params.autoplay) {
+  delete params["autoplay-delay"];
+}
+---
+
+<swiper-container class="h-screen" loop="true" {...params}>
+  {
+    images.map((url) => (
+      <swiper-slide class="cursor-pointer">
+        <Image params="c_limit,w_2560,f_webp" src={url} alt={url} class="w-full h-full object-cover" />
+      </swiper-slide>
+    ))
+  }
+</swiper-container>
+
+<script>
+  // import styles bundle
+  import "swiper/css/bundle";
+  // import Swiper bundle with all modules installed
+  import { register } from "swiper/element/bundle";
+  // register Swiper custom elements
+  register();
+
+  document.addEventListener("astro:page-load", () => {
+    document.querySelectorAll("swiper-container").forEach((elem) => {
+      elem.addEventListener("click", () => {
+        elem.swiper.slideNext();
+      });
+    });
+  });
+</script>

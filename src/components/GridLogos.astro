@@ -1,0 +1,33 @@
+---
+import Image from "@/components/CloudinaryImage.astro";
+import site from "@/site.json"
+
+const { posts } = Astro.props;
+---
+
+<div class="flex justify-center items-center">
+  <div class=`grid grid-cols-3 sm:grid-cols-${site.homeGridLogoColumns}`>
+    {
+      [...posts].map(({ url, frontmatter }) => (
+        <div class="flex justify-center bg-white p-1 md:p-2 text-center">
+          <a href={url}>
+            <div transition:name={`logo-${frontmatter.title}`}>
+              <Image
+                src={frontmatter.logo}
+                alt={frontmatter.title}
+                class="h-20 md:h-24"
+                effect="blur"
+              />
+            </div>
+            <h2 class="text-xs tracking-wider uppercase">
+              {frontmatter.title}
+            </h2>
+            <h2 class="text-xs font-thin tracking-wider">
+              {frontmatter.category}
+            </h2>
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</div>

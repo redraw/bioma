@@ -1,0 +1,45 @@
+---
+import DefaultLayout from "@/layouts/DefaultLayout.astro";
+import GridLogos from "@/components/GridLogos.astro";
+import Slider from "@/components/blocks/Slider.astro";
+import Image from "@/components/CloudinaryImage.astro";
+
+const posts = await Astro.glob("./proyectos/*.md");
+
+const gridPosts = posts
+  .filter(({ frontmatter }) => !frontmatter.draft)
+  .sort(
+    (a, b) =>
+      Date.parse(a.frontmatter.created) - Date.parse(b.frontmatter.created)
+  );
+
+const sliderPosts = posts
+  .filter(({ frontmatter }) => frontmatter.mostrar_home_sliders)
+  .sort((a, b) => b.frontmatter.created - a.frontmatter.created);
+---
+
+<DefaultLayout>
+  <div class="min-h-screen pt-20">
+    <GridLogos posts={gridPosts} />
+  </div>
+  {
+    sliderPosts &&
+      sliderPosts.map(({ url, frontmatter }) => {
+        const { title, logo, slider_fotos, slider_planos } = frontmatter;
+        return (
+          <div>
+            <div class="columns md:columns-2">
+              <Slider {...slider_fotos} />
+              <Slider {...slider_planos} />
+            </div>
+            <a href={url}>
+              <div class="flex w-full px-4">
+                {logo && <Image src={logo} alt={title} class="w-24" />}
+                <h2 class="text-lg py-4 uppercase tracking-wider">{title}</h2>
+              </div>
+            </a>
+          </div>
+        );
+      })
+  }
+</DefaultLayout>

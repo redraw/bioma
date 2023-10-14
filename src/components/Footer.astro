@@ -1,0 +1,18 @@
+---
+import site from "@/site.json";
+import Icon from "astro-icon";
+const today = new Date();
+---
+
+<footer class="p-4 text-center">
+  <div class="flex justify-center gap-4 my-8">
+    {
+      site.socialLinks.map((item) => (
+        <a href={item.link} target="_blank" rel="noopener">
+          <span class="sr-only">Follow</span>
+          <Icon name={item.icon} size="16" />
+        </a>
+      ))
+    }
+  </div>
+</footer>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply font-thin text-sm;
+  }
+  a {
+    @apply hover:text-gray-600;
+  }
+}
