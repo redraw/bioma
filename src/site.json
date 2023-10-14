@@ -1,0 +1,19 @@
+{
+  "name": "BIOMA",
+  "description": "bioma arquitectos",
+  "logo": "/blog/41dfmyj8gpl._ac_uf894-1000_ql80_.jpg",
+  "socialLinks": [
+    {
+      "link": "https://behance.net/biomaarquitectos",
+      "icon": "mdi:behance"
+    },
+    {
+      "link": "https://instagram.com/biomaarquitectos",
+      "icon": "mdi:instagram"
+    },
+    {
+      "link": "mailto:asdf@gmail.com",
+      "icon": "mdi:email"
+    }
+  ]
+}

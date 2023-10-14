@@ -1,0 +1,77 @@
+---
+// const { posts } = Astro.props;
+const posts = [
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+  {
+    frontmatter: {
+      title: 'Distrito',
+      slug: 'distrito',
+      category: 'mixed use XL',
+      logo: 'https://res.cloudinary.com/biomaarquitectos/image/upload/v1713035311/01distrito_sugphw.png',
+    }
+  },
+]
+---
+
+<div class="flex justify-center items-center min-h-screen">
+  <div class="grid grid-cols-3 sm:grid-cols-4">
+    {
+      posts.map(({ frontmatter }) => (
+        <div class="bg-white p-2 text-center">
+          <a href={`/proyectos/${frontmatter.slug}`}>
+            <img src={frontmatter.logo} class="w-32" alt={frontmatter.title}>
+            <h2 class="text-xs tracking-wider uppercase">{frontmatter.title}</h2>
+            <h2 class="text-xs tracking-wider lowercase">{frontmatter.category}</h2>
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</div>

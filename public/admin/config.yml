@@ -1,0 +1,171 @@
+local_backend: true
+publish_mode: editorial_workflow
+site_url: https://biomaestudio.vercel.app
+
+editor:
+  preview: false
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: biomaarquitectos
+    api_key: 121323357266367
+    default_transformations:
+      - - fetch_format: auto
+          width: 160
+          quality: auto
+          crop: scale
+
+backend:
+  name: github
+  repo: redraw/bioma
+  branch: main
+  base_url: https://biomaestudio.vercel.app
+  auth_endpoint: oauth
+
+collections:
+  - name: "proyectos"
+    label: "Proyectos"
+    folder: "src/content/proyectos"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} | {{category}}"
+    preview_path: "/proyectos/{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Categoria"
+        name: "category"
+        widget: "relation"
+        collection: "categorias"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+        required: false
+      - label: "Created"
+        name: "created"
+        widget: "datetime"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: true
+      - label: "Cover"
+        name: "cover"
+        widget: "image"
+      - label: "Logo"
+        name: "logo"
+        widget: "image"
+      - label: "Seleccionado"
+        name: "seleccionado"
+        widget: "boolean"
+        default: false
+      - label: "Slider Fotos"
+        name: "slider_fotos"
+        required: false
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
+      - label: "Slider Planos"
+        name: "slider_planos"
+        required: false
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
+      - label: "Estructura"
+        name: "blocks"
+        widget: "list"
+        types:
+          - label: "Texto"
+            name: "text"
+            widget: "object"
+            fields:
+              - label: "Contenido"
+                name: "content"
+                widget: "markdown"
+          - label: "Galeria"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - label: "Imagenes"
+                name: "items"
+                widget: "image"
+                media_library:
+                  config:
+                    multiple: true
+              - label: "Columnas"
+                name: "columns"
+                widget: "number"
+                default: 1
+              - label: "Columnas (mobile)"
+                name: "columns_mobile"
+                widget: "number"
+                default: 1
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        required: false
+
+  - name: "categorias"
+    label: "Categorias"
+    folder: "src/content/categorias"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        required: false
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/site.json"
+        name: "site"
+        label: "Site"
+        fields:
+          - label: "Site Name"
+            name: "name"
+            widget: "string"
+            required: false
+          - label: "Site Description"
+            name: "description"
+            widget: "text"
+            required: false
+          - label: "Site URL"
+            name: "url"
+            widget: "string"
+            required: false
+          - label: "Site Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+          - label: "Site Favicon"
+            name: "favicon"
+            widget: "image"
+            required: false
+          - label: "Site Cover"
+            name: "cover"
+            widget: "image"
+            required: false
+          - label: "Site Social Links"
+            name: "socialLinks"
+            required: false
+            widget: "list"
+            fields:
+              - label: "Social Link"
+                name: "link"
+                widget: "string"
+              - label: "Social Icon"
+                name: "icon"
+                widget: "string"

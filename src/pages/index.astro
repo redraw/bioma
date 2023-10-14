@@ -1,0 +1,16 @@
+---
+import DefaultLayout from "@/layouts/DefaultLayout.astro";
+import GridLogos from "@/components/GridLogos.astro";
+
+const posts = await Astro.glob("../content/proyectos/*.md") 
+const gridPosts = posts.filter(({ frontmatter }) => !frontmatter.draft).sort(
+  (a, b) => b.frontmatter.created.valueOf() - a.frontmatter.created.valueOf()
+);
+const sliderPosts = posts.filter(({ frontmatter }) => frontmatter.seleccionado).sort(
+  (a, b) => b.frontmatter.created.valueOf() - a.frontmatter.created.valueOf()
+);
+---
+
+<DefaultLayout>
+  <GridLogos posts={gridPosts}></GridLogos>
+</DefaultLayout>

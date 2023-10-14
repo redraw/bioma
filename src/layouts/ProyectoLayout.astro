@@ -1,0 +1,68 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Image from "../components/CloudinaryImage.astro";
+
+const { title, description, created, draft, cover, logo, blocks } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} image={cover} />
+    {draft ? <meta name="robots" content="noindex" /> : null}
+  </head>
+
+  <body>
+    <Header />
+    <main class="container mx-auto">
+      <article>
+        <div class="cover-image">
+          {cover && <Image src={cover} alt={title} />}
+        </div>
+        <div class="my-4">
+          <div class="float-left text-center w-24">
+            {logo && <Image src={logo} alt={title} />}
+            <h2 class="text-xs uppercase tracking-wider">{title}</h2>
+          </div>
+          <div class="px-4">
+            <!-- render description markdown field-->
+            {description && <div class="text-sm" set:html={description} />}
+          </div>
+        </div>
+        <div class="clear-both"></div>
+        {
+          blocks &&
+            blocks.map((block) =>
+              block.type === "text" ? (
+                <div class="prose" set:html={block.content} />
+              ) : block.type === "image" ? (
+                <img class="w-full object-fit" src={block.url} alt="" />
+              ) : block.type === "gallery" ? (
+                <div
+                  class:list={[
+                    `columns-${block.columns_mobile || 1}`,
+                    `sm:columns-${block.columns || 1}`,
+                    "gap-4",
+                    "space-y-4",
+                  ]}
+                >
+                  {block.items.map((url) => (
+                    <Image src={url} class="w-100 h-auto object-fit" />
+                  ))}
+                </div>
+              ) : block.type === "video" ? (
+                <video class="w-full object-fit" controls>
+                  <source src={block.url} type="video/mp4" />
+                </video>
+              ) : null
+            )
+        }
+        <div class="prose">
+          <slot />
+        </div>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>

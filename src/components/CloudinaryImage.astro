@@ -1,0 +1,9 @@
+---
+const { src, alt, params, class: className } = Astro.props
+
+function transform(src, params = '') {
+  return src.replace(/\/image\/upload\/[^/]+\//, `/image/upload/${params}/`)
+}
+---
+
+<img src={transform(src, params)} loading="lazy" alt={alt} class={className} />
