@@ -5,7 +5,7 @@ category: comercial
 description: Ubicado en el barrio de recoleta, dentro de la biblioteca Guiraldes
   proponemos materialmente un oasis, un contrapunto que colabore con el sentido
   de extrañeza evidenciado en la forma de la cubierta existente diseñada por el
-  arq. Alvaro Arrese. Esta y ciertas carácteristicas que encontramos a la hora
+  arq. Alvaro Arrese. Esta y ciertas características que encontramos a la hora
   del relevamiento nos inspiraron para hablar de un vínculo con el arquitecto
   Clorindo Testa, al que decidimos hacerle honor a modo de homenaje, tanto con
   ciertos gestos de colores, y materiales como con el nombre del café.
