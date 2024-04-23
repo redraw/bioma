@@ -1,3 +1,7 @@
+---
+import DeployBadge from "@/components/DeployBadge.astro"
+---
+
 <!doctype html>
 <html>
   <head>
@@ -9,7 +13,9 @@
     <title>Content Manager</title>
   </head>
   <body>
+    <div id="nc-root"></div>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script is:inline src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <DeployBadge /> 
   </body>
 </html>

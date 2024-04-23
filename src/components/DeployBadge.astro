@@ -1,0 +1,113 @@
+---
+import site from "@/site.json";
+---
+
+<div id="deploy-badge" class="success"></div>
+
+<script is:inline data-repo={site.repoName}>
+  const repo = document.currentScript.dataset.repo;
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const badge = document.querySelector("#deploy-badge");
+    const user = JSON.parse(localStorage.getItem("decap-cms-user"));
+
+    // local CMS
+    if (user.backendName !== "github") return;
+
+    async function getLatestSha() {
+      const response = await fetch(
+        `https://api.github.com/repos/${user.login}/${repo}/git/refs/heads/main`,
+        {
+          headers: {
+            authorization: `token ${user.token}`,
+          },
+        }
+      );
+      const ref = await response.json();
+      return ref.object.sha;
+    }
+
+    async function getLatestDeployment() {
+      const response = await fetch(
+        `https://api.github.com/repos/${user.login}/${repo}/deployments`,
+        {
+          cache: "no-cache",
+          headers: {
+            authorization: `token ${user.token}`,
+          },
+        }
+      );
+      const deployments = await response.json();
+      return deployments[0];
+    }
+
+    async function getStatus(deployment) {
+      const response = await fetch(deployment.statuses_url, {
+        cache: "no-cache",
+        headers: {
+          authorization: `token ${user.token}`,
+        },
+      });
+      const statuses = await response.json();
+      return statuses[0];
+    }
+
+    async function updateBadge() {
+      console.log("updating badge...");
+
+      const sha = await getLatestSha();
+      const deployment = await getLatestDeployment();
+      const status = await getStatus(deployment);
+      console.log({ deployment, status });
+
+      // Check if the deployment is the latest
+      if (sha !== deployment.sha) {
+        status.state = "pending";
+      }
+
+      badge.innerHTML = `
+        <a href="#" onclick="updateBadge()">
+          <small title="${new Date(deployment.updated_at).toLocaleString()}" style="color: white">build: ${status.state}</small>
+        </a>
+      `;
+
+      switch (status.state) {
+        case "success":
+          badge.style.background = "green";
+          break;
+        case "failure":
+          badge.style.background = "red";
+          break;
+        case "pending":
+          badge.style.background = "orange";
+          setTimeout(updateBadge, 1000 * 5);
+          break;
+        default:
+          console.error("unknown status", status.state)
+          break;
+      }
+    }
+
+    CMS.registerEventListener({
+      name: "postPublish",
+      handler: () => {
+        console.log("postPublish event triggered");
+        updateBadge();
+      },
+    });
+    
+    updateBadge();
+  });
+</script>
+
+<style>
+  #deploy-badge {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.5em;
+    z-index: 10000;
+    font-size: small;
+    color: white;
+  }
+</style>
