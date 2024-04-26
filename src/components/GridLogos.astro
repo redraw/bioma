@@ -1,12 +1,14 @@
 ---
 import Image from "@/components/CloudinaryImage.astro";
-import site from "@/site.json"
+import site from "@/site.json";
 
-const { posts } = Astro.props;
+const { posts, class: className } = Astro.props;
 ---
 
-<div class="flex justify-center items-center">
-  <div class=`grid grid-cols-3 sm:grid-cols-${site.homeGridLogoColumns}`>
+<div class="flex justify-center items-center" class:list={[className]}>
+  <div
+    class=`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-${site.homeGridLogoColumns} lg:grid-rows-${site.homeGridLogoRows}`
+  >
     {
       [...posts].map(({ url, frontmatter }) => (
         <div class="flex justify-center bg-white p-1 md:p-2 text-center">

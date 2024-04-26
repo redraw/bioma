@@ -7,8 +7,12 @@ module.exports = {
       variants: ['sm', 'md']
     },
     {
+      pattern: /grid-rows-\d+/,
+      variants: ['sm', 'md', 'lg']
+    },
+    {
       pattern: /grid-cols-\d+/,
-      variants: ['sm', 'md']
+      variants: ['sm', 'md', 'lg']
     },
     {
       pattern: /items-\w+/,

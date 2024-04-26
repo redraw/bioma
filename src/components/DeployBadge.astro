@@ -66,14 +66,14 @@ import site from "@/site.json";
       }
 
       const trans = {
-        success: "ok",
+        success: "OK",
         failure: "error",
-        pending: "pendiente",
+        pending: "pendiente...",
       }
 
       badge.innerHTML = `
         <a href="#" onclick="updateBadge()">
-          <small title="${new Date(deployment.updated_at).toLocaleString()}" style="color: white">build: ${trans[status.state]}</small>
+          <span title="${new Date(deployment.updated_at).toLocaleString()}" style="color: white">build: ${trans[status.state]}</span>
         </a>
       `;
 

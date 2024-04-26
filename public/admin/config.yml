@@ -232,10 +232,14 @@ collections:
             name: "favicon"
             widget: "image"
             required: false
+          - label: "Home Grid Logo Filas"
+            name: "homeGridLogoRows"
+            widget: "number"
+            default: 4
           - label: "Home Grid Logo Columnas"
             name: "homeGridLogoColumns"
             widget: "number"
-            default: 4
+            default: 8
           - label: "Debug"
             name: "debug"
             widget: "boolean"

@@ -1,10 +1,12 @@
 ---
 import { Icon } from "astro-icon";
 import site from "@/site.json";
+
+const { class: className } = Astro.props
 ---
 
-<header class="fixed top-0 w-full z-10">
-  <div class="navbar p-4 min-h-0">
+<header class:list={[className]}>
+  <div class="text-shadow navbar p-4 min-h-0">
     <div class="flex-1">
       <a class="text-2xl md:text-4xl hover:text-inherit" href="/">{site.name}</a
       >
@@ -12,17 +14,17 @@ import site from "@/site.json";
     <label class="flex-none swap z-20">
       <input id="menu" type="checkbox" />
       <div class="swap-off">
-        <Icon name="mdi:plus" width="32" />
+        <Icon class="icon-shadow" name="mdi:plus" width="32" />
       </div>
       <div class="swap-on">
-        <Icon name="mdi:close" width="32" />
+        <Icon class="icon-shadow" name="mdi:close" width="32" />
       </div>
     </label>
   </div>
 
   <div
     id="backdrop"
-    class="flex invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full"
+    class="flex invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full z-10"
   >
     <div class="text-center">
       <h1 class="text-4xl font-bold mb-8">{site.name}</h1>
@@ -51,3 +53,12 @@ import site from "@/site.json";
     });
   </script>
 </header>
+
+<style>
+  /* .text-shadow {
+    text-shadow: 1px 1px 1px white;
+  }
+  .icon-shadow {
+    filter: drop-shadow(1px 1px 1px white);
+  } */
+</style>
