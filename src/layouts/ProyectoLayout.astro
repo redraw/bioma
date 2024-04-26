@@ -23,8 +23,8 @@ const { title, description, created, draft, cover, logo, blocks } =
 
   <body>
     <Header />
-    <main class="container mx-auto">
-      <article>
+    <main class="w-full">
+      <article class="w-full">
         <div class="w-full">
           {
             cover && (
@@ -37,7 +37,7 @@ const { title, description, created, draft, cover, logo, blocks } =
             )
           }
         </div>
-        <div class="my-4">
+        <div class="my-2 mx-auto">
           <div class="mb-2 float-left text-center w-24" transition:name={`logo-${title}`}>
             <Image
               src={logo}
