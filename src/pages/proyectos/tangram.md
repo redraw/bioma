@@ -36,7 +36,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731636/TANGRAM/11.TANGRAM_AXO_RENDER-min_k1krro.jpg
   - type: grid
     ratio: 3/1
-    align: center
+    align: stretch
     gap: 12
     columns:
       - images:

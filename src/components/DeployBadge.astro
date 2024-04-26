@@ -65,9 +65,15 @@ import site from "@/site.json";
         status.state = "pending";
       }
 
+      const trans = {
+        success: "ok",
+        failure: "error",
+        pending: "pendiente",
+      }
+
       badge.innerHTML = `
         <a href="#" onclick="updateBadge()">
-          <small title="${new Date(deployment.updated_at).toLocaleString()}" style="color: white">build: ${status.state}</small>
+          <small title="${new Date(deployment.updated_at).toLocaleString()}" style="color: white">build: ${trans[status.state]}</small>
         </a>
       `;
 
@@ -107,7 +113,6 @@ import site from "@/site.json";
     right: 0;
     padding: 0.5em;
     z-index: 10000;
-    font-size: small;
     color: white;
   }
 </style>
