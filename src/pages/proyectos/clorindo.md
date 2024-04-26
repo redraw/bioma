@@ -29,10 +29,10 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710629/CLORINDO/2.Clorindo_Foto_Patio_Gral-min_k9cp89.jpg
   - type: masonry
     columns: 2
-    gap: 4
+    gap: 16
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710715/CLORINDO/3.Clorindo_Foto_Interior_Barra-min_lzmnmq.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710762/CLORINDO/5.Clorindo_Detalle_Barra-min_golbve.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710713/CLORINDO/4.Clorindo_Foto_Detalle_Escalera-min_n8zouu.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710759/CLORINDO/6.Clorindo_Interior_Volumen-min_dwclor.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710713/CLORINDO/4.Clorindo_Foto_Detalle_Escalera-min_n8zouu.jpg
 ---
