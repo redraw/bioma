@@ -20,7 +20,7 @@ const sliderPosts = posts
   .sort((a, b) => b.frontmatter.created - a.frontmatter.created);
 ---
 
-<DefaultLayout showHeader={false} showFooter={false}>
+<DefaultLayout showHeader={false} showFooter={false}>
   <div class="min-h-screen flex flex-col justify-center">
     <Header />
     <GridLogos class="flex-1" posts={gridPosts} />

@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import site from "@/site.json";
 
 const { class: className } = Astro.props
@@ -14,10 +14,10 @@ const { class: className } = Astro.props
     <label class="flex-none swap z-20">
       <input id="menu" type="checkbox" />
       <div class="swap-off">
-        <Icon class="icon-shadow" name="mdi:plus" width="32" />
+        <Icon class="icon-shadow" name="mdi:plus" size="32" />
       </div>
       <div class="swap-on">
-        <Icon class="icon-shadow" name="mdi:close" width="32" />
+        <Icon class="icon-shadow" name="mdi:close" size="32" />
       </div>
     </label>
   </div>

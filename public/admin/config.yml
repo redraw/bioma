@@ -254,4 +254,5 @@ collections:
                 widget: "string"
               - label: "Social Icon"
                 name: "icon"
+                hint: "https://icon-sets.iconify.design/mdi"
                 widget: "string"
