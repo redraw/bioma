@@ -43,9 +43,7 @@ export function transform(src, params = null) {
 
           // Remove blur after image has loaded
           img.onload = () => {
-            img.style.opacity = "0";
             img.classList.remove("blurred", "pixelated"); // Remove blur class
-            img.style.opacity = "1"
           };
 
           // Stop observing this image

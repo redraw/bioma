@@ -2,7 +2,7 @@
 import Image from "@/components/CloudinaryImage.astro";
 import site from "@/site.json";
 
-const { posts, class: className } = Astro.props;
+const { posts, categoria, class: className } = Astro.props;
 ---
 
 <div class="flex justify-center items-center" class:list={[className]}>
@@ -12,7 +12,12 @@ const { posts, class: className } = Astro.props;
     {
       [...posts].map(({ url, frontmatter }) => (
         <div class="flex justify-center bg-white p-1 md:p-2 text-center">
-          <a href={url}>
+          <a
+            href={url}
+            class:list={[
+              { "grayscale opacity-50 blur-sm": categoria && categoria !== frontmatter.category },
+            ]}
+          >
             <div transition:name={`logo-${frontmatter.title}`}>
               <Image
                 src={frontmatter.logo}
