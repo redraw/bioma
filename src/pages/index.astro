@@ -7,7 +7,8 @@ import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
 
 const posts = await Astro.glob("./proyectos/*.md");
-const categoria = Astro.props.frontmatter?.title
+const categoria = Astro.props.frontmatter?.title;
+const title = categoria ?? `x ${categoria}`;
 
 const gridPosts = posts
   .filter(({ frontmatter }) => !frontmatter.draft)
@@ -21,7 +22,7 @@ const sliderPosts = posts
   .sort((a, b) => b.frontmatter.created - a.frontmatter.created);
 ---
 
-<DefaultLayout showHeader={false} showFooter={false} class="">
+<DefaultLayout title={title} showHeader={false} showFooter={false} class="">
   <div class="min-h-screen flex flex-col justify-center">
     <Header categoria={categoria} />
     <GridLogos class="flex-1" posts={gridPosts} categoria={categoria}/>

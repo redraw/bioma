@@ -9,13 +9,13 @@ const showCategorias =
   Astro.url.pathname.startsWith("/categorias") || Astro.url.pathname === "/";
 ---
 
-<header class:list={[className]}>
-  <div class="text-shadow navbar p-4 min-h-0">
-    <div class="flex-1 z-20">
+<header class:list={[className, "z-40 text-white mix-blend-difference"]}>
+  <div class="navbar p-4 min-h-0">
+    <div class="flex-1">
       <a class="text-2xl md:text-4xl hover:text-inherit" href="/">{site.name}</a
       >
     </div>
-    <div class="flex-none z-20">
+    <div class="flex-none">
       <ul class="hidden lg:flex flex-row">
         {
           showCategorias &&
@@ -46,66 +46,57 @@ const showCategorias =
       </label>
     </div>
   </div>
-
-  <div
-    id="backdrop"
-    class="flex invisible opacity-0 fixed top-0 bg-white bg-blend-darken transition-all text-black justify-center items-center h-full w-full lg:mt-16 lg:h-auto lg:w-24 lg:right-0 z-10"
-  >
-    <div class="text-center">
-      <nav>
-        <ul>
-          {
-            showCategorias &&
-              categorias?.length &&
-              categorias.map((item) => (
-                <li class="my-4">
-                  <a
-                    class="lg:hidden"
-                    class:list={[
-                      {
-                        "font-bold":
-                          categoria && categoria === item.frontmatter.title,
-                      },
-                    ]}
-                    href={item.url}
-                  >
-                    {item.frontmatter.title}
-                  </a>
-                </li>
-              ))
-          }
-          <li class="lg:hidden my-4">
-            <span>📐</span>
-          </li>
-          <li class="my-4">
-            <a href="/contacto">contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <script>
-    document.addEventListener("astro:page-load", () => {
-      const backdrop = document.getElementById("backdrop");
-      const checkbox = document.getElementById("menu");
-
-      function toggleMenu() {
-        if (checkbox.checked) {
-          backdrop.classList.remove("invisible", "opacity-0");
-        } else {
-          backdrop.classList.add("invisible", "opacity-0");
-        }
-      }
-      checkbox.addEventListener("click", toggleMenu);
-    });
-  </script>
 </header>
 
-<style>
-  /* .text-shadow {
-    text-shadow: 1px 1px 1px white;
-  }
-  .icon-shadow {
-    filter: drop-shadow(1px 1px 1px white);
-  } */
-</style>
+<div
+  id="backdrop"
+  class="flex invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full lg:mt-16 lg:h-auto lg:w-24 lg:right-0 z-10"
+>
+  <div class="text-center">
+    <nav>
+      <ul>
+        {
+          categorias?.length &&
+            categorias.map((item) => (
+              <li class="my-4">
+                <a
+                  class="lg:hidden"
+                  class:list={[
+                    {
+                      "font-bold":
+                        categoria && categoria === item.frontmatter.title,
+                    },
+                  ]}
+                  href={item.url}
+                >
+                  {item.frontmatter.title}
+                </a>
+              </li>
+            ))
+        }
+        <li class="lg:hidden my-4">
+          <span>📐</span>
+        </li>
+        <li class="my-4">
+          <a href="/contacto">contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const backdrop = document.getElementById("backdrop");
+    const checkbox = document.getElementById("menu");
+
+    function toggleMenu() {
+      if (checkbox.checked) {
+        backdrop.classList.remove("invisible", "opacity-0");
+      } else {
+        backdrop.classList.add("invisible", "opacity-0");
+      }
+    }
+    checkbox.addEventListener("click", toggleMenu);
+  });
+</script>
