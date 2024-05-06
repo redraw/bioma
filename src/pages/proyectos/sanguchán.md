@@ -32,7 +32,7 @@ blocks:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713740812/SANGUCHAN/4.SANGUCHAN_Foto_Cartel-min_r5neem.jpg
   - type: masonry
     columns: 1
-    gap: 4
+    gap: 2
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713740812/SANGUCHAN/3.SANGUCHAN_Foto_Barra-min_jv8mqy.jpg
   - type: masonry
