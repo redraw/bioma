@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Distrito
-category: X L
+category: XL
 description: >-
   **Edificio horizontal mixed use.**
 
