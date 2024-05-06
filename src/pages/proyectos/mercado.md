@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Mercado
-category: gastronomia XL
+category: XL
 description: La integración del estadio UNO al espacio público de la ciudad se
-  logra por sus bajo gradas. una de ellas, el ala norte la intervinimos
+  logra por sus bajo gradas. Una de ellas, el ala norte la intervinimos
   respondiendo a una pasante que conecta la ciudad con el bosque. Propusimos una
   plaza seca, con la misma baldosa de vereda para lograr la conexión simbólica y
   puestos flotantes que generarán singularidades en esa trama de alfombra
   continua. Los movimientos que se dan a partir de ella están sugeridos y no
-  interrumpidos visualmente. Toda la infraestructura del espacio de mas de
-  1500m2 responde a logicas mudables, para poder entender al sector en el
+  interrumpidos visualmente. Toda la infraestructura del espacio de más de
+  1500m2 responde a lógicas mudables, para poder entender al sector en el
   tiempo. Podemos verlo mutar, adaptarse y sostener diversos usos.
 created: April 15, 2024 1:47 AM
 draft: false
