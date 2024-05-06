@@ -4,13 +4,13 @@ title: Laberinto
 category: g a s t r o n o m í a
 description: The Wine Bar es una marca originaria de Mar Del Plata para la que
   diseñamos y dirigimos tanto la obra como la ideación de la espacialidad,
-  materialidad, iluminación, arte, etc. (branding). al ser el terreno muy largo
-  y sin construcciones existentes mas que una cubierta, pensamos en una especie
-  de laberinto, el cual genere un recorrido, nos deje sorprendernos, y evite lo
-  invasivo que podría ser la exagerada continuidad homogenea del espacio. Este
+  materialidad, iluminación, arte, etc. (branding). Al ser el terreno muy largo
+  y sin construcciones existentes más que una cubierta, pensamos en una especie
+  de laberinto, el cual genere un recorrido, nos deje sorprendernos y evite lo
+  invasivo que podría ser la exagerada continuidad homogénea del espacio. Este
   recorrido está afectado por simples y dobles alturas de anchos variables para
-  acentuar y diferenciar algunos espacios. materialmente los bloques de hormigón
-  dejan entreveer para no perder la noción de amplitud.
+  acentuar y diferenciar algunos espacios. Materialmente los bloques de hormigón
+  dejan entrever para no perder la noción de amplitud.
 created: April 21, 2024 8:16 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713741539/LABERINTO/1.TWB_Acceso-min_eykjxh.jpg
