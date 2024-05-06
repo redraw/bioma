@@ -1,4 +1,4 @@
 ---
-title: g a s t r o n o m í a
+title: gastronomía
 layout: ../index.astro
 ---
