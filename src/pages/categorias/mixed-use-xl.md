@@ -1,5 +1,5 @@
 ---
-title: X L
+title: XL
 layout: ../index.astro
 slug: mixed-use-XL
 ---
