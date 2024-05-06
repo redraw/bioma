@@ -1,5 +1,5 @@
 ---
-title: v i v i e n d a
+title: vivienda
 layout: ../index.astro
 slug: vivenda
 ---
