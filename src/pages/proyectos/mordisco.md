@@ -6,10 +6,10 @@ description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
   su nombre anuncia, aparece en el paisaje una sustracción de su forma,
   generando un punto de extrañamiento en su volumen. Bajo la idea de no tapar,
   ni limitar la visual desde la vivienda se pensó en un marco, que pueda
-  contener, dar aire y a la vez replicar de alguna manera ese gesto. 6 bóvedas
-  de hormigón, de cañon corrido se apuntan a ese punto para generar ese diálogo
-  buscado. las continuidades en el sentido opuesto a la dirección de los cañones
-  y las luces y sombras que genera la forma propone y modifica la casa.
+  contener, dar aire y a la vez replicar de alguna manera ese gesto. Seis
+  bóvedas de hormigón, de cañón corrido se apuntan a ese punto para generar ese
+  diálogo buscado. Las continuidades en el sentido opuesto a la dirección de los
+  cañones y las luces y sombras que genera la forma propone y modifica la casa.
 created: April 15, 2024 12:46 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502154/MORDISCO/1.Balcarce_Dron-min_kqrgqb.jpg
