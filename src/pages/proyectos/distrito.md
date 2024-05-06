@@ -27,7 +27,7 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481218/DISTRITO/2.Distrigo_G_Planta_Baja-min_kqdcqu.jpg
     columns: 1
-    gap: 4
+    gap: 2
   - type: masonry
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481260/DISTRITO/3.Distrigo_G_Corte_y_Vista-min_crahns.jpg
@@ -58,7 +58,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481682/DISTRITO/10.Distrigo_G_Plaza_Interior-min_sldjdb.jpg
   - type: masonry
     columns: 2
-    gap: 4
+    gap: 2
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481727/DISTRITO/11-Fotos_Obra_I-min_ha4m7n.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481891/DISTRITO/12-Foto_Obra_II-min_x1lbip.jpg
