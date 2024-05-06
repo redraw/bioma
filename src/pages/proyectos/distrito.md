@@ -6,7 +6,7 @@ description: >-
   **Edificio horizontal mixed use.**
 
 
-  Propuestas de uso mixto se vuelcan a fomentar una planta baja urbana en las afueras de la ciudad. Como símbolo la vereda granitica será la que colonice el espacio público, con diferencias de tramas para evidenciar circulaciones peatonales de circulaciones de autos, motos y bicicletas. en las siguientes dos plantas un jardín en altura funciona de fuelle y nexo con la ciudad, conviertiendose ese en el laymotif del proyecto, donde todas las unidades participan y colaboran con su impronta definitiva. Actualmente en construcción.
+  Propuestas de uso mixto se vuelcan a fomentar una planta baja urbana en las afueras de la ciudad. Como símbolo la vereda granítica será la que colonice el espacio público, con diferencias de tramas para evidenciar circulaciones peatonales de circulaciones de autos, motos y bicicletas. En las siguientes dos plantas un jardín en altura funciona de fuelle y nexo con la ciudad, convirtiéndose ese en el leitmotiv del proyecto, donde todas las unidades participan y colaboran con su impronta definitiva. Actualmente en construcción.
 created: April 15, 2024 12:30 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713480916/DISTRITO/1.Distrigo_G_Frente_138-min_uyordb.jpg
