@@ -4,11 +4,11 @@ title: Tangram
 category: vivienda
 description: La idea del Tangram resume la intención de generar un marco soporte
   generatriz con posibilidades de armados de casas distintas, parafraseando al
-  juego. para desarrollar la primera partimos del cuadrado, su forma original,
-  pensando en fichas con doble geometría, que puedan anunciar contradicciónes
+  juego. Para desarrollar la primera partimos del cuadrado, su forma original,
+  pensando en fichas con doble geometría, que puedan anunciar contradicciones
   con su envolvente, transparencias diagonales y la integración de un patio
   cuadrado que tensione los bordes. Tecnológicamente se piensa en un sistema de
-  partes estandar de sipleza de producción y facilidad de montaje.
+  partes estándar de simpleza de producción y facilidad de montaje.
 created: April 21, 2024 12:09 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731033/TANGRAM/5.TANGRAM_Acceso-min_vgfmni.jpg
