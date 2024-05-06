@@ -2,13 +2,13 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Clorindo
 category: gastronomía
-description: Ubicado en el barrio de recoleta, dentro de la biblioteca Guiraldes
+description: Ubicado en el barrio de Recoleta dentro de la biblioteca Guiraldes
   proponemos materialmente un oasis, un contrapunto que colabore con el sentido
   de extrañeza evidenciado en la forma de la cubierta existente diseñada por el
-  arq. Alvaro Arrese. Esta y ciertas carácteristicas que encontramos a la hora
+  arq. Álvaro Arrese. Ésta y ciertas características que encontramos a la hora
   del relevamiento nos inspiraron para hablar de un vínculo con el arquitecto
   Clorindo Testa, al que decidimos hacerle honor a modo de homenaje, tanto con
-  ciertos gestos de colores, y materiales como con el nombre del café.
+  ciertos gestos de colores y materiales como con el nombre del café.
 created: April 15, 2024 2:38 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710561/CLORINDO/1.Clorindo_Corte_Vista_vagkjx.jpg
