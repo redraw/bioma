@@ -1,14 +1,14 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Cáscara
-category: v i v i e n d a
+category: vivienda
 description: Como primer gesto de proyecto pensamos en una sombra que colonice
-  el fondo del terreno pero que no lo interrumpa que sea tan permeable como
+  el fondo del terreno pero que no lo interrumpa, que sea tan permeable como
   pesada. El hormigón tan sólido como permanente se evidencia en contraposición
-  a las trasparencias de los jardines por los cuales queda rodeado. La cáscara
+  a las transparencias de los jardines por los cuales queda rodeado. La cáscara
   protege, contiene, se abre y cae con un estruendo al agua, y termina por
   asociar la pileta que queda a orillas de la escena. El jardín permanece
-  continuo y fluido, las geometrías delimitan el paseo y la cáscara como
+  continuo y fluido, las geometrías delimitan el paseo, y la cáscara como
   escultura define el objetivo del mismo. Un pliegue en la losa de hormigón
   genera el foco, siendo el mismo que una vez adentro deje su rol protagónico
   para abrir la perspectiva, integrar el jardín y jugar con el sol proyectando
