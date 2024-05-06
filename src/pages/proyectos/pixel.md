@@ -4,9 +4,9 @@ title: Pixel
 category: comercial
 description: El módulo en el centímetro. Las venecitas auspician de supertrama
   para mediante su singularidad de color generar una obra que expresa la
-  identidad de la marca. Un paisaje de bali hecho de venecitas, pensado como una
+  identidad de la marca. Un paisaje de Bali hecho de venecitas, pensado como una
   obra de op-art se evidencia desde lejos y a medida que uno se acerca va
-  transformandose en abstracto.
+  transformándose en abstracto.
 created: April 21, 2024 9:39 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713746657/POLA/Screenshot_2024-04-21_at_21.38.32-min_tym4jw.png
