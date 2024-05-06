@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Cáscara
-category: vivienda
+category: v i v i e n d a
 description: Como primer gesto de proyecto pensamos en una sombra que colonice
   el fondo del terreno pero que no lo interrumpa que sea tan permeable como
   pesada. El hormigón tan sólido como permanente se evidencia en contraposición
