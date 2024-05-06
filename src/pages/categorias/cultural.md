@@ -1,4 +1,4 @@
 ---
-title: c u l t u r a l
+title: cultural
 layout: ../index.astro
 ---
