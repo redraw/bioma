@@ -39,7 +39,6 @@ blocks:
     columns: 2
     gap: 2
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713740812/SANGUCHAN/3.SANGUCHAN_Foto_Barra-min_jv8mqy.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713741187/SANGUCHAN/felicarrizo_maxexpresso_foto_luciana_demichelis-4015-min_djt4we.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713741188/SANGUCHAN/FOTO_SANGUCHAN-min_mfuhea.jpg
 ---
