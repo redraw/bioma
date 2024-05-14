@@ -13,6 +13,10 @@
     {
       "link": "mailto:biomaestudiobioma@gmail.com",
       "icon": "mdi:email"
+    },
+    {
+      "icon": "mdi:whatsapp",
+      "link": "https://web.whatsapp.com/send?phone=2215860124"
     }
   ],
   "homeGridLogoColumns": 8,
