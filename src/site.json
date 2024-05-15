@@ -1,5 +1,33 @@
 {
-  "homeGridLogoRows": 2,
+  "categorias": [
+    "comercial",
+    "cultural",
+    "gastronomía",
+    "vivienda",
+    "XL"
+  ],
+  "homeGrid": {
+    "rows": 2,
+    "columns": 8,
+    "proyectos": [
+      "Ruina",
+      "Distrito",
+      "Cáscara",
+      "Mordisco",
+      "Mercado",
+      "Clorindo",
+      "Concurso",
+      "Concurso2",
+      "Tangram",
+      "Loop",
+      "Teatro",
+      "Sanguchán",
+      "Laberinto",
+      "Rio",
+      "Pixel"
+    ]
+  },
+  "titleFontFamily": "Helvetica",
   "name": "BIOMA",
   "socialLinks": [
     {
@@ -15,8 +43,8 @@
       "link": "https://wa.me/2215860124"
     }
   ],
-  "homeGridLogoColumns": 8,
   "url": "https://biomaestudio.com",
+  "fontFamily": "Futura PT",
   "debug": false,
   "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1715007646/ORANGE_-_copia_s7i9ie.png",
   "cloudinaryName": "biomaarquitectos",

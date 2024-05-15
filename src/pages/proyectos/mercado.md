@@ -15,7 +15,6 @@ created: April 15, 2024 1:47 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713709746/MERCADO/1.M55_Foto_Interior-min_dfchnh.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035313/04mercado_domdvo.png
-mostrar_home_grid: true
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false

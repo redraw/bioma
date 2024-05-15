@@ -7,31 +7,41 @@ const { posts, categoria, class: className } = Astro.props;
 
 <div class="flex justify-center items-center" class:list={[className]}>
   <div
-    class=`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-${site.homeGridLogoColumns} lg:grid-rows-${site.homeGridLogoRows}`
+    class=`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-${site.homeGrid.columns} lg:grid-rows-${site.homeGrid.rows}`
   >
     {
       [...posts].map(({ url, frontmatter }) => (
         <div class="flex justify-center bg-white p-1 md:p-2 text-center">
-          <a
-            href={url}
-            class:list={[
-              { "grayscale opacity-50 blur-sm": categoria && categoria !== frontmatter.category },
-            ]}
-          >
+          <a href={url}>
             <div transition:name={`logo-${frontmatter.title}`}>
               <Image
                 src={frontmatter.logo}
                 alt={frontmatter.title}
+                class:list={[
+                  {
+                    "grayscale opacity-20":
+                      categoria && categoria !== frontmatter.category,
+                  },
+                ]}
                 class="h-20 md:h-24"
                 effect="blur"
               />
             </div>
-            <h2 class="text-xs tracking-wider uppercase">
-              {frontmatter.title}
-            </h2>
-            <h2 class="text-xs font-thin tracking-wider">
-              {frontmatter.category}
-            </h2>
+            <div
+              class:list={[
+                {
+                  "grayscale opacity-20":
+                    categoria && categoria !== frontmatter.category,
+                },
+              ]}
+            >
+              <h2 class="text-xs tracking-wider uppercase">
+                {frontmatter.title}
+              </h2>
+              <h2 class="text-xs font-thin tracking-wider">
+                {frontmatter.category}
+              </h2>
+            </div>
           </a>
         </div>
       ))

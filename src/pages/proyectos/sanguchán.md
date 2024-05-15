@@ -12,7 +12,6 @@ created: April 21, 2024 8:04 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713740811/SANGUCHAN/1.SANGUCHAN_Frente_Interior-min_pfyrfc.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035320/12sanguchan_mo1itt.png
-mostrar_home_grid: true
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false

@@ -1,7 +1,7 @@
 ---
 import "@/styles/global.css";
 import { ViewTransitions } from "astro:transitions";
-import { transform as imageURL } from "@/components/CloudinaryImage.astro"
+import { transform as imageURL } from "@/components/CloudinaryImage.astro";
 import site from "@/site.json";
 
 interface Props {
@@ -29,10 +29,26 @@ const title =
 <link rel="manifest" href="/site.webmanifest" />
 
 <!-- Font preloads -->
-<!-- 
-<link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
-<link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin /> 
--->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+{
+  site.fontFamily && (
+    <link
+      rel="preload"
+      as="style"
+      href={`https://fonts.googleapis.com/css2?family=${site.fontFamily}:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap`}
+    />
+  )
+}
+{
+  site.titleFontFamily && (
+    <link
+      rel="preload"
+      as="style"
+      href={`https://fonts.googleapis.com/css2?family=${site.titleFontFamily}:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap`}
+    />
+  )
+}
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -47,14 +63,24 @@ const title =
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={imageURL(image, 'c_limit,w_2560,f_webp')} />
+<meta property="og:image" content={imageURL(image, "c_limit,w_2560,f_webp")} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={imageURL(image, 'c_limit,w_2560,f_webp')} />
+<meta
+  property="twitter:image"
+  content={imageURL(image, "c_limit,w_2560,f_webp")}
+/>
+
+<script type="text/javascript">
+  // Disable right-click on the entire document
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
+</script>
 
 <ViewTransitions />
 
@@ -63,3 +89,15 @@ const title =
     <script src="https://cdn.tailwindcss.com" />
   )
 }
+
+<style
+  set:html={`
+body {
+  font-family: ${site.fontFamily || 'Helvetica'}, sans-serif;
+}
+
+#site-name {
+  font-family: ${site.titleFontFamily || 'Helvetica'}, sans-serif;
+}
+`}
+></style>

@@ -5,27 +5,30 @@ import Slider from "@/components/blocks/Slider.astro";
 import Image from "@/components/CloudinaryImage.astro";
 import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
+import site from "@/site.json";
 
 const posts = await Astro.glob("./proyectos/*.md");
 const categoria = Astro.props.frontmatter?.title;
-const title = categoria ?? `x ${categoria}`;
+const title = categoria ?? categoria;
 
 const gridPosts = posts
   .filter(({ frontmatter }) => !frontmatter.draft)
-  .sort(
-    (a, b) =>
-      Date.parse(a.frontmatter.created) - Date.parse(b.frontmatter.created)
-  );
+  .sort((a, b) => {
+    return (
+      site.homeGrid.proyectos.indexOf(a.frontmatter.title) -
+      site.homeGrid.proyectos.indexOf(b.frontmatter.title)
+    );
+  });
 
-const sliderPosts = posts
-  .filter(({ frontmatter }) => frontmatter.mostrar_home_sliders)
-  .sort((a, b) => b.frontmatter.created - a.frontmatter.created);
+const sliderPosts = gridPosts.filter(
+  ({ frontmatter }) => frontmatter.mostrar_home_sliders
+);
 ---
 
 <DefaultLayout title={title} showHeader={false} showFooter={false} class="">
   <div class="min-h-screen flex flex-col justify-center">
     <Header categoria={categoria} />
-    <GridLogos class="flex-1" posts={gridPosts} categoria={categoria}/>
+    <GridLogos class="flex-1" posts={gridPosts} categoria={categoria} />
     <Footer />
   </div>
   {

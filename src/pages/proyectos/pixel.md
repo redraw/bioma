@@ -11,7 +11,6 @@ created: April 21, 2024 9:39 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713746657/POLA/Screenshot_2024-04-21_at_21.38.32-min_tym4jw.png
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035322/15pixel_kyh8vz.png
-mostrar_home_grid: true
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false

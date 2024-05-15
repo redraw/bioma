@@ -1,41 +1,55 @@
 ---
 import { Icon } from "astro-icon/components";
+import Footer from "@/components/Footer.astro";
 import site from "@/site.json";
 
 const { categoria, class: className } = Astro.props;
 const categorias = await Astro.glob("../pages/categorias/*.md");
 
-const showCategorias =
+const sortedCategorias = categorias.sort((a, b) => {
+  return (
+    site.categorias.indexOf(a.frontmatter.title) -
+    site.categorias.indexOf(b.frontmatter.title)
+  );
+});
+
+const isHome =
   Astro.url.pathname.startsWith("/categorias") || Astro.url.pathname === "/";
 ---
 
 <header class:list={[className, "z-40 text-white mix-blend-difference"]}>
   <div class="navbar p-4 min-h-0">
     <div class="flex-1">
-      <a class="text-2xl md:text-4xl hover:text-inherit" href="/">{site.name}</a
+      <a id="site-name" class="text-2xl md:text-4xl hover:text-inherit" href="/"
+        >{site.name}</a
       >
     </div>
     <div class="flex-none">
-      <ul class="hidden lg:flex flex-row">
+      <ul
+        id="categorias-inline"
+        class="hidden flex-row"
+        class:list={[{ "lg:flex": isHome }]}
+      >
         {
-          showCategorias &&
-            categorias?.length &&
+          categorias?.length &&
             categorias.map((item) => (
-              <li
-                class="text-xs mx-4"
-                class:list={[
-                  {
-                    "font-bold":
-                      categoria && categoria === item.frontmatter.title,
-                  },
-                ]}
-              >
-                <a href={item.url}>{item.frontmatter.title}</a>
+              <li class="text-xs mx-4">
+                <a
+                  class:list={[
+                    {
+                      "font-bold hover:text-inherit":
+                        categoria && categoria === item.frontmatter.title,
+                    },
+                  ]}
+                  href={item.url}
+                >
+                  {item.frontmatter.title}
+                </a>
               </li>
             ))
         }
       </ul>
-      <label class="swap">
+      <label class="swap" class:list={[{ "md:hidden": isHome }]}>
         <input id="menu" type="checkbox" />
         <div class="swap-off">
           <Icon class="icon-shadow" name="mdi:plus" size="32" />
@@ -50,7 +64,7 @@ const showCategorias =
 
 <div
   id="backdrop"
-  class="flex invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full lg:mt-16 lg:h-auto lg:w-24 lg:right-0 z-10"
+  class="flex md:hidden invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full z-10"
 >
   <div class="text-center">
     <nav>
@@ -74,13 +88,8 @@ const showCategorias =
               </li>
             ))
         }
-        <li class="lg:hidden my-4">
-          <span>📐</span>
-        </li>
-        <li class="my-4">
-          <a href="/contacto">contacto</a>
-        </li>
       </ul>
+      <Footer />
     </nav>
   </div>
 </div>
@@ -89,12 +98,15 @@ const showCategorias =
   document.addEventListener("astro:page-load", () => {
     const backdrop = document.getElementById("backdrop");
     const checkbox = document.getElementById("menu");
+    const categorias = document.getElementById("categorias-inline");
 
     function toggleMenu() {
       if (checkbox.checked) {
         backdrop.classList.remove("invisible", "opacity-0");
+        categorias.classList.add("lg:flex");
       } else {
         backdrop.classList.add("invisible", "opacity-0");
+        categorias.classList.remove("lg:flex");
       }
     }
     checkbox.addEventListener("click", toggleMenu);

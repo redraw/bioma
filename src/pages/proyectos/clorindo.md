@@ -13,7 +13,6 @@ created: April 15, 2024 2:38 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710561/CLORINDO/1.Clorindo_Corte_Vista_vagkjx.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035314/05oasis_vbf0tp.png
-mostrar_home_grid: true
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false

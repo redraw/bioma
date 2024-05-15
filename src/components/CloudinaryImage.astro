@@ -1,6 +1,6 @@
 ---
 import site from "@/site.json";
-const { src, alt, params, class: className, effect = "pixelate" } = Astro.props;
+const { src, alt, params, class: className, effect = "none" } = Astro.props;
 
 export function transform(src, params = null) {
   return src
@@ -18,10 +18,14 @@ export function transform(src, params = null) {
   loading="lazy"
   decoding="async"
   alt={alt}
-  class:list={[className, {
-    "blurred": effect === "blur",
-    "pixelated": effect === "pixelate",
-  }]}
+  class:list={[
+    className,
+    {
+      none: !effect || effect === "none",
+      blurred: effect === "blur",
+      pixelated: effect === "pixelate",
+    },
+  ]}
   data-effect={effect}
 />
 
@@ -31,28 +35,31 @@ export function transform(src, params = null) {
     const lazyImages = document.querySelectorAll("img[data-src]");
 
     // Create an Intersection Observer
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Check if the image is in view
-          const img = entry.target as HTMLImageElement;
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Check if the image is in view
+            const img = entry.target as HTMLImageElement;
 
-          // Set the high-quality image URL
-          img.height = img.clientHeight;
-          img.src = img.getAttribute("data-src"); // High-quality URL
+            // Set the high-quality image URL
+            img.height = img.clientHeight;
+            img.src = img.getAttribute("data-src"); // High-quality URL
 
-          // Remove blur after image has loaded
-          img.onload = () => {
-            img.classList.remove("blurred", "pixelated"); // Remove blur class
-          };
+            // Remove blur after image has loaded
+            img.onload = () => {
+              img.classList.remove("blurred", "pixelated"); // Remove blur class
+            };
 
-          // Stop observing this image
-          observer.unobserve(img);
-        }
-      });
-    }, {
-      rootMargin: "100px",
-    });
+            // Stop observing this image
+            observer.unobserve(img);
+          }
+        });
+      },
+      {
+        rootMargin: "800px",
+      }
+    );
 
     // Observe all lazy-loaded images
     lazyImages.forEach((img) => {
@@ -63,7 +70,7 @@ export function transform(src, params = null) {
 
 <style>
   img {
-    transition: filter 0.3s;
+    transition: filter 0.5s;
   }
   .blurred {
     filter: blur(5px);

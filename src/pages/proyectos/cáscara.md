@@ -17,7 +17,6 @@ created: April 15, 2024 12:39 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498929/CASCARA/1-Casa_en_el_Jardin-min_qqzi0s.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035311/02cascara_mdfm7v.png
-mostrar_home_grid: true
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false

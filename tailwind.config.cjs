@@ -4,34 +4,34 @@ module.exports = {
   safelist: [
     {
       pattern: /columns-\d+/,
-      variants: ['sm', 'md']
+      variants: ["sm", "md"],
     },
     {
       pattern: /grid-rows-\d+/,
-      variants: ['sm', 'md', 'lg']
+      variants: ["sm", "md", "lg"],
     },
     {
       pattern: /grid-cols-\d+/,
-      variants: ['sm', 'md', 'lg']
+      variants: ["sm", "md", "lg"],
     },
     {
       pattern: /items-\w+/,
-      variants: ['sm', 'md']
+      variants: ["sm", "md"],
     },
     {
       pattern: /justify-\w+/,
-      variants: ['sm', 'md']
-    }
+      variants: ["sm", "md"],
+    },
   ],
   theme: {
     extend: {},
-    fontFamily: {
-      sans: ["Helvetica", "Arial", "Inter", "sans-serif"],
-    }
+    // fontFamily: {
+    //   sans: ["Helvetica", "Arial", "Inter", "sans-serif"],
+    // }
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: ["lofi"],
-    logs: false
+    logs: false,
   },
 };

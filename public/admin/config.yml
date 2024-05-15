@@ -94,10 +94,6 @@ collections:
         name: "logo"
         widget: "image"
         hint: *COMPRESS_HINT
-      - label: "Mostrar Home Grid"
-        name: "mostrar_home_grid"
-        widget: "boolean"
-        default: true
       - label: "Mostrar Home Sliders"
         name: "mostrar_home_sliders"
         widget: "boolean"
@@ -232,22 +228,52 @@ collections:
             widget: "image"
             hint: *COMPRESS_HINT
             required: false
-          - label: "Site Favicon"
-            name: "favicon"
-            widget: "image"
-            required: false
-          - label: "Home Grid Logo Filas"
-            name: "homeGridLogoRows"
-            widget: "number"
-            default: 4
-          - label: "Home Grid Logo Columnas"
-            name: "homeGridLogoColumns"
-            widget: "number"
-            default: 8
-          - label: "Debug"
-            name: "debug"
-            widget: "boolean"
-            default: false
+          - label: "Font Family"
+            name: "fontFamily"
+            widget: "string"
+            default: "Inter"
+          - label: "Title Font Family"
+            name: "titleFontFamily"
+            widget: "string"
+            default: "Inter"
+          - label: "Home Grid"
+            name: "homeGrid"
+            widget: "object"
+            fields:
+              - label: "Filas"
+                name: "rows"
+                widget: "number"
+                default: 4
+              - label: "Columnas"
+                name: "columns"
+                widget: "number"
+                default: 8
+              - label: "Proyectos"
+                name: "proyectos"
+                widget: "list"
+                summary: "{{fields.proyecto}}"
+                label_singular: "Proyecto"
+                field:
+                  label: "Proyecto"
+                  name: "proyecto"
+                  widget: "relation"
+                  collection: "proyectos"
+                  search_fields: ["title"]
+                  value_field: "title"
+                  display_fields: ["title"]
+          - label: "Categorias"
+            name: "categorias"
+            widget: "list"
+            summary: "{{fields.categoria}}"
+            label_singular: "Categoria"
+            field:
+              label: "Categoria"
+              name: "categoria"
+              widget: "relation"
+              collection: "categorias"
+              search_fields: ["title"]
+              value_field: "title"
+              display_fields: ["title"]
           - label: "Site Social Links"
             name: "socialLinks"
             required: false
