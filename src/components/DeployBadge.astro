@@ -4,13 +4,13 @@ import site from "@/site.json";
 
 <div id="deploy-badge" class="success"></div>
 
-<script is:inline data-repo={site.repoName}>
+<script is:inline data-repo={site.githubRepo}>
   const repo = document.currentScript.dataset.repo;
   let user = JSON.parse(localStorage.getItem("decap-cms-user"));
 
   async function getLatestSha() {
     const response = await fetch(
-      `https://api.github.com/repos/${user.login}/${repo}/git/refs/heads/main`,
+      `https://api.github.com/repos/${repo}/git/refs/heads/main`,
       {
         headers: {
           authorization: `token ${user.token}`,
@@ -23,7 +23,7 @@ import site from "@/site.json";
 
   async function getLatestDeployment() {
     const response = await fetch(
-      `https://api.github.com/repos/${user.login}/${repo}/deployments`,
+      `https://api.github.com/repos/${repo}/deployments`,
       {
         cache: "no-cache",
         headers: {
@@ -110,7 +110,7 @@ import site from "@/site.json";
 
   setInterval(() => {
     const newUser = JSON.parse(localStorage.getItem("decap-cms-user"));
-    if (user.token !== newUser.token) {
+    if (user?.token !== newUser.token) {
       console.log("user changed:", newUser);
       user = newUser;
       init();
