@@ -18,15 +18,8 @@ const { block } = Astro.props;
       "2/1": "md:grid-cols-[2fr_1fr]",
       "3/1": "md:grid-cols-[3fr_1fr]",
     }[block.ratio],
-    {
-      0: "gap-0",
-      4: "gap-4",
-      8: "gap-8",
-      12: "gap-12",
-      16: "gap-16",
-      20: "gap-20",
-    }[block.gap ?? 4],
-    "my-4"
+    `md:gap-${block.gap ?? 4}`,
+    `my-${block.gap ?? 4}`,
   ]}
 >
   {
@@ -34,19 +27,7 @@ const { block } = Astro.props;
       <div
         class="flex flex-col gap-4"
         class:list={[
-          {
-            0: "md:gap-0",
-            4: "md:gap-4",
-            8: "md:gap-8",
-            12: "md:gap-12",
-            16: "md:gap-16",
-            20: "md:gap-20",
-            24: "md:gap-24",
-            28: "md:gap-28",
-            32: "md:gap-32",
-            36: "md:gap-36",
-            40: "md:gap-40",
-          }[block.gap ?? 4],
+          `md:gap-${block.gap ?? 4}`,
           `justify-${block.align ?? "center"}`,
         ]}
       >

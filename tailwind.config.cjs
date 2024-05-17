@@ -22,6 +22,14 @@ module.exports = {
       pattern: /justify-\w+/,
       variants: ["sm", "md"],
     },
+    {
+      pattern: /gap-\d+/,
+      variants: ["md"],
+    },
+    {
+      pattern: /my-\d+/,
+      variants: ["md"],
+    },
   ],
   theme: {
     extend: {},

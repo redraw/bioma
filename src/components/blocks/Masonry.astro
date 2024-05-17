@@ -11,13 +11,9 @@ const { block } = Astro.props;
     "columns",
     `sm:columns-${block.columns ?? 1}`,
     {
-      0: "gap-0",
-      4: "md:gap-4",
-      8: "md:gap-8",
-      12: "md:gap-12",
-      16: "md:gap-16",
-      20: "md:gap-20",
-    }[block.gap ?? 4],
+      "gap-0": block.gap === 0,
+      [`md:gap-${block.gap}`]: block.gap !== 0,
+    },
     {
       0: "space-y-0",
       4: "space-y-4",
@@ -26,7 +22,7 @@ const { block } = Astro.props;
       16: "space-y-16",
       20: "space-y-20",
     }[block.gap ?? 4],
-    "my-4 sm:my-8 lg:my-12",
+    `my-${block.gap ?? 4}`,
   ]}
 >
   {

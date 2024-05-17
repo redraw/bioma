@@ -75,18 +75,13 @@ const title =
   content={imageURL(image, "c_limit,w_2560,f_webp")}
 />
 
-<script type="text/javascript">
-  // Disable right-click on the entire document
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
-</script>
-
-<ViewTransitions />
-
 {
-  import.meta.env.PROD && site.debug && (
-    <script src="https://cdn.tailwindcss.com" />
+  import.meta.env.PROD && (
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    </script>
   )
 }
 
@@ -101,3 +96,5 @@ body {
 }
 `}
 ></style>
+
+<ViewTransitions />
