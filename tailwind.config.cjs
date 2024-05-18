@@ -32,7 +32,11 @@ module.exports = {
     },
   ],
   theme: {
-    extend: {},
+    extend: {
+      letterSpacing: {
+        wider: "0.2em"
+      }
+    },
     // fontFamily: {
     //   sans: ["Helvetica", "Arial", "Inter", "sans-serif"],
     // }
