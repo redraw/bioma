@@ -27,7 +27,7 @@
       "Pixel"
     ]
   },
-  "titleFontFamily": "Roboto",
+  "titleFontFamily": "Futura",
   "name": "BIOMA",
   "socialLinks": [
     {
@@ -44,7 +44,7 @@
     }
   ],
   "url": "https://biomaestudio.com",
-  "fontFamily": "Roboto",
+  "fontFamily": "Futura",
   "debug": false,
   "githubRepo": "redraw/bioma",
   "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1715007646/ORANGE_-_copia_s7i9ie.png",
