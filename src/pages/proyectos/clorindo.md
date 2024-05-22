@@ -33,7 +33,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710715/CLORINDO/3.Clorindo_Foto_Interior_Barra-min_lzmnmq.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710759/CLORINDO/6.Clorindo_Interior_Volumen-min_dwclor.jpg
   - type: masonry
-    columns: 1
+    columns: 2
     gap: 1
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710762/CLORINDO/5.Clorindo_Detalle_Barra-min_golbve.jpg
