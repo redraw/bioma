@@ -27,7 +27,7 @@
       "Pixel"
     ]
   },
-  "titleFontFamily": "<link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\" type=\"text/css\"> <style> * {  font-family: 'Roboto', sans-serif; } </style>",
+  "titleFontFamily": "Roboto",
   "name": "BIOMA",
   "socialLinks": [
     {
@@ -44,7 +44,7 @@
     }
   ],
   "url": "https://biomaestudio.com",
-  "fontFamily": "<link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\" type=\"text/css\"> <style> * {  font-family: 'Roboto', sans-serif; } </style>",
+  "fontFamily": "Roboto",
   "debug": false,
   "githubRepo": "redraw/bioma",
   "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1715007646/ORANGE_-_copia_s7i9ie.png",
