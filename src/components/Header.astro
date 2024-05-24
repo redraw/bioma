@@ -17,11 +17,13 @@ const isHome =
   Astro.url.pathname.startsWith("/categorias") || Astro.url.pathname === "/";
 ---
 
-<header class:list={[className, "z-40 text-white mix-blend-difference"]}>
+<header class:list={[className, "z-40"]}>
   <div class="navbar p-4 min-h-0">
     <div class="flex-1">
-      <a id="site-name" class="text-2xl tracking-[-0.05em] md:text-4xl hover:text-inherit" href="/"
-        >{site.name}</a
+      <a
+        id="site-name"
+        class="text-2xl tracking-[-0.05em] md:text-4xl hover:text-inherit text-shadow"
+        href="/">{site.name}</a
       >
     </div>
     <div class="flex-none">
@@ -37,7 +39,7 @@ const isHome =
                 <a
                   class:list={[
                     {
-                      "font-normal hover:text-inherit":
+                      "font-normal hover:text-inherit text-shadow":
                         categoria && categoria === item.frontmatter.title,
                     },
                   ]}
@@ -93,6 +95,15 @@ const isHome =
     </nav>
   </div>
 </div>
+
+<style>
+  .text-shadow {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  }
+  .icon-shadow {
+    filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5));
+  }
+</style>
 
 <script>
   document.addEventListener("astro:page-load", () => {
