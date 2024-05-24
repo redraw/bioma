@@ -65,7 +65,7 @@ import site from "@/site.json";
       success: "OK",
       failure: "error",
       pending: "pendiente...",
-    }
+    };
 
     badge.innerHTML = `
       <a href="#" onclick="updateBadge()">
@@ -85,11 +85,10 @@ import site from "@/site.json";
         setTimeout(updateBadge, 1000 * 5);
         break;
       default:
-        console.error("unknown status", status.state)
+        console.error("unknown status", status.state);
         break;
     }
   }
-
 
   function init() {
     // local CMS
@@ -102,7 +101,7 @@ import site from "@/site.json";
         updateBadge();
       },
     });
-    
+
     updateBadge();
   }
 
@@ -115,7 +114,7 @@ import site from "@/site.json";
       user = newUser;
       init();
     }
-  }, 1000)
+  }, 1000);
 </script>
 
 <style>
