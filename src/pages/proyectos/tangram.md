@@ -1,26 +1,5 @@
 ---
-layout: ../../layouts/ProyectoLayout.astro
-title: Tangram
-category: vivienda
-description: La idea del Tangram resume la intención de generar un marco soporte
-  generatriz con posibilidades de armados de casas distintas, parafraseando al
-  juego. Para desarrollar la primera partimos del cuadrado, su forma original,
-  pensando en fichas con doble geometría, que puedan anunciar contradicciones
-  con su envolvente, transparencias diagonales y la integración de un patio
-  cuadrado que tensione los bordes. Tecnológicamente se piensa en un sistema de
-  partes estándar de simpleza de producción y facilidad de montaje.
-created: April 21, 2024 12:09 PM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731033/TANGRAM/5.TANGRAM_Acceso-min_vgfmni.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035317/09tangram_bgj5dl.png
-mostrar_home_grid: true
-mostrar_home_sliders: false
-slider_fotos:
-  autoplay: false
-  effect: fade
-slider_planos:
-  autoplay: false
-  effect: fade
 blocks:
   - type: masonry
     columns: 2
@@ -46,4 +25,26 @@ blocks:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712354/TANGRAM/7.TANGAM_GifA-min_qye9ep.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/8TANGAM_GifB-min_rz9ll7.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/9.TANGAM_GifC-min_tcebey.jpg
+mostrar_home_grid: true
+layout: ../../layouts/ProyectoLayout.astro
+title: Tangram
+category: vivienda
+subtitle: vivienda
+description: La idea del Tangram resume la intención de generar un marco soporte
+  generatriz con posibilidades de armados de casas distintas, parafraseando al
+  juego. Para desarrollar la primera partimos del cuadrado, su forma original,
+  pensando en fichas con doble geometría, que puedan anunciar contradicciones
+  con su envolvente, transparencias diagonales y la integración de un patio
+  cuadrado que tensione los bordes. Tecnológicamente se piensa en un sistema de
+  partes estándar de simpleza de producción y facilidad de montaje.
+created: April 21, 2024 12:09 PM
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731033/TANGRAM/5.TANGRAM_Acceso-min_vgfmni.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035317/09tangram_bgj5dl.png
+mostrar_home_sliders: false
+slider_fotos:
+  autoplay: false
+  effect: fade
+slider_planos:
+  autoplay: false
+  effect: fade
 ---

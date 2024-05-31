@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Mercado
+subtitle: XL
 category: XL
 description: La integración del estadio UNO al espacio público de la ciudad se
   logra por sus bajo gradas. Una de ellas, el ala norte la intervinimos

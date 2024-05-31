@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Cáscara
+subtitle: vivienda
 category: vivienda
 description: Como primer gesto de proyecto pensamos en una sombra que colonice
   el fondo del terreno pero que no lo interrumpa, que sea tan permeable como

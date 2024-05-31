@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Rio
+subtitle: vivienda
 category: vivienda
 description: La vivienda está ubicada en un monte, en la ribera del Río de La
   Plata sobre terrenos anegables. Decidimos tomar las decisiones que también

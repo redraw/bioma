@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Concurso2
+subtitle: XL
 category: XL
 created: April 15, 2024 2:43 AM
 draft: false

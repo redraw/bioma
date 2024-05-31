@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Pixel
+subtitle: comercial
 category: comercial
 description: El módulo en el centímetro. Las venecitas auspician de supertrama
   para mediante su singularidad de color generar una obra que expresa la

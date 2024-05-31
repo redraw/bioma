@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Mordisco
+subtitle: vivienda
 category: vivienda
 description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
   su nombre anuncia, aparece en el paisaje una sustracción de su forma,

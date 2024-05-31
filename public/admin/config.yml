@@ -74,6 +74,11 @@ collections:
         search_fields: ["title"]
         value_field: "title"
         display_fields: ["title"]
+      - label: "Subtitle"
+        name: "subtitle"
+        default: ""
+        hint: "Por default muestra el nombre de la categoria. Para dejar en blanco, insertar un espacio."
+        required: false
       - label: "Description"
         name: "description"
         widget: "markdown"

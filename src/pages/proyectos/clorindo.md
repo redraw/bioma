@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Clorindo
+subtitle: gastronomía
 category: gastronomía
 description: Ubicado en el barrio de Recoleta dentro de la biblioteca Guiraldes
   proponemos materialmente un oasis, un contrapunto que colabore con el sentido

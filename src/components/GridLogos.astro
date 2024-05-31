@@ -39,7 +39,7 @@ const { posts, categoria, class: className } = Astro.props;
                 {frontmatter.title}
               </h2>
               <h2 class="text-xs font-thin tracking-[0.01em] opacity-60">
-                {frontmatter.category}
+                {frontmatter.subtitle || frontmatter.category}
               </h2>
             </div>
           </a>
