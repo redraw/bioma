@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Distrito
-subtitle: XL
 category: XL
+subtitle: " "
 description: >-
   **Edificio horizontal mixed use.**
 
@@ -12,16 +12,11 @@ created: April 15, 2024 12:30 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713480916/DISTRITO/1.Distrigo_G_Frente_138-min_uyordb.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035311/01distrito_sugphw.png
-mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
   effect: fade
   images: null
   autoplay-delay: ""
-slider_planos:
-  autoplay: false
-  effect: fade
-  images: null
 blocks:
   - type: masonry
     images:
@@ -63,4 +58,9 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481727/DISTRITO/11-Fotos_Obra_I-min_ha4m7n.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481891/DISTRITO/12-Foto_Obra_II-min_x1lbip.jpg
 slug: distrito
+mostrar_home_sliders: false
+slider_planos:
+  autoplay: false
+  effect: fade
+  images: null
 ---
