@@ -15,7 +15,7 @@ description: The Wine Bar es una marca originaria de Mar Del Plata para la que
 created: April 21, 2024 8:16 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713741539/LABERINTO/1.TWB_Acceso-min_eykjxh.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035320/13laberinto_mcdnp6.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868680/LOGOS/LABERINTO-11_zxlbw5.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
