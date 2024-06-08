@@ -15,7 +15,7 @@ description: La vivienda está ubicada en un monte, en la ribera del Río de La
 created: April 21, 2024 9:06 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745145/RIO/Screenshot_2024-04-21_at_21.18.18-min_zt2sw1.png
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035322/14rio_dt5ybq.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868683/LOGOS/RIO-09_fhmlsx.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
