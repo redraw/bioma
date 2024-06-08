@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Concurso2
-subtitle: XL
 category: XL
+subtitle: " "
 created: April 15, 2024 2:43 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713040444/DISTRITO/portfolio_para_wwwA_2_hdinaj.jpg
