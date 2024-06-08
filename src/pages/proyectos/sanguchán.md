@@ -12,7 +12,7 @@ description: Una sanguchería/hamburguesería urbana, diurna. Ubicada frente al
 created: April 21, 2024 8:04 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713740811/SANGUCHAN/1.SANGUCHAN_Frente_Interior-min_pfyrfc.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035320/12sanguchan_mo1itt.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868685/LOGOS/SANGUCHAN-09_libq4q.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
