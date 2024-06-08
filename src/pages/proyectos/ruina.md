@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Ruina
-subtitle: vivienda
 category: vivienda
+subtitle: " "
 description: >-
   Para proyectar la casa partimos de la visión intrigante de una ruina
   envolvente que consolida su perímetro.\
