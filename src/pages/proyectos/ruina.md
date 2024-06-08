@@ -11,7 +11,7 @@ description: >-
 created: April 15, 2024 2:42 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711561/RUINA/1.RUINA_Exterior-min_afm73i.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035315/07ruina_qesff5.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868684/LOGOS/RUINA-09_du5xng.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
