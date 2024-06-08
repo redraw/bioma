@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Mordisco
-subtitle: vivienda
 category: vivienda
+subtitle: " "
 description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
   su nombre anuncia, aparece en el paisaje una sustracción de su forma,
   generando un punto de extrañamiento en su volumen. Bajo la idea de no tapar,
@@ -15,11 +15,7 @@ created: April 15, 2024 12:46 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502154/MORDISCO/1.Balcarce_Dron-min_kqrgqb.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035312/03mordisco_neqqix.png
-mostrar_home_sliders: false
 slider_fotos:
-  autoplay: false
-  effect: fade
-slider_planos:
   autoplay: false
   effect: fade
 blocks:
@@ -54,4 +50,8 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502161/MORDISCO/12.BALCARCE_Render-min_fvvcc4.jpg
 slug: mordisco
+mostrar_home_sliders: false
+slider_planos:
+  autoplay: false
+  effect: fade
 ---
