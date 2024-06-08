@@ -11,7 +11,7 @@ description: >-
 created: April 15, 2024 12:30 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713480916/DISTRITO/1.Distrigo_G_Frente_138-min_uyordb.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035311/01distrito_sugphw.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868680/LOGOS/DISTRITO-09_uwtlnb.jpg
 slider_fotos:
   autoplay: false
   effect: fade
