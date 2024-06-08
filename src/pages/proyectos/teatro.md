@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Teatro
-subtitle: cultural
 category: cultural
+subtitle: " "
 description: La restauración del teatro ópera de La Plata llevó un estudio
   minucioso de lo existente, respecto a sus intervenciones posteriores, y a su
   potencial como sede de la congregación y cultura musical platense. Pensándolo
