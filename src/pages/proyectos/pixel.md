@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Pixel
-subtitle: comercial
 category: comercial
+subtitle: " "
 description: El módulo en el centímetro. Las venecitas auspician de supertrama
   para mediante su singularidad de color generar una obra que expresa la
   identidad de la marca. Un paisaje de Bali hecho de venecitas, pensado como una
