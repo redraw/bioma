@@ -10,7 +10,7 @@ description: >-
 created: April 21, 2024 7:13 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713738016/LOOP/Screenshot_2024-04-21_at_19.19.14-min_dpfej1.png
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713035318/10loop_mcsqze.png
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868681/LOGOS/LOOP-11_gaqtfm.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
