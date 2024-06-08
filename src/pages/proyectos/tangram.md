@@ -29,7 +29,7 @@ mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
 title: Tangram
 category: vivienda
-subtitle: vivienda
+subtitle: " "
 description: La idea del Tangram resume la intención de generar un marco soporte
   generatriz con posibilidades de armados de casas distintas, parafraseando al
   juego. Para desarrollar la primera partimos del cuadrado, su forma original,
