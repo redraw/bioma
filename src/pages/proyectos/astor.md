@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: ASTOR
+title: Astor
 category: gastronomía
 subtitle: " "
 description: El tap room de la cervecería Astor se pensó como un espacio de
@@ -29,5 +29,6 @@ blocks:
     columns:
       - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867831/ASTOR/classicu_2023-04-15_145543.264_vetis2.jpg
+      - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867829/ASTOR/classicu_2023-04-15_145540.574_jjlxif.jpg
 ---
