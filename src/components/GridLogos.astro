@@ -11,7 +11,7 @@ const { posts, categoria, class: className } = Astro.props;
   >
     {
       [...posts].map(({ url, frontmatter }) => (
-        <div class="flex justify-center bg-white p-1 md:p-2 text-center">
+        <div class="flex justify-center bg-white p-2 mt-2 md:mt-0 text-center">
           <a href={url}>
             <div transition:name={`logo-${frontmatter.title}`}>
               <Image
@@ -29,13 +29,14 @@ const { posts, categoria, class: className } = Astro.props;
             </div>
             <div
               class:list={[
+                "py-2",
                 {
                   "grayscale opacity-20":
                     categoria && categoria !== frontmatter.category,
                 },
               ]}
             >
-              <h2 class="text-xs font-thin tracking-wider uppercase mt-2">
+              <h2 class="text-xs font-thin tracking-wider uppercase">
                 {frontmatter.title}
               </h2>
               <h2 class="text-xs font-thin tracking-[0.01em] opacity-60">
