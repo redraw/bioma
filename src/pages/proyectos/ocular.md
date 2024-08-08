@@ -17,10 +17,9 @@ slider_planos:
 blocks:
   - type: masonry
     columns: 1
-    gap: 2
+    gap: 8
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157317/OCULAR/3_-_OCULAR_INTERIOR_rlbown.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157320/OCULAR/b_22_-_Foto_z2azmy.jpg
   - type: masonry
     columns: 2
     gap: 2
@@ -34,7 +33,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157318/OCULAR/1_-_OCULAR_PLANTA_uzp2bi.jpg
   - type: masonry
     columns: 1
-    gap: 4
+    gap: 16
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157306/OCULAR/7_-_OCULAR_TECHO_tebeis.jpg
 ---
