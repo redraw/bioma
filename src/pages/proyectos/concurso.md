@@ -16,7 +16,7 @@ slider_planos:
   effect: fade
 blocks:
   - type: grid
-    ratio: 1/1
+    ratio: 1/2
     align: center
     gap: 2
     columns:
