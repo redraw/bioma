@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: CC córdoba
+title: "CC "
 category: XL
 subtitle: " concurso "
 created: April 15, 2024 2:43 AM
