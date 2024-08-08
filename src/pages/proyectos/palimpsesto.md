@@ -22,8 +22,8 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158692/PALIMPSESTO/CORTE_BB_UPDATE_iti1h2.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158738/PALIMPSESTO/b_1_-_Photo_qu19xo.jpg
   - type: masonry
-    columns: 1
-    gap: 4
+    columns: 2
+    gap: 2
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158695/PALIMPSESTO/a_zfooha.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158863/PALIMPSESTO/IMG_1784_v3khvu.heic
