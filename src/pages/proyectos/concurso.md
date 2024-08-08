@@ -15,15 +15,6 @@ slider_planos:
   autoplay: false
   effect: fade
 blocks:
-  - type: grid
-    ratio: 1/2
-    align: center
-    gap: 2
-    columns:
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723156091/concurso%201er/LAMINA_1_mtzrg2.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723156095/concurso%201er/LAMINA_2_zxxnms.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723156100/concurso%201er/LAMINA_3_oqwlml.jpg
   - type: masonry
     columns: 1
     gap: 2
