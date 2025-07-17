@@ -4,10 +4,10 @@ const { src, alt, params, class: className, effect = "none" } = Astro.props;
 
 export function transform(src, params = null) {
   return src
-    .replace(
-      `https://res.cloudinary.com/${site.cloudinaryName}`,
-      new URL("/media", Astro.site)
-    )
+    //.replace(
+    //  `https://res.cloudinary.com/${site.cloudinaryName}`,
+    //  new URL("/media", Astro.site)
+    //)
     .replace(/\/image\/upload\/[^/]+\/v[^/]+\//, params ? `/${params}/` : "/");
 }
 ---
