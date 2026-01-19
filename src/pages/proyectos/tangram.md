@@ -3,10 +3,14 @@ draft: false
 blocks:
   - type: masonry
     columns: 2
-    gap: 20
+    gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-02_xprkxc.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834550/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-2_on08sy.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834548/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-3_jezsnj.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834546/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-8_jrpe8p.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834556/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-39_h07ry8.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834543/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-18_utqctn.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834550/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-23_bx9faw.jpg
   - type: masonry
     columns: 2
     gap: 20
