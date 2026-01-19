@@ -5,27 +5,21 @@ blocks:
     columns: 2
     gap: 20
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-02_xprkxc.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
   - type: masonry
     columns: 2
     gap: 20
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
-  - type: grid
-    ratio: 3/1
-    align: around
-    gap: 20
-    columns:
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
-  - type: grid
-    ratio: 1/1
-    align: center
-    gap: 4
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
+  - type: slider
+    autoplay: false
+    effect: slide
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834334/TANGRAM/04_C_AXO_1_ESTRUCTURA_page-0001_nu4vof.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834334/TANGRAM/04_C_AXO_2_ENTORNO_CERRADO_page-0001_jsc2tf.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834329/TANGRAM/04_C_AXO_3_ENTORNO_page-0001_yghhej.jpg
 mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
 title: Tangram
