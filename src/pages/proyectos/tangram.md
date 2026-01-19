@@ -11,8 +11,8 @@ blocks:
     columns: 2
     gap: 20
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/10.TANGRAM_AXO_ESTRUCTURA-min_hhrmcl.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731636/TANGRAM/11.TANGRAM_AXO_RENDER-min_k1krro.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
   - type: grid
     ratio: 3/1
     align: around
