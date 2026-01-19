@@ -32,11 +32,25 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833971/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2026_low_cgj3ix.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833967/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1904-03_low_p5fvb9.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833955/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1973-72_low_zggpld.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833960/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1990_low_ast3zd.jpg
   - type: masonry
     columns: 1
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768830435/MORDISCO/02_B_PLANTA_page-0001_lvm18l.jpg
+  - type: masonry
+    columns: 1
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768831338/MORDISCO/04_B_CORTES_VISTA_page-0002_hmbf4h.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768831337/MORDISCO/04_B_CORTES_VISTA_page-0001_su4msa.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768831337/MORDISCO/04_B_CORTES_VISTA_page-0003_r8yf2o.jpg
+  - type: masonry
+    columns: 2
+    gap: 20
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768830571/MORDISCO/03_B_AXO_DESPIECE_page-0001_pvipcz.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768831480/MORDISCO/05_B_DETALLE_page-0001_vfpoq5.jpg
   - type: masonry
     columns: 2
     gap: 4
