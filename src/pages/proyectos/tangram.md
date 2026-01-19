@@ -12,7 +12,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834543/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-18_utqctn.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834550/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-23_bx9faw.jpg
   - type: masonry
-    columns: 1
+    columns: 3
     gap: 20
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/02_C_PLANTA_page-0001_1_xj0tjp.jpg
