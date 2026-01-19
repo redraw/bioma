@@ -45,4 +45,10 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850253/cc%20cordoba/A01_-_C03_IMPLAN_zlg8rz.png
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
+  - type: masonry
+    columns: 1
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A05_-_C03_PLANTA_1_hrvvs4.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A06_-_C03_PLANTA_2_ymyucx.png
 ---
