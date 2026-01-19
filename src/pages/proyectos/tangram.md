@@ -3,10 +3,10 @@ draft: false
 blocks:
   - type: masonry
     columns: 2
-    gap: 4
+    gap: 16
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712354/TANGRAM/3.TANGRAM_Silueta_Interior-min_iex1qk.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713713789/TANGRAM/4.TANGRAM_Planta-min_sflblz.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834550/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-2_on08sy.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834548/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-3_jezsnj.jpg
   - type: masonry
     columns: 2
     gap: 20
@@ -25,6 +25,10 @@ blocks:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712354/TANGRAM/7.TANGAM_GifA-min_qye9ep.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/8TANGAM_GifB-min_rz9ll7.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/9.TANGAM_GifC-min_tcebey.jpg
+  - type: grid
+    ratio: 1/1
+    align: center
+    gap: 4
 mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
 title: Tangram
@@ -38,7 +42,7 @@ description: La idea del Tangram resume la intención de generar un marco soport
   cuadrado que tensione los bordes. Tecnológicamente se piensa en un sistema de
   partes estándar de simpleza de producción y facilidad de montaje.
 created: April 21, 2024 12:09 PM
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731033/TANGRAM/5.TANGRAM_Acceso-min_vgfmni.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834544/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_dkibff.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868686/LOGOS/TANGRAM-11_lhbcod.jpg
 mostrar_home_sliders: false
 slider_fotos:
