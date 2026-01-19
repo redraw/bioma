@@ -30,7 +30,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834334/TANGRAM/04_C_AXO_2_ENTORNO_CERRADO_page-0001_jsc2tf.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834329/TANGRAM/04_C_AXO_3_ENTORNO_page-0001_yghhej.jpg
   - type: grid
-    ratio: 2/1
+    ratio: "1"
     align: center
     gap: 0
     columns:
