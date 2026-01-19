@@ -19,8 +19,10 @@ blocks:
     gap: 12
     columns:
       - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731115/TANGRAM/6.TANGRAM_Interior-min_owph4h.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731033/TANGRAM/5.TANGRAM_Acceso-min_vgfmni.jpg
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834332/TANGRAM/05_C_CORTE_CRITICO_B_page-0001_nd3xtd.jpg
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834333/TANGRAM/05_C_CORTE_CRITICO_A_page-0001_mntsbo.jpg
       - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712354/TANGRAM/7.TANGAM_GifA-min_qye9ep.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/8TANGAM_GifB-min_rz9ll7.jpg
