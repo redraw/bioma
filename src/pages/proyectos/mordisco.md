@@ -57,7 +57,6 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502161/MORDISCO/5.BALCARCE_Foto_Obra_II-min_ksbpza.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502156/MORDISCO/4.BALCARCE_Foto_Obra_I-min_xbk0st.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502158/MORDISCO/7.BALCARCE_Foto_Obra_IV-min_f7pc6o.jpg
 slug: mordisco
 mostrar_home_sliders: false
 slider_planos:
