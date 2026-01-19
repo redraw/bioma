@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: DESPLIEGUE
+title: Despliegue
 category: cultural
 subtitle: " "
 description: >-
