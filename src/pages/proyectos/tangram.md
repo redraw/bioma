@@ -30,9 +30,9 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834334/TANGRAM/04_C_AXO_2_ENTORNO_CERRADO_page-0001_jsc2tf.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834329/TANGRAM/04_C_AXO_3_ENTORNO_page-0001_yghhej.jpg
   - type: grid
-    ratio: 3/1
+    ratio: 2/1
     align: center
-    gap: 4
+    gap: 0
     columns:
       - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/02_C_PLANTA_page-0001_1_xj0tjp.jpg
