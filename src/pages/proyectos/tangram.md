@@ -15,7 +15,7 @@ blocks:
     columns: 1
     gap: 20
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768846878/TANGRAM/02_C_PLANTA_page-0001_2_pkubp3.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768847653/TANGRAM/02_C_PLANTA_page-0001_2_blr7n3.jpg
   - type: masonry
     columns: 2
     gap: 20
