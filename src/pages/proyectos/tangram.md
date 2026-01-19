@@ -3,7 +3,7 @@ draft: false
 blocks:
   - type: masonry
     columns: 2
-    gap: 16
+    gap: 20
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-02_xprkxc.jpg
@@ -15,18 +15,13 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713731636/TANGRAM/11.TANGRAM_AXO_RENDER-min_k1krro.jpg
   - type: grid
     ratio: 3/1
-    align: stretch
-    gap: 12
+    align: around
+    gap: 20
     columns:
       - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834331/TANGRAM/03_C_CORTE_VISTA_page-0003jpg_jcmhmt.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834332/TANGRAM/05_C_CORTE_CRITICO_B_page-0001_nd3xtd.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834333/TANGRAM/05_C_CORTE_CRITICO_A_page-0001_mntsbo.jpg
       - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712354/TANGRAM/7.TANGAM_GifA-min_qye9ep.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/8TANGAM_GifB-min_rz9ll7.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713712355/TANGRAM/9.TANGAM_GifC-min_tcebey.jpg
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834330/TANGRAM/03_C_CORTE_VISTA_page-0002_em6l45.jpg
   - type: grid
     ratio: 1/1
     align: center
