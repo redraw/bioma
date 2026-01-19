@@ -38,7 +38,7 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768830435/MORDISCO/02_B_PLANTA_page-0001_lvm18l.jpg
   - type: masonry
-    columns: 3
+    columns: 2
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713502161/MORDISCO/5.BALCARCE_Foto_Obra_II-min_ksbpza.jpg
