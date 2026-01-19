@@ -23,7 +23,7 @@ description: >-
   El primer artefacto construido se ubica en la esquina de Santa Fe y Maipú, junto al Palacio Paz, en el corazón histórico de Buenos Aires. Allí, los gajos metálicos curvos dialogan con la ornamentación del palacio recuperando, en clave contemporánea, ciertos gestos art nouveau del entorno. La chapa perforada funciona simultáneamente como piel, visera y soporte expositivo: sostiene fotografías, afiches y textos que, una vez desplegados, desbordan el perímetro original del kiosco. De día, los planos metálicos reflejan el movimiento de la avenida; de noche, el artefacto se ilumina desde dentro y el antiguo puesto de diarios se transforma en un pequeño faro cultural sobre la vereda.
 created: April 15, 2024 2:43 AM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713040444/DISTRITO/portfolio_para_wwwA_2_hdinaj.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_02_vs4jwm.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768835598/LOGOS/DESPLIEGUE_cbpjyu.png
 mostrar_home_sliders: false
 slider_fotos:
@@ -46,7 +46,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850253/cc%20cordoba/A01_-_C03_IMPLAN_zlg8rz.png
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
   - type: masonry
-    columns: 1
+    columns: 2
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A05_-_C03_PLANTA_1_hrvvs4.png
