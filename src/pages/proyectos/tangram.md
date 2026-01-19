@@ -31,7 +31,7 @@ description: La idea del Tangram resume la intención de generar un marco soport
   pensando en fichas con doble geometría, que puedan anunciar contradicciones
   con su envolvente, transparencias diagonales y la integración de un patio
   cuadrado que tensione los bordes. Tecnológicamente se piensa en un sistema de
-  partes estándar de simpleza de producción y facilidad de montaje.
+  partes estándar de simpleza de producción y facilidad de montaje
 created: April 21, 2024 12:09 PM
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834544/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_dkibff.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868686/LOGOS/TANGRAM-11_lhbcod.jpg
