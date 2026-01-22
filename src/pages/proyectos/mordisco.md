@@ -14,7 +14,7 @@ description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
 created: April 15, 2024 12:46 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834119/MORDISCO/01_IMG_7687_i62dsn.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868682/LOGOS/MORDISCO-09_rjo6cn.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1769085310/LOGOS/02_javier_agustin_rojas_bioma_balcarce_DSF2011-10_low_dtwqt4.jpg
 slider_fotos:
   autoplay: false
   effect: fade
