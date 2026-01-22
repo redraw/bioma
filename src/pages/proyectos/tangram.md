@@ -43,7 +43,7 @@ description: La idea del Tangram resume la intención de generar un marco soport
   partes estándar de simpleza de producción y facilidad de montaje
 created: April 21, 2024 12:09 PM
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768845497/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_l5tlsw.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868686/LOGOS/TANGRAM-11_lhbcod.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834556/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-39_h07ry8.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
