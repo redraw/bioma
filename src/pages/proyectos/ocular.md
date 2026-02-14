@@ -6,7 +6,7 @@ subtitle: " "
 created: August 8, 2024 7:47 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157320/OCULAR/b_22_-_Foto_z2azmy.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157446/OCULAR/OCULAR_cmbvpn.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157306/OCULAR/7_-_OCULAR_TECHO_tebeis.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
