@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: RUINA
 category: vivienda
-subtitle: ""
+subtitle: " "
 description: "Una estructura perimetral de hormigón delimita un vacío habitable
   que opera como umbral entre la densidad vegetal del entorno y una escena
   interior contenida. Esa condición de borde activo —entrecerrado pero poroso,
