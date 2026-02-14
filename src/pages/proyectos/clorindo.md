@@ -13,7 +13,7 @@ description: Ubicado en el barrio de Recoleta dentro de la biblioteca Guiraldes
 created: April 15, 2024 2:38 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710561/CLORINDO/1.Clorindo_Corte_Vista_vagkjx.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717868680/LOGOS/CLORINDO-09_qupvbz.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710713/CLORINDO/4.Clorindo_Foto_Detalle_Escalera-min_n8zouu.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
