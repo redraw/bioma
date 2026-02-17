@@ -34,7 +34,7 @@ description: "Los puestos de diarios aparecen hoy como objetos en vías de
   transforma en un pequeño faro cultural sobre la vereda."
 created: April 15, 2024 2:43 AM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_02_vs4jwm.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254839/cc%20cordoba/javier_agustin_rojas_canillita_DSF3780_high_rlvliw.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771270302/cc%20cordoba/javier_agustin_rojas_canillita_DSF1986_high_-_copia_-_copia_li5z9i.jpg
 mostrar_home_sliders: false
 slider_fotos:
