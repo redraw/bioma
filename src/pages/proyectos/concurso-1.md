@@ -52,12 +52,23 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254828/cc%20cordoba/javier_agustin_rojas_canillita_DSF2027_high_lhdlow.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254833/cc%20cordoba/javier_agustin_rojas_canillita_DSF2028_high_mg1ktg.jpg
   - type: masonry
+    columns: 1
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254839/cc%20cordoba/javier_agustin_rojas_canillita_DSF3780_high_rlvliw.jpg
+  - type: masonry
     columns: 3
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254832/cc%20cordoba/javier_agustin_rojas_canillita_DSF1942_high_bj5sm7.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254837/cc%20cordoba/javier_agustin_rojas_canillita_DSF1945_high_asqlnt.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254831/cc%20cordoba/javier_agustin_rojas_canillita_DSF1919_high_hazies.jpg
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254838/cc%20cordoba/javier_agustin_rojas_canillita_DSF1981_high_uqcrsp.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254826/cc%20cordoba/javier_agustin_rojas_canillita_DSF1986_high_cwfvst.jpg
   - type: text
     content: "***CANILLITA - Retiro, Buenos Aires, Argentina.***"
   - type: masonry
