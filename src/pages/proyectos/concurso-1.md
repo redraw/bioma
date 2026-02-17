@@ -45,6 +45,13 @@ slider_planos:
   effect: fade
 blocks:
   - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254830/cc%20cordoba/javier_agustin_rojas_canillita_DSF2025_high_xp5k5q.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254828/cc%20cordoba/javier_agustin_rojas_canillita_DSF2027_high_lhdlow.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254833/cc%20cordoba/javier_agustin_rojas_canillita_DSF2028_high_mg1ktg.jpg
+  - type: masonry
     columns: 2
     gap: 4
     images:
@@ -54,7 +61,7 @@ blocks:
     columns: 2
     gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850253/cc%20cordoba/A01_-_C03_IMPLAN_zlg8rz.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768853069/cc%20cordoba/IMPL_Canillita_C03_page-0001_vgwpvb.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
   - type: masonry
     columns: 2
