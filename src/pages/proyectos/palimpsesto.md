@@ -6,7 +6,7 @@ subtitle: " "
 created: August 8, 2024 8:02 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158868/PALIMPSESTO/IMG_1786_ll1skx.heic
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158223/PALIMPSESTO/PALIMPSESTO_v7zbyv.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771335392/PALIMPSESTO/IMG_1786_t9q3eh.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
