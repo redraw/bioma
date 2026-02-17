@@ -69,7 +69,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_02_vs4jwm.jpg
   - type: masonry
     columns: 2
-    gap: 4
+    gap: 20
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768853069/cc%20cordoba/IMPL_Canillita_C03_page-0001_vgwpvb.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
