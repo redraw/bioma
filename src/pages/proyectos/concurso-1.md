@@ -67,6 +67,8 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_01_tjwxbr.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_02_vs4jwm.jpg
+  - type: text
+    content: "***CANILLITA - Retiro, Buenos Aires, Argentina.***"
   - type: masonry
     columns: 4
     gap: 4
@@ -75,4 +77,27 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A05_-_C03_PLANTA_1_hrvvs4.png
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A06_-_C03_PLANTA_2_ymyucx.png
+    content: "***CANILLITA - Retiro, Ciudad Autónoma de Buenos Aires, Argentina.***"
+  - type: text
+    content: "***CANILLITA - Barrancas de Belgrano, Ciudad Autónoma de Buenos Aires,
+      Argentina.***"
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850247/cc%20cordoba/A07_-_C04_IMPLAN_qwq3mc.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850260/cc%20cordoba/A07.1_-_C04_AXO_IMPLAN_ttjsub.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850243/cc%20cordoba/A10_-_C04_PLANTA_1_luegkl.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A10_-_C04_PLANTA_2_xd4p36.png
+  - type: text
+    content: "***CANILLITA - Cabildo y Juramento, Ciudad Autónoma de Buenos Aires,
+      Argentina.***"
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A13_-_C05_IMPLAN_xehzho.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850254/cc%20cordoba/A13.1_-_C05_AXO_IMPLAN_fw12eb.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850241/cc%20cordoba/A16_-_C05_PLANTA_1_vrb34m.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A16_-_C05_PLANTA_2_n31tt0.png
 ---
