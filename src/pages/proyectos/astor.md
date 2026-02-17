@@ -12,7 +12,7 @@ description: El tap room de la cervecería Astor se pensó como un espacio de
 created: June 8, 2024 2:24 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867830/ASTOR/classicu_2023-04-15_145536.785_v8f5os.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867684/ASTOR/ASTOR2-09_ikfp1k.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771367768/ASTOR/ASTOR_SQUARE_zulswm.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
