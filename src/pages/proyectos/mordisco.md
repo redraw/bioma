@@ -20,7 +20,7 @@ slider_fotos:
   effect: fade
 blocks:
   - type: masonry
-    columns: 2
+    columns: 3
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833972/MORDISCO/02_javier_agustin_rojas_bioma_balcarce_DSF2011-10_low_bkuxya.jpg
