@@ -26,13 +26,15 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833965/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2053-52_low_ra87h3.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833960/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1854_low_ifgshn.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833971/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2026_low_cgj3ix.jpg
-  - type: masonry
-    columns: 3
-    gap: 4
-    images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833967/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1904-03_low_p5fvb9.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833958/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1978-77_low_fzr7pu.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833960/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1990_low_ast3zd.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833957/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1881_low_hjkj7z.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833958/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1978-77_low_fzr7pu.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833954/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1917-16_low_bv0ltj.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833958/MORDISCO/01_javier_agustin_rojas_bioma_balcarce_DSF2105_low_a3go7n.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833964/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2085_low_dujnyq.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833956/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2052_low_n594gx.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833962/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2033-32_low_hlirig.jpg
   - type: masonry
     columns: 1
     gap: 4
