@@ -43,12 +43,6 @@ blocks:
     columns: 2
     gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711562/RUINA/6.RUINA_Implan-min_pmmwt0.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711563/RUINA/4.RUINA_Planta-min_oyjv3s.jpg
-  - type: masonry
-    columns: 2
-    gap: 4
-    images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711560/RUINA/9.RUINA_Patio-min_drritt.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711560/RUINA/8.RUINA_Interior-min_uhllw1.jpg
   - type: masonry
@@ -57,4 +51,10 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/3.RUINA_Maqueta_II-min_ezlvrg.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/2.RUINA_Maqueta_I-min_t0b5ld.jpg
+  - type: masonry
+    columns: 2
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711562/RUINA/6.RUINA_Implan-min_pmmwt0.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711563/RUINA/4.RUINA_Planta-min_oyjv3s.jpg
 ---
