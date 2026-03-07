@@ -26,6 +26,20 @@ slider_planos:
   effect: fade
 blocks:
   - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image1_fxptzm.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image2_vzlbbn.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922868/RUINA/image3_vh0qug.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image4_klzv2v.jpg
+  - type: masonry
+    columns: 2
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image99_lxiudb.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image100_s31t7u.jpg
+  - type: masonry
     columns: 2
     gap: 4
     images:
@@ -43,18 +57,4 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/3.RUINA_Maqueta_II-min_ezlvrg.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/2.RUINA_Maqueta_I-min_t0b5ld.jpg
-  - type: masonry
-    columns: 4
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image1_fxptzm.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image2_vzlbbn.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922868/RUINA/image3_vh0qug.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image4_klzv2v.jpg
-  - type: masonry
-    columns: 2
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image99_lxiudb.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image100_s31t7u.jpg
 ---
