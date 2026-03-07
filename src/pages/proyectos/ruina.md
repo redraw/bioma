@@ -50,6 +50,8 @@ blocks:
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/3.RUINA_Maqueta_II-min_ezlvrg.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923384/RUINA/IMG_8885_yawgpw.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923384/RUINA/IMG_8944_hm6cvn.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/2.RUINA_Maqueta_I-min_t0b5ld.jpg
   - type: masonry
     columns: 2
@@ -57,4 +59,12 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711562/RUINA/6.RUINA_Implan-min_pmmwt0.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711563/RUINA/4.RUINA_Planta-min_oyjv3s.jpg
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923310/RUINA/IMG_8908_ztfwzj.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923310/RUINA/IMG_8912_lnnqor.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923310/RUINA/IMG_8913_d5txh6.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772923311/RUINA/IMG_8914_c96cj7.jpg
 ---
