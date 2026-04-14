@@ -31,7 +31,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834329/TANGRAM/04_C_AXO_3_ENTORNO_page-0001_yghhej.jpg
 mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
-title: Tangram
+title: CASA TANGRAM
 category: vivienda
 subtitle: " "
 description: La idea del Tangram resume la intención de generar un marco soporte
