@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Rio
+title: Casa del Rio
 category: vivienda
 subtitle: " "
 description: La vivienda está ubicada en un monte, en la ribera del Río de La
