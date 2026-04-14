@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Distrito
+title: Distrito Gorina
 category: XL
 subtitle: " "
 description: >-
