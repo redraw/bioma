@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: OCULAR
+title: CASA OCULAR
 category: vivienda
 subtitle: " "
 created: August 8, 2024 7:47 PM
