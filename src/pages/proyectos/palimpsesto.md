@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: PL
+title: Casa en PH
 category: vivienda
 subtitle: " "
 created: August 8, 2024 8:02 PM
