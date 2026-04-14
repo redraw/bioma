@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Mercado
+title: Mercado 55
 category: XL
 subtitle: " "
 description: La integración del estadio UNO al espacio público de la ciudad se
