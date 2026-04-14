@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: RUINA
+title: CASA RUINA
 category: vivienda
 subtitle: " "
 description: "Una estructura perimetral de hormigón delimita un vacío habitable
