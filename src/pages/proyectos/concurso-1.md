@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Despliegue
+title: Canillita
 category: cultural
 subtitle: " "
 description: "Los puestos de diarios aparecen hoy como objetos en vías de
