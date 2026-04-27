@@ -46,7 +46,7 @@ blocks:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480270/DISTRITO/02_DG_-_PLANTAS_02_t1up5x.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480266/DISTRITO/02_DG_-_PLANTAS_03_js3ffg.jpg
   - type: masonry
-    columns: 2
+    columns: 3
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480267/DISTRITO/00_DG_-_IMPLAN_bbc9y4.jpg
