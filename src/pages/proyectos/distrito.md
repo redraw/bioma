@@ -23,12 +23,12 @@ blocks:
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297075/DISTRITO/gorina_001_e7ogx3.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297096/DISTRITO/gorina_016_burjcy.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297137/DISTRITO/gorina_029_g4wgag.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297096/DISTRITO/gorina_016_burjcy.jpg
   - type: masonry
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297061/DISTRITO/gorina_007_kpfupu.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297067/DISTRITO/gorina_006_vtwwvr.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297061/DISTRITO/gorina_007_kpfupu.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297092/DISTRITO/gorina_014_q0b6dl.jpg
     columns: 3
     gap: 4
