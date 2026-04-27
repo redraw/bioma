@@ -21,14 +21,14 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300599/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-12_gxngsm.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300595/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-13_rb6d0o.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300596/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-31_y3xvpo.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300591/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-11_zybnqc.jpg
   - type: masonry
     columns: 3
     gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300591/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-11_zybnqc.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300591/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-20_pm72k4.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300592/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-9_vrryjp.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300596/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-31_y3xvpo.jpg
   - type: masonry
     columns: 2
     gap: 2
