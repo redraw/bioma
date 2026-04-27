@@ -10,7 +10,7 @@ description: >-
   Propuestas de uso mixto se vuelcan a fomentar una planta baja urbana en las afueras de la ciudad. Como símbolo la vereda granítica será la que colonice el espacio público, con diferencias de tramas para evidenciar circulaciones peatonales de circulaciones de autos, motos y bicicletas. En las siguientes dos plantas un jardín en altura funciona de fuelle y nexo con la ciudad, convirtiéndose ese en el leitmotiv del proyecto, donde todas las unidades participan y colaboran con su impronta definitiva. Actualmente en construcción.
 created: April 15, 2024 12:30 AM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297051/DISTRITO/gorina_005_jw6xpl.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297075/DISTRITO/gorina_001_e7ogx3.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771106156/DISTRITO/DISTRITO_SQUARE_q1ul5a.jpg
 slider_fotos:
   autoplay: false
@@ -32,7 +32,7 @@ blocks:
     columns: 3
     gap: 4
   - type: masonry
-    columns: 1
+    columns: 3
     gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297075/DISTRITO/gorina_001_e7ogx3.jpg
