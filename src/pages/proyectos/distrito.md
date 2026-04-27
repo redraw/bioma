@@ -20,43 +20,40 @@ slider_fotos:
 blocks:
   - type: masonry
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481218/DISTRITO/2.Distrigo_G_Planta_Baja-min_kqdcqu.jpg
-    columns: 1
-    gap: 2
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297061/DISTRITO/gorina_007_kpfupu.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297067/DISTRITO/gorina_006_vtwwvr.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297092/DISTRITO/gorina_014_q0b6dl.jpg
+    columns: 3
+    gap: 4
   - type: masonry
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481260/DISTRITO/3.Distrigo_G_Corte_y_Vista-min_crahns.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297051/DISTRITO/gorina_005_jw6xpl.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297083/DISTRITO/gorina_030_lzvq0z.jpg
+    columns: 2
+    gap: 4
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480269/DISTRITO/02_DG_-_PLANTAS_01_zfbicy.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480270/DISTRITO/02_DG_-_PLANTAS_02_t1up5x.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480266/DISTRITO/02_DG_-_PLANTAS_03_js3ffg.jpg
+  - type: masonry
     columns: 1
     gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480272/DISTRITO/01_DG_-_AXO_ah7goy.jpg
   - type: masonry
     columns: 2
     gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481384/DISTRITO/4.Distrigo_G_Planta_Nivel_1-min_xeptth.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481383/DISTRITO/5.Distrigo_G_Planta_Nivel_2-min_r1g3cv.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481379/DISTRITO/6.Distrigo_G_Ingreso_Peatonal-min_zsrugr.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480267/DISTRITO/00_DG_-_IMPLAN_bbc9y4.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480266/DISTRITO/03_DG_-_CORTES_b4lwua.jpg
   - type: masonry
     columns: 1
     gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481441/DISTRITO/7.Distrigo_G_Balcones-min_mqlskp.jpg
-  - type: masonry
-    columns: 2
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481478/DISTRITO/8.Distrigo_G_AXO-min_q8yiye.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481480/DISTRITO/9.Distrigo_G_Escalera-min_zhz5gm.jpg
-  - type: masonry
-    columns: 1
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481682/DISTRITO/10.Distrigo_G_Plaza_Interior-min_sldjdb.jpg
-  - type: masonry
-    columns: 2
-    gap: 2
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481727/DISTRITO/11-Fotos_Obra_I-min_ha4m7n.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713481891/DISTRITO/12-Foto_Obra_II-min_x1lbip.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1775480277/DISTRITO/04_DG_-_VISTA_cczxoh.jpg
 slug: distrito
 mostrar_home_sliders: false
 slider_planos:
