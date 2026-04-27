@@ -19,11 +19,12 @@ slider_fotos:
   autoplay-delay: ""
 blocks:
   - type: masonry
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297079/DISTRITO/gorina_027_eskxit.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297083/DISTRITO/gorina_030_lzvq0z.jpg
-    columns: 2
+    columns: 3
     gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297075/DISTRITO/gorina_001_e7ogx3.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297096/DISTRITO/gorina_016_burjcy.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297137/DISTRITO/gorina_029_g4wgag.jpg
   - type: masonry
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297061/DISTRITO/gorina_007_kpfupu.jpg
@@ -32,12 +33,11 @@ blocks:
     columns: 3
     gap: 4
   - type: masonry
-    columns: 3
-    gap: 4
     images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297075/DISTRITO/gorina_001_e7ogx3.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297096/DISTRITO/gorina_016_burjcy.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297137/DISTRITO/gorina_029_g4wgag.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297079/DISTRITO/gorina_027_eskxit.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777297083/DISTRITO/gorina_030_lzvq0z.jpg
+    columns: 2
+    gap: 4
   - type: masonry
     columns: 3
     gap: 4
