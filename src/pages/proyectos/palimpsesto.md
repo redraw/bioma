@@ -27,4 +27,11 @@ blocks:
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158695/PALIMPSESTO/a_zfooha.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723158863/PALIMPSESTO/IMG_1784_v3khvu.heic
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300599/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-12_gxngsm.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300595/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-13_rb6d0o.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300596/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-31_y3xvpo.jpg
 ---
