@@ -18,7 +18,7 @@ slider_planos:
 blocks:
   - type: masonry
     columns: 3
-    gap: 20
+    gap: 4
     images:
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777325850/TEATRO/LEBREL_-21_p9owku.jpg
       - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777325852/TEATRO/LEBREL_-25_zijwcd.jpg
