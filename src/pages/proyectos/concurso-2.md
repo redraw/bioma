@@ -1,10 +1,17 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: CONCURSO
+title: CONCURSO 9J
 category: cultural
-subtitle: " "
-description: 2do premio - Concurso Provincial de Ideas y Anteproyectos
-  Crematorio Parque - CEyS
+subtitle: 2do premio
+description: >-
+  2do premio - Concurso Provincial de Ideas y Anteproyectos Crematorio Parque -
+  CEyS
+
+
+  9 de Julio, Buenos Aires, Argentina
+
+
+  2026
 created: April 29, 2026 10:26 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777471895/CREMATORIO/C9J_-_L1_-_Principal_3_mot0xr.jpg
