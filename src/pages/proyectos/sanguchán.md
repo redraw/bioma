@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Sanguchán
-category: comercial
+category: gastronomía
 subtitle: " "
 description: Una sanguchería/hamburguesería urbana, diurna. Ubicada frente al
   Colegio Nacional de La Plata fue el reducto de cientos de alumnos y
