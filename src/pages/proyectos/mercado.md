@@ -12,7 +12,7 @@ description: La integración del estadio UNO al espacio público de la ciudad se
   interrumpidos visualmente. Toda la infraestructura del espacio de más de
   1500m2 responde a lógicas mudables, para poder entender al sector en el
   tiempo. Podemos verlo mutar, adaptarse y sostener diversos usos.
-created: April 15, 2024 1:47 AM
+created: October 11, 2023 1:47 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713709746/MERCADO/1.M55_Foto_Interior-min_dfchnh.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713709746/MERCADO/8.Foto_Frente-min_ap0agq.jpg
