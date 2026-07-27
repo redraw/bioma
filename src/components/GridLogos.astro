@@ -1,51 +1,108 @@
 ---
 import Image from "@/components/CloudinaryImage.astro";
-import site from "@/site.json";
 
 const { posts, categoria, class: className } = Astro.props;
+
+// Junta las imagenes del proyecto para elegir la del hover.
+function imagenesDelProyecto(fm) {
+  const acc = [];
+  const sumar = (v) => {
+    if (!v) return;
+    if (Array.isArray(v)) { v.forEach((x) => sumar(x)); return; }
+    if (typeof v === "string") { acc.push(v); return; }
+    if (typeof v === "object" && v.src) acc.push(v.src);
+  };
+  sumar(fm.slider_fotos?.images);
+  (fm.blocks ?? []).forEach((b) => {
+    sumar(b.images);
+    sumar(b.image);
+    if (Array.isArray(b.columns)) b.columns.forEach((c) => sumar(c?.images));
+  });
+  sumar(fm.cover);
+  return [...new Set(acc)];
+}
 ---
 
-<div class="flex justify-center items-center" class:list={[className]}>
-  <div
-    class=`grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-${site.homeGrid.columns} lg:grid-rows-${site.homeGrid.rows}`
-  >
+<div class:list={[className, "w-full px-4 md:px-6 pt-2 pb-24"]}>
+  <div class="columns-1 sm:columns-2 lg:columns-4 gap-8 md:gap-11">
     {
-      [...posts].map(({ url, frontmatter }) => (
-        <div class="flex justify-center bg-white p-2 mt-2 md:mt-0 text-center">
-          <a href={url}>
-            <div transition:name={`logo-${frontmatter.title}`}>
+      [...posts].map(({ url, frontmatter }) => {
+        const portada = frontmatter.cover || frontmatter.logo;
+        const otras = imagenesDelProyecto(frontmatter).filter((u) => u !== portada);
+        const hover = otras.length ? otras[0] : null;
+        const atenuado = categoria && categoria !== frontmatter.category;
+        return (
+          <a
+            href={url}
+            class="grupo-proyecto group block break-inside-avoid mb-12 md:mb-16"
+            data-hover={hover}
+          >
+            <div
+              class:list={[
+                "marco relative w-full overflow-hidden bg-neutral-50 transition-all duration-500",
+                { "grayscale opacity-20": atenuado },
+              ]}
+              style="aspect-ratio: 1 / 1;"
+              transition:name={`logo-${frontmatter.title}`}
+            >
               <Image
-                src={frontmatter.logo}
+                src={portada}
                 alt={frontmatter.title}
-                class:list={[
-                  {
-                    "grayscale opacity-20":
-                      categoria && categoria !== frontmatter.category,
-                  },
-                ]}
-                class="h-20 md:h-24"
+                params="c_limit,w_1200,f_auto,q_auto"
+                class="imagen-proyecto absolute inset-0 w-full h-full object-cover"
                 effect="blur"
               />
             </div>
             <div
               class:list={[
-                "py-2",
-                {
-                  "grayscale opacity-20":
-                    categoria && categoria !== frontmatter.category,
-                },
+                "pt-3 transition-opacity duration-300",
+                "opacity-100 md:opacity-0 md:group-hover:opacity-100",
+                { "!opacity-20": atenuado },
               ]}
             >
-              <h2 class="text-xs font-thin tracking-wider uppercase">
+              <h2 class="text-sm font-thin tracking-[0.13em] uppercase">
                 {frontmatter.title}
               </h2>
-              <h2 class="text-xs font-thin tracking-[0.01em] opacity-60">
+              <h2 class="text-sm font-thin tracking-[0.02em] opacity-50">
                 {frontmatter.subtitle || frontmatter.category}
               </h2>
             </div>
           </a>
-        </div>
-      ))
+        );
+      })
     }
   </div>
 </div>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    document.querySelectorAll(".grupo-proyecto").forEach((tarjeta) => {
+      const img = tarjeta.querySelector(".imagen-proyecto") as HTMLImageElement;
+      const marco = tarjeta.querySelector(".marco") as HTMLElement;
+      if (!img || !marco) return;
+
+      // Fija la proporcion real de la foto para que el hover no mueva la grilla.
+      const fijar = () => {
+        if (img.naturalWidth && img.naturalHeight) {
+          marco.style.aspectRatio = `${img.naturalWidth} / ${img.naturalHeight}`;
+        }
+      };
+      if (img.complete) fijar();
+      img.addEventListener("load", fijar, { once: true });
+
+      const alterna = tarjeta.getAttribute("data-hover");
+      if (!alterna) return;
+
+      const previa = new window.Image();
+      previa.src = alterna;
+
+      const original = img.getAttribute("data-src") || img.src;
+      tarjeta.addEventListener("mouseenter", () => {
+        img.src = alterna;
+      });
+      tarjeta.addEventListener("mouseleave", () => {
+        img.src = original;
+      });
+    });
+  });
+</script>
