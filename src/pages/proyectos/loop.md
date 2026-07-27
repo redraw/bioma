@@ -8,6 +8,7 @@ description: >-
 
   Este espacio residual existente en una productora audiovisual fue convertido en un escenario, mediante el uso de vidrios laminados y espejos para lograr un rebote cíclico que pueda generar un efecto en cadena para lograr dar una dimensión perceptualmente superior a la real. La geometría de las luces acompaña siendo las que evidencian y generan el real foco y escena.
 anio: "2021"
+colaboradores: Felipe Carrizo
 created: April 21, 2024 7:13 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771106246/LOOP/LOOP_SQUARE_ni9dvb.jpg
