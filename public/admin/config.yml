@@ -83,6 +83,22 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+        hint: "Memoria del proyecto. Hasta ~600 caracteres se lee comodo en la ficha."
+      - label: "Anio"
+        name: "anio"
+        widget: "string"
+        required: false
+        hint: "Ej: 2023"
+      - label: "Colaboradores"
+        name: "colaboradores"
+        widget: "string"
+        required: false
+        hint: "Separar con punto medio. Ej: Felipe Carrizo - Tomas Randrup"
+      - label: "Fotografia"
+        name: "fotografia"
+        widget: "string"
+        required: false
+        hint: "Nombre del fotografo"
       - label: "Created"
         name: "created"
         widget: "datetime"
@@ -104,12 +120,14 @@ collections:
         widget: "boolean"
         default: false
       - label: "Slider Fotos"
+        hint: "Estas son las IMAGENES del diptico (columna derecha)"
         name: "slider_fotos"
         required: false
         widget: "object"
         collapsed: true
         fields: *SLIDER
       - label: "Slider Planos"
+        hint: "Estos son los PLANOS del diptico (columna izquierda)"
         name: "slider_planos"
         required: false
         widget: "object"
