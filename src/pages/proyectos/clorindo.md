@@ -29,6 +29,8 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710762/CLORINDO/5.Clorindo_Detalle_Barra-min_golbve.jpg
 slider_planos:
   autoplay: false
-  effect: fade
+  effect: slide
+  images:
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710561/CLORINDO/1.Clorindo_Corte_Vista_vagkjx.jpg
 blocks: []
 ---
