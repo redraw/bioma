@@ -37,7 +37,7 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1778109803/cc%20cordoba/javier_agustin_rojas_canillita_DSF1986_high_-_copia_-_copia_li5z9i.jpg
 slider_planos:
   autoplay: false
-  effect: fade
+  effect: slide
   images:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768853069/cc%20cordoba/IMPL_Canillita_C03_page-0001_vgwpvb.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
