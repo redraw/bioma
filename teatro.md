@@ -1,0 +1,112 @@
+---
+layout: ../../layouts/ProyectoLayout.astro
+title: Canillita
+category: cultural
+subtitle: " "
+description: "Los puestos de diarios aparecen hoy como objetos en vías de
+  obsolescencia: piezas urbanas que ya no cumplen su función original pero
+  siguen ancladas en espacios muy específicos de la ciudad. El proyecto reconoce
+  en esa condición una oportunidad y retoma el nombre Canillita de los antiguos
+  vendedores de diarios para ensayar una nueva identidad para esos soportes. La
+  herramienta es el despliegue, entendido como sistema de pensamiento: la manera
+  en que los planos se abren, giran y se extienden, define cómo se habita y se
+  activa cada puesto. Canillita se proyecta como una familia de artefactos
+  urbanos que comparten esa lógica de despliegue pero se ajustan a cada
+  contexto. Los tres casos proyectados trabajan con envolventes curvas y
+  móviles, aunque ninguno es idéntico: la geometría final se recalibra según el
+  entorno, permitiendo que cada puesto resuene de forma distinta con su esquina,
+  su edificio vecino y la escala de su calle. El despliegue es, a la vez,
+  técnico y espacial. Técnico, porque la envolvente se resuelve en paneles
+  metálicos curvos que giran sobre bisagras y se abren como gajos, transformando
+  un cuerpo compacto en una máquina extendida. Espacial, porque al abrirse esos
+  planos toman la vereda: se vuelven soporte de muestras, telón de pequeñas
+  escenas cotidianas, filtro de luz y señal para las actividades culturales que
+  los activan. El antiguo kiosco cerrado se convierte así en dispositivo
+  cultural que irradia programa hacia el espacio público. El primer artefacto
+  construido se ubica en la esquina de Santa Fe y Maipú, junto al Palacio Paz,
+  en el corazón histórico de Buenos Aires. Allí, los gajos metálicos curvos
+  dialogan con la ornamentación del palacio recuperando, en clave contemporánea,
+  ciertos gestos art nouveau del entorno. La chapa perforada funciona
+  simultáneamente como piel, visera y soporte expositivo: sostiene fotografías,
+  afiches y textos que, una vez desplegados, desbordan el perímetro original del
+  kiosco. De día, los planos metálicos reflejan el movimiento de la avenida; de
+  noche, el artefacto se ilumina desde dentro y el antiguo puesto de diarios se
+  transforma en un pequeño faro cultural sobre la vereda."
+created: April 15, 2024 2:43 AM
+draft: false
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771368019/cc%20cordoba/javier_agustin_rojas_canillita_DSF2028_high_-_copia_fon6z1.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771367940/cc%20cordoba/CANILLITA_SQUARE_agmjkb.jpg
+mostrar_home_sliders: false
+slider_fotos:
+  autoplay: false
+  effect: fade
+slider_planos:
+  autoplay: false
+  effect: fade
+blocks:
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254832/cc%20cordoba/javier_agustin_rojas_canillita_DSF1942_high_bj5sm7.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254837/cc%20cordoba/javier_agustin_rojas_canillita_DSF1945_high_asqlnt.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254831/cc%20cordoba/javier_agustin_rojas_canillita_DSF1919_high_hazies.jpg
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254830/cc%20cordoba/javier_agustin_rojas_canillita_DSF2025_high_xp5k5q.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254828/cc%20cordoba/javier_agustin_rojas_canillita_DSF2027_high_lhdlow.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254833/cc%20cordoba/javier_agustin_rojas_canillita_DSF2028_high_mg1ktg.jpg
+  - type: masonry
+    columns: 1
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254839/cc%20cordoba/javier_agustin_rojas_canillita_DSF3780_high_rlvliw.jpg
+  - type: masonry
+    columns: 3
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254838/cc%20cordoba/javier_agustin_rojas_canillita_DSF1981_high_uqcrsp.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254826/cc%20cordoba/javier_agustin_rojas_canillita_DSF1986_high_cwfvst.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254829/cc%20cordoba/javier_agustin_rojas_canillita_DSF1991-90_high_cvxcow.jpg
+  - type: text
+    content: "***CANILLITA - Retiro, Buenos Aires, Argentina.***"
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768853069/cc%20cordoba/IMPL_Canillita_C03_page-0001_vgwpvb.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A02_-_C03_AXO_IMPLAN_p6z0ra.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A05_-_C03_PLANTA_1_hrvvs4.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A06_-_C03_PLANTA_2_ymyucx.png
+    content: "***CANILLITA - Retiro, Ciudad Autónoma de Buenos Aires, Argentina.***"
+  - type: text
+    content: "***CANILLITA - Barrancas de Belgrano, Ciudad Autónoma de Buenos Aires,
+      Argentina.***"
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850247/cc%20cordoba/A07_-_C04_IMPLAN_qwq3mc.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850260/cc%20cordoba/A07.1_-_C04_AXO_IMPLAN_ttjsub.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850243/cc%20cordoba/A10_-_C04_PLANTA_1_luegkl.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A10_-_C04_PLANTA_2_xd4p36.png
+  - type: text
+    content: "***CANILLITA - Cabildo y Juramento, Ciudad Autónoma de Buenos Aires,
+      Argentina.***"
+  - type: masonry
+    columns: 4
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850258/cc%20cordoba/A13_-_C05_IMPLAN_xehzho.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850254/cc%20cordoba/A13.1_-_C05_AXO_IMPLAN_fw12eb.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850241/cc%20cordoba/A16_-_C05_PLANTA_1_vrb34m.png
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850242/cc%20cordoba/A16_-_C05_PLANTA_2_n31tt0.png
+  - type: masonry
+    columns: 2
+    gap: 4
+    images:
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_01_tjwxbr.jpg
+      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768850256/cc%20cordoba/00-_TRILOG%C3%8DA_02_vs4jwm.jpg
+---

@@ -1,0 +1,59 @@
+{
+  "categorias": [
+    "gastronomía",
+    "vivienda",
+    "comercial",
+    "cultural",
+    "XL"
+  ],
+  "homeGrid": {
+    "rows": 2,
+    "columns": 10,
+    "proyectos": [
+      "Ruina",
+      "Tangram",
+      "Clorindo",
+      "Laberinto",
+      "Mordisco",
+      "OCULAR",
+      "Loop",
+      "Rio",
+      "Sanguchán",
+      "CC ",
+      "Pixel",
+      "Cáscara",
+      "Distrito",
+      "Teatro",
+      "Astor",
+      "CD Lincoln",
+      "PL",
+      "CASA A PATIO",
+      "Lebrel",
+      "CONCURSO",
+      "Mercado"
+    ]
+  },
+  "titleFontFamily": "Roboto",
+  "name": "BIOMA",
+  "socialLinks": [
+    {
+      "link": "https://www.instagram.com/b.i.o.m.a",
+      "icon": "mdi:instagram"
+    },
+    {
+      "link": "mailto:biomaestudiobioma@gmail.com",
+      "icon": "mdi:email"
+    },
+    {
+      "icon": "mdi:whatsapp",
+      "link": "https://wa.me/2215860124"
+    }
+  ],
+  "url": "https://biomaestudio.com",
+  "fontFamily": "Roboto Flex",
+  "debug": false,
+  "githubRepo": "redraw/bioma",
+  "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1715007646/ORANGE_-_copia_s7i9ie.png",
+  "cloudinaryName": "biomaarquitectos",
+  "description": "arquitectura  |  diseño  |  branding"
+}

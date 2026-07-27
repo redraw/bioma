@@ -33,6 +33,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Almarose", "Helvetica", "Arial", "sans-serif"],
+        logo: ["AlmaroseBold", "Helvetica", "Arial", "sans-serif"],
+      },
       letterSpacing: {
         wider: "0.2em"
       }

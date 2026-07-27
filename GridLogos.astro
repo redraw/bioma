@@ -1,0 +1,29 @@
+---
+const { src, class: className } = Astro.props;
+---
+
+<a href={src} data-fancybox class={className}>
+  <slot />
+</a>
+
+<script>
+  import { Fancybox } from "@fancyapps/ui";
+  import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+  document.addEventListener("astro:page-load", () => {
+    Fancybox.bind("[data-fancybox]", {
+      Images: {
+        initialSize: "cover",
+        Panzoom: {
+          click: "toggleCover",
+          // panMode: "mousemove",
+        },
+      },
+      Toolbar: {
+        display: {
+          right: ["zoomIn", "zoomOut", "close"],
+        },
+      },
+    });
+  });
+</script>

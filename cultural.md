@@ -1,0 +1,164 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { Markdown } from "astro-remote";
+
+const {
+  title,
+  description,
+  cover,
+  draft,
+  slider_planos,
+  slider_fotos,
+  blocks,
+  anio,
+  colaboradores,
+  fotografia,
+} = Astro.props.frontmatter;
+
+// Normaliza cualquier forma en que Decap guarde las imagenes.
+function lista(v) {
+  const acc = [];
+  const sumar = (x) => {
+    if (!x) return;
+    if (Array.isArray(x)) x.forEach(sumar);
+    else if (typeof x === "string") acc.push(x);
+    else if (x.src) acc.push(x.src);
+  };
+  sumar(v);
+  return [...new Set(acc)];
+}
+
+const planos = lista(slider_planos?.images);
+
+// Si todavia no cargaron el slider de fotos, cae en las imagenes de los bloques.
+let fotos = lista(slider_fotos?.images);
+if (!fotos.length) {
+  const acc = [];
+  (blocks ?? []).forEach((b) => {
+    acc.push(...lista(b.images), ...lista(b.image));
+    if (Array.isArray(b.columns)) b.columns.forEach((c) => acc.push(...lista(c?.images)));
+  });
+  fotos = [...new Set(acc)];
+}
+if (!fotos.length && cover) fotos = [cover];
+
+const grande = (u) =>
+  u.replace(/\/image\/upload\/[^/]+\/v/, "/image/upload/c_limit,w_2000,f_auto,q_auto/v");
+
+const soloUnLado = !planos.length || !fotos.length;
+---
+
+<html lang="es">
+  <head>
+    <BaseHead title={title} description={description} image={cover} />
+    {draft ? <meta name="robots" content="noindex" /> : null}
+  </head>
+
+  <body class="bg-white md:h-screen md:overflow-hidden md:flex md:flex-col">
+    <Header class="w-full z-10 shrink-0" />
+
+    <main
+      class:list={[
+        "flex-1 min-h-0 grid gap-8 md:gap-12 px-4 md:px-6 pb-6",
+        soloUnLado ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2",
+      ]}
+    >
+      {
+        planos.length > 0 && (
+          <div class="panel-diptico relative flex items-center justify-center min-h-0 h-[45vh] md:h-auto cursor-pointer select-none">
+            <img
+              class="pieza max-w-full max-h-full object-contain"
+              src={grande(planos[0])}
+              alt={`${title} — planos`}
+            />
+            <div class="contador absolute -bottom-4 left-0 text-[11px] tracking-[0.14em] opacity-30" />
+            <script
+              type="application/json"
+              class="datos-diptico"
+              set:html={JSON.stringify(planos.map(grande))}
+            />
+          </div>
+        )
+      }
+
+      {
+        fotos.length > 0 && (
+          <div class="panel-diptico relative flex items-center justify-center min-h-0 h-[45vh] md:h-auto cursor-pointer select-none">
+            <img
+              class="pieza max-w-full max-h-full object-contain"
+              src={grande(fotos[0])}
+              alt={title}
+            />
+            <div class="contador absolute -bottom-4 left-0 text-[11px] tracking-[0.14em] opacity-30" />
+            <script
+              type="application/json"
+              class="datos-diptico"
+              set:html={JSON.stringify(fotos.map(grande))}
+            />
+          </div>
+        )
+      }
+    </main>
+
+    <!-- Ficha fija: mismo fondo, sin linea divisoria -->
+    <section
+      class="shrink-0 px-4 md:px-6 pt-3 pb-7 grid gap-6 md:gap-7 md:grid-cols-[200px_1fr] items-start"
+    >
+      <div>
+        <h1 class="text-[15px] font-thin tracking-[0.15em] uppercase mb-2">
+          {title}
+        </h1>
+        <div class="grid grid-cols-[46px_1fr] gap-x-2 text-xs leading-relaxed opacity-70">
+          <span class="opacity-50 tracking-[0.1em]">ARQ</span>
+          <span>BIOMA</span>
+          {colaboradores && <span class="opacity-50 tracking-[0.1em]">COLAB</span>}
+          {colaboradores && <span>{colaboradores}</span>}
+          {fotografia && <span class="opacity-50 tracking-[0.1em]">FOT</span>}
+          {fotografia && <span>{fotografia}</span>}
+          {anio && <span class="opacity-50 tracking-[0.1em]">AÑO</span>}
+          {anio && <span>{anio}</span>}
+        </div>
+      </div>
+      <div class="text-[13px] leading-relaxed opacity-80 max-w-[96ch] font-thin">
+        {description && <Markdown content={description} />}
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("astro:page-load", () => {
+        document.querySelectorAll(".panel-diptico").forEach((panel) => {
+          const img = panel.querySelector(".pieza") as HTMLImageElement;
+          const cont = panel.querySelector(".contador") as HTMLElement;
+          const datos = panel.querySelector(".datos-diptico");
+          if (!img || !cont || !datos) return;
+
+          let piezas: string[] = [];
+          try {
+            piezas = JSON.parse(datos.textContent || "[]");
+          } catch (e) {
+            piezas = [];
+          }
+          if (!piezas.length) return;
+
+          piezas.forEach((u) => {
+            const p = new window.Image();
+            p.src = u;
+          });
+
+          let i = 0;
+          const dosDigitos = (n: number) => String(n).padStart(2, "0");
+          const pintar = () => {
+            img.src = piezas[i];
+            cont.textContent = `${dosDigitos(i + 1)} / ${dosDigitos(piezas.length)}`;
+          };
+          panel.addEventListener("click", () => {
+            i = (i + 1) % piezas.length;
+            pintar();
+          });
+          pintar();
+        });
+      });
+    </script>
+  </body>
+</html>
