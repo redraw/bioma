@@ -21,7 +21,7 @@ description: "La Casa Tangram es un prototipo mínimo y ampliable. Un cuadrado d
 anio: "2025"
 fotografia: Luis Barandiarán
 created: April 21, 2024 12:09 PM
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834548/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-3_jezsnj.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768845497/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_l5tlsw.jpg
 mostrar_home_sliders: false
 slider_fotos:
