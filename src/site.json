@@ -10,19 +10,19 @@
     "rows": 2,
     "columns": 10,
     "proyectos": [
+      "Mordisco",
       "Ruina",
       "Tangram",
       "Clorindo",
-      "Laberinto",
-      "Mordisco",
       "OCULAR",
       "Loop",
       "Rio",
-      "Sanguchán",
-      "CC ",
+      "Laberinto",
       "Pixel",
       "Cáscara",
       "Distrito",
+      "Sanguchán",
+      "CC ",
       "Teatro",
       "Astor",
       "CD Lincoln",
@@ -33,7 +33,7 @@
       "Mercado"
     ]
   },
-  "titleFontFamily": "Roboto",
+  "titleFontFamily": "Almarose",
   "name": "BIOMA",
   "socialLinks": [
     {
@@ -50,7 +50,7 @@
     }
   ],
   "url": "https://biomaestudio.com",
-  "fontFamily": "Roboto Flex",
+  "fontFamily": "Almarose",
   "debug": false,
   "githubRepo": "redraw/bioma",
   "cover": "https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1715007646/ORANGE_-_copia_s7i9ie.png",
