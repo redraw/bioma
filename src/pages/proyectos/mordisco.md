@@ -17,7 +17,7 @@ cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1769085310/LOGOS/02_javier_agustin_rojas_bioma_balcarce_DSF2011-10_low_dtwqt4.jpg
 slider_fotos:
   autoplay: false
-  effect: fade
+  effect: slide
   images:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834119/MORDISCO/01_IMG_7687_i62dsn.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833972/MORDISCO/02_javier_agustin_rojas_bioma_balcarce_DSF2011-10_low_bkuxya.jpg
