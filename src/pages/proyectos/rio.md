@@ -14,45 +14,26 @@ description: La vivienda está ubicada en un monte, en la ribera del Río de La
   entorno.
 created: April 21, 2024 9:06 PM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745145/RIO/Screenshot_2024-04-21_at_21.18.18-min_zt2sw1.png
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744974/RIO/2.MONTE_Planta_Casa-min_kyql2x.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771335792/RIO/CASA_EN_EL_MONTE_-_SQUARE_qtzgrs.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
-  effect: fade
+  effect: slide
+  images:
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771335792/RIO/CASA_EN_EL_MONTE_-_SQUARE_qtzgrs.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745010/RIO/11.MONTE_Interior-min_vhlnql.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745009/RIO/10.MONTE_Exterior_I-min_niytm1.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745023/RIO/15.MONTE_exterior_II-min_oc742p.jpg
 slider_planos:
   autoplay: false
-  effect: fade
-blocks:
-  - type: masonry
-    columns: 2
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744974/RIO/3.MONTE_Planta_Baja-min_uy15rz.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744975/RIO/4.MONTE_Planta_Terraza-min_eqso6q.jpg
-  - type: masonry
-    columns: 1
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745769/RIO/Screenshot_2024-04-21_at_21.28.34-min_irepo5.png
-  - type: grid
-    ratio: 1/1
-    align: stretch
-    gap: 4
-    columns:
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745029/RIO/12.MONTE_Vista_I-min_z8hgrv.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745011/RIO/13.MONTE_Vista_II-min_lgapwh.jpg
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745010/RIO/11.MONTE_Interior-min_vhlnql.jpg
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745009/RIO/10.MONTE_Exterior_I-min_niytm1.jpg
-  - type: grid
-    ratio: 1/1
-    align: end
-    gap: 4
-    columns:
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745023/RIO/14.MONTE_Corte-min_xyhkie.jpg
-      - images:
-          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745023/RIO/15.MONTE_exterior_II-min_oc742p.jpg
+  effect: slide
+  images:
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744974/RIO/3.MONTE_Planta_Baja-min_uy15rz.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744974/RIO/2.MONTE_Planta_Casa-min_kyql2x.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744975/RIO/4.MONTE_Planta_Terraza-min_eqso6q.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745023/RIO/14.MONTE_Corte-min_xyhkie.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745011/RIO/13.MONTE_Vista_II-min_lgapwh.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713745029/RIO/12.MONTE_Vista_I-min_z8hgrv.jpg
+blocks: []
 ---
