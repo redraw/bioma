@@ -3,14 +3,18 @@ layout: ../../layouts/ProyectoLayout.astro
 title: Casa Mordisco
 category: vivienda
 subtitle: " "
-description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
-  su nombre anuncia, aparece en el paisaje una sustracción de su forma,
-  generando un punto de extrañamiento en su volumen. Bajo la idea de no tapar,
-  ni limitar la visual desde la vivienda se pensó en un marco, que pueda
-  contener, dar aire y a la vez replicar de alguna manera ese gesto. Seis
-  bóvedas de hormigón, de cañón corrido se apuntan a ese punto para generar ese
-  diálogo buscado. Las continuidades en el sentido opuesto a la dirección de los
-  cañones y las luces y sombras que genera la forma propone y modifica la casa.
+description: "Una muesca en la sierra de Balcarce da nombre al proyecto. La casa
+  se vincula con el paisaje a través de su lectura. Su cubierta, formada por
+  seis bóvedas de hormigón, proyecta una sombra continua que organiza la vida
+  interior y exterior. A la vez, actúa como contraforma de la montaña: un
+  recorte del horizonte hacia el oeste, donde el sol poniente y las sombras del
+  atardecer ingresan en la vida cotidiana. Debajo de esa cubierta se disponen
+  los usos, los patios y las relaciones entre el sector social y una galería
+  interior protegida, que funciona como expansión de los dormitorios,
+  circulación y estudio. Muros de ladrillo blanco resguardan del viento sur,
+  forman bancos, filtros y espesores habitables, y permiten que los patios se
+  integren bajo la cubierta. Cada apertura introduce una variación: un árbol,
+  una sombra, una porción de cielo o un perímetro que contiene el interior."
 anio: "2023"
 fotografia: Javier Agustín Rojas
 created: April 15, 2024 12:46 AM
