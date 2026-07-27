@@ -10,31 +10,21 @@ logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
-  effect: fade
+  effect: slide
+  images:
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-29_pmfqqn.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467867/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-33_yitqpn.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467867/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-27_fxf6bt.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467863/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-23_vcemju.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-21_xovmib.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-17_in0kxh.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467864/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-2_ogegaw.jpg
 slider_planos:
   autoplay: false
-  effect: fade
-blocks:
-  - type: masonry
-    columns: 3
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467934/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-16_bnzdlo.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467874/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-19_b3kbbi.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467867/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-27_fxf6bt.jpg
-  - type: masonry
-    columns: 3
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467870/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-22_lovvqz.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-21_xovmib.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-17_in0kxh.jpg
-  - type: masonry
-    columns: 4
-    gap: 4
-    images:
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467865/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-29_pmfqqn.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467869/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-31_pz9fus.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467867/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-33_yitqpn.jpg
-      - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467863/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-35_foz5sg.jpg
+  effect: slide
+  images:
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190382/CASA%20A%20PATIO/CEP_-_AP_page-0006_fmjikz.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190377/CASA%20A%20PATIO/CEP_-_AP_page-0001_esoos0.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190383/CASA%20A%20PATIO/CEP_-_AP_page-0002_hcfnhh.jpg
+blocks: []
 ---
