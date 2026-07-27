@@ -11,10 +11,15 @@ description: En las afueras de Balcarce se encuentra la sierra El Mordisco, como
   bóvedas de hormigón, de cañón corrido se apuntan a ese punto para generar ese
   diálogo buscado. Las continuidades en el sentido opuesto a la dirección de los
   cañones y las luces y sombras que genera la forma propone y modifica la casa.
+anio: "2023"
+fotografia: Javier Agustín Rojas
 created: April 15, 2024 12:46 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834119/MORDISCO/01_IMG_7687_i62dsn.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1769085310/LOGOS/02_javier_agustin_rojas_bioma_balcarce_DSF2011-10_low_dtwqt4.jpg
+blocks: []
+slug: mordisco
+mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
   effect: slide
@@ -32,12 +37,9 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833971/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF2026_low_cgj3ix.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833960/MORDISCO/javier_agustin_rojas_bioma_balcarce_DSF1854_low_ifgshn.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768833958/MORDISCO/01_javier_agustin_rojas_bioma_balcarce_DSF2105_low_a3go7n.jpg
-blocks: []
-slug: mordisco
-mostrar_home_sliders: false
 slider_planos:
   autoplay: false
-  effect: fade
+  effect: slide
   images:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768830435/MORDISCO/02_B_PLANTA_page-0001_lvm18l.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768830571/MORDISCO/03_B_AXO_DESPIECE_page-0001_pvipcz.jpg
