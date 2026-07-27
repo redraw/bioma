@@ -10,8 +10,8 @@
     "rows": 2,
     "columns": 10,
     "proyectos": [
-      "Casa Mordisco",
       "Ruina",
+      "Casa Mordisco",
       "Tangram",
       "Clorindo",
       "OCULAR",
@@ -33,7 +33,7 @@
       "Mercado"
     ]
   },
-  "titleFontFamily": "Almarose",
+  "titleFontFamily": "Almarose bold",
   "name": "BIOMA",
   "socialLinks": [
     {
