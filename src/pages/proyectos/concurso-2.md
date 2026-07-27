@@ -32,7 +32,7 @@ anio: 9 de Julio, Buenos Aires, Argentina, 2026
 created: April 29, 2026 10:26 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777471895/CREMATORIO/C9J_-_L1_-_Principal_3_mot0xr.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777671504/CREMATORIO/CONCURSO_-_ESQUEMAS-esq_0_f7ubnr.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777477771/CREMATORIO/C9J_SQUARE_y46jr3.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
