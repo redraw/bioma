@@ -30,7 +30,7 @@ slider_fotos:
   images:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-03_rbauwb.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768842265/TANGRAM/1X1_BLANCO-02_xprkxc.jpg
-    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768845497/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_l5tlsw.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834544/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_dkibff.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834556/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-39_h07ry8.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834543/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-18_utqctn.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834550/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-23_bx9faw.jpg
