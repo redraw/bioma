@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: CASA OCULAR
 category: vivienda
-subtitle: " "
+subtitle: ""
 created: August 8, 2024 7:47 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1723157313/OCULAR/2_-_OCULAR_ABSTRACCION_fxbxj1.jpg
