@@ -3,7 +3,7 @@ draft: false
 blocks: []
 mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
-title: CASA TANGRAM
+title: Casa Tangram
 category: vivienda
 subtitle: " "
 description: "La Casa Tangram es un prototipo mínimo y ampliable. Un cuadrado de
