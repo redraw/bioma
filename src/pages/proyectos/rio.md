@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Casa del Rio
 category: vivienda
-subtitle: " "
+subtitle: ""
 description: La vivienda está ubicada en un monte, en la ribera del Río de La
   Plata sobre terrenos anegables. Decidimos tomar las decisiones que también
   tomaron los lugareños, incorporando el inconsciente (consciente) colectivo en
@@ -12,6 +12,8 @@ description: La vivienda está ubicada en un monte, en la ribera del Río de La
   privados y sociales separados por un volumen central de servicio y guardados,
   dejando exprofeso el perímetro liberado para lograr así mayor vinculo con el
   entorno.
+anio: "2023"
+colaboradores: Felipe Carrizo - Tomás Randrup - Sofía Macluf
 created: April 21, 2024 9:06 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713744974/RIO/2.MONTE_Planta_Casa-min_kyql2x.jpg
