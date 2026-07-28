@@ -20,7 +20,8 @@ description: Distrito Gorina se ubica en un borde donde la ciudad aún no se
   social, donde la vida colectiva se despliega más allá del suelo. Distrito
   Gorina propone así una arquitectura que integra programa, paisaje y comunidad,
   extendiendo la condición urbana en vertical.
-anio: "2024"
+anio: La Plata, Buenos Aires, Argentina. 2024
+colaboradores: Felipe Carrizo - Tomás Randrup
 fotografia: Daniela Mac Adden
 created: April 15, 2024 12:30 AM
 draft: false
