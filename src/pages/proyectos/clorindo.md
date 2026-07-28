@@ -16,7 +16,7 @@ fotografia: Luis Barandiarán
 created: April 15, 2024 2:38 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710713/CLORINDO/4.Clorindo_Foto_Detalle_Escalera-min_n8zouu.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710561/CLORINDO/1.Clorindo_Corte_Vista_vagkjx.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785250924/CLORINDO/CLORINDO_-18_stuf9z.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
