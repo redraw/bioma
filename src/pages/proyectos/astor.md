@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Astor
 category: gastronomía
-subtitle: " "
+subtitle: ""
 description: El tap room de la cervecería Astor se pensó como un espacio de
   experimentación para la producción de cerveza en contacto permanente con el
   jardín y con lo natural. La materialidad elegida para componer la identidad
