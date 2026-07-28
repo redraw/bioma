@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: CASA A PATIO
+title: Casa a patio
 category: vivienda
 subtitle: " "
 created: April 29, 2026 10:08 AM
