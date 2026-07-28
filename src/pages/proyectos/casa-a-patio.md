@@ -5,6 +5,7 @@ category: vivienda
 subtitle: ""
 anio: "2025"
 colaboradores: Felipe Carrizo - Tomás Randrup - Sofia Macluf - Facundo Roig
+fotografia: Luis Barandiarán
 created: April 29, 2026 10:08 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777467934/CASA%20A%20PATIO/LUIGGI_-_Fotos_Luis_Barandiar%C3%A1n-16_bnzdlo.jpg
