@@ -10,7 +10,7 @@ description: Ubicado en el barrio de Recoleta dentro de la biblioteca Guiraldes
   del relevamiento nos inspiraron para hablar de un vínculo con el arquitecto
   Clorindo Testa, al que decidimos hacerle honor a modo de homenaje, tanto con
   ciertos gestos de colores y materiales como con el nombre del café.
-anio: "2023"
+anio: Recoleta, Buenos Aires, Argentina. 2023
 colaboradores: Felipe Carrizo - Tomás Randrup
 fotografia: Luis Barandiarán
 created: April 15, 2024 2:38 AM
@@ -27,6 +27,9 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710715/CLORINDO/3.Clorindo_Foto_Interior_Barra-min_lzmnmq.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710759/CLORINDO/6.Clorindo_Interior_Volumen-min_dwclor.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713710762/CLORINDO/5.Clorindo_Detalle_Barra-min_golbve.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785250924/CLORINDO/CLORINDO_-18_stuf9z.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785250919/CLORINDO/_MIC7142_gdcvbu.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785250743/CLORINDO/CLORINDO_-24_grjhiv.jpg
 slider_planos:
   autoplay: false
   effect: slide
