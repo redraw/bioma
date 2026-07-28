@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: CONCURSO L
+title: Concurso L
 category: XL
 subtitle: 1er premio
 created: April 15, 2024 2:40 AM
