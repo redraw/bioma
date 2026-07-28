@@ -1,56 +1,44 @@
 ---
-import Image from "@/components/CloudinaryImage.astro";
-
 const { posts, categoria, class: className } = Astro.props;
 
-// Junta las imagenes del proyecto para elegir la del hover.
-function imagenesDelProyecto(fm) {
-  const acc = [];
-  const sumar = (v) => {
-    if (!v) return;
-    if (Array.isArray(v)) { v.forEach((x) => sumar(x)); return; }
-    if (typeof v === "string") { acc.push(v); return; }
-    if (typeof v === "object" && v.src) acc.push(v.src);
-  };
-  sumar(fm.slider_fotos?.images);
-  (fm.blocks ?? []).forEach((b) => {
-    sumar(b.images);
-    sumar(b.image);
-    if (Array.isArray(b.columns)) b.columns.forEach((c) => sumar(c?.images));
-  });
-  sumar(fm.cover);
-  return [...new Set(acc)];
+// Reemplaza los parametros de Cloudinary por los que queremos.
+function cloud(src, params) {
+  if (!src) return src;
+  return src.replace(/\/image\/upload\/[^/]+\/v/, `/image/upload/${params}/v`);
 }
+const GRANDE = "c_limit,w_1400,f_auto,q_auto";
 ---
 
 <div class:list={[className, "w-full px-4 md:px-6 pt-2 pb-24"]}>
   <div class="columns-1 sm:columns-2 lg:columns-4 gap-8 md:gap-11">
     {
       [...posts].map(({ url, frontmatter }) => {
-        const portada = frontmatter.cover || frontmatter.logo;
-        const otras = imagenesDelProyecto(frontmatter).filter((u) => u !== portada);
-        const hover = otras.length ? otras[0] : null;
+        const portada = cloud(frontmatter.cover, GRANDE);
+        // La segunda imagen (hover) sale del campo LOGO del panel.
+        const segunda =
+          frontmatter.logo && frontmatter.logo !== frontmatter.cover
+            ? cloud(frontmatter.logo, GRANDE)
+            : null;
         const atenuado = categoria && categoria !== frontmatter.category;
         return (
           <a
             href={url}
             class="grupo-proyecto group block break-inside-avoid mb-12 md:mb-16"
-            data-hover={hover}
+            data-hover={segunda}
           >
             <div
               class:list={[
                 "marco relative w-full overflow-hidden bg-neutral-50 transition-all duration-500",
                 { "grayscale opacity-20": atenuado },
               ]}
-              style="aspect-ratio: 1 / 1;"
-              transition:name={`logo-${frontmatter.title}`}
             >
-              <Image
+              <img
+                class="imagen-proyecto w-full h-auto block"
                 src={portada}
+                data-base={portada}
                 alt={frontmatter.title}
-                params="c_limit,w_1200,f_auto,q_auto"
-                class="imagen-proyecto absolute inset-0 w-full h-full object-cover"
-                effect="blur"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div
@@ -74,35 +62,23 @@ function imagenesDelProyecto(fm) {
   </div>
 </div>
 
-<script>
-  document.addEventListener("astro:page-load", () => {
-    document.querySelectorAll(".grupo-proyecto").forEach((tarjeta) => {
-      const img = tarjeta.querySelector(".imagen-proyecto") as HTMLImageElement;
-      const marco = tarjeta.querySelector(".marco") as HTMLElement;
-      if (!img || !marco) return;
+<script is:inline data-astro-rerun>
+  (function () {
+    document.querySelectorAll(".grupo-proyecto").forEach(function (tarjeta) {
+      var img = tarjeta.querySelector(".imagen-proyecto");
+      var alterna = tarjeta.getAttribute("data-hover");
+      if (!img || !alterna || alterna === "null") return;
 
-      // Fija la proporcion real de la foto para que el hover no mueva la grilla.
-      const fijar = () => {
-        if (img.naturalWidth && img.naturalHeight) {
-          marco.style.aspectRatio = `${img.naturalWidth} / ${img.naturalHeight}`;
-        }
-      };
-      if (img.complete) fijar();
-      img.addEventListener("load", fijar, { once: true });
+      var base = img.getAttribute("data-base");
+      var precarga = new Image();
+      precarga.src = alterna;
 
-      const alterna = tarjeta.getAttribute("data-hover");
-      if (!alterna) return;
-
-      const previa = new window.Image();
-      previa.src = alterna;
-
-      const original = img.getAttribute("data-src") || img.src;
-      tarjeta.addEventListener("mouseenter", () => {
+      tarjeta.addEventListener("mouseenter", function () {
         img.src = alterna;
       });
-      tarjeta.addEventListener("mouseleave", () => {
-        img.src = original;
+      tarjeta.addEventListener("mouseleave", function () {
+        img.src = base;
       });
     });
-  });
+  })();
 </script>

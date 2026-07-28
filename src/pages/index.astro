@@ -14,10 +14,15 @@ const title = categoria ?? categoria;
 const gridPosts = posts
   .filter(({ frontmatter }) => !frontmatter.draft)
   .sort((a, b) => {
-    return (
-      site.homeGrid.proyectos.indexOf(a.frontmatter.title) -
-      site.homeGrid.proyectos.indexOf(b.frontmatter.title)
-    );
+    // El orden lo define la lista de SITE > Home Grid > Proyectos.
+    // Se compara sin distinguir mayusculas ni espacios sobrantes, y los
+    // proyectos que no figuran en la lista van al final, no al principio.
+    const orden = site.homeGrid.proyectos.map((t) => String(t).trim().toLowerCase());
+    const puesto = (t) => {
+      const i = orden.indexOf(String(t ?? "").trim().toLowerCase());
+      return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+    };
+    return puesto(a.frontmatter.title) - puesto(b.frontmatter.title);
   });
 
 const sliderPosts = gridPosts.filter(

@@ -125,15 +125,15 @@ const soloUnLado = !planos.length || !fotos.length;
       </div>
     </section>
 
-    <script>
-      document.addEventListener("astro:page-load", () => {
-        document.querySelectorAll(".panel-diptico").forEach((panel) => {
-          const img = panel.querySelector(".pieza") as HTMLImageElement;
-          const cont = panel.querySelector(".contador") as HTMLElement;
-          const datos = panel.querySelector(".datos-diptico");
+    <script is:inline data-astro-rerun>
+      (function () {
+        document.querySelectorAll(".panel-diptico").forEach(function (panel) {
+          var img = panel.querySelector(".pieza");
+          var cont = panel.querySelector(".contador");
+          var datos = panel.querySelector(".datos-diptico");
           if (!img || !cont || !datos) return;
 
-          let piezas: string[] = [];
+          var piezas = [];
           try {
             piezas = JSON.parse(datos.textContent || "[]");
           } catch (e) {
@@ -141,24 +141,26 @@ const soloUnLado = !planos.length || !fotos.length;
           }
           if (!piezas.length) return;
 
-          piezas.forEach((u) => {
-            const p = new window.Image();
+          piezas.forEach(function (u) {
+            var p = new Image();
             p.src = u;
           });
 
-          let i = 0;
-          const dosDigitos = (n: number) => String(n).padStart(2, "0");
-          const pintar = () => {
+          var i = 0;
+          function dd(n) {
+            return String(n).padStart(2, "0");
+          }
+          function pintar() {
             img.src = piezas[i];
-            cont.textContent = `${dosDigitos(i + 1)} / ${dosDigitos(piezas.length)}`;
-          };
-          panel.addEventListener("click", () => {
+            cont.textContent = dd(i + 1) + " / " + dd(piezas.length);
+          }
+          panel.addEventListener("click", function () {
             i = (i + 1) % piezas.length;
             pintar();
           });
           pintar();
         });
-      });
+      })();
     </script>
   </body>
 </html>

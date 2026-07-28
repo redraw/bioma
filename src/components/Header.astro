@@ -1,39 +1,45 @@
 ---
 import { Icon } from "astro-icon/components";
-import Footer from "@/components/Footer.astro";
 import site from "@/site.json";
 
 const { categoria, class: className } = Astro.props;
 const categorias = await Astro.glob("../pages/categorias/*.md");
 
-const sortedCategorias = categorias.sort((a, b) => {
-  return (
+const sortedCategorias = categorias.sort(
+  (a, b) =>
     site.categorias.indexOf(a.frontmatter.title) -
     site.categorias.indexOf(b.frontmatter.title)
-  );
-});
+);
 
-const isHome =
-  Astro.url.pathname.startsWith("/categorias") || Astro.url.pathname === "/";
+const etiquetas = {
+  "mdi:instagram": "Instagram",
+  "mdi:email": "Mail",
+  "mdi:whatsapp": "WhatsApp",
+};
+const texto = (item) => {
+  if (item.icon === "mdi:email") return item.link.replace("mailto:", "");
+  if (item.icon === "mdi:instagram") return "@" + item.link.split("/").filter(Boolean).pop();
+  if (item.icon === "mdi:whatsapp") return item.link.replace(/^https?:\/\/wa\.me\//, "+54 ");
+  return item.link;
+};
 ---
 
-<header class:list={[className, "z-40 text-white mix-blend-difference"]}>
+<header class:list={[className, "z-40"]}>
   <div class="navbar p-4 min-h-0">
     <div class="flex-1">
-      <a id="site-name" class="text-2xl tracking-[-0.05em] md:text-4xl hover:text-inherit" href="/"
-        >{site.name}</a
+      <a
+        id="site-name"
+        class="text-2xl tracking-[-0.05em] md:text-4xl hover:text-inherit"
+        href="/">{site.name}</a
       >
     </div>
-    <div class="flex-none">
-      <ul
-        id="categorias-inline"
-        class="hidden flex-row"
-        class:list={[{ "lg:flex": isHome }]}
-      >
+
+    <div class="flex-none flex items-center gap-4">
+      <ul id="categorias-inline" class="hidden lg:flex flex-row items-center">
         {
-          categorias?.length &&
-            categorias.map((item) => (
-              <li class="text-xs tracking-wider font-thin mx-4">
+          sortedCategorias?.length &&
+            sortedCategorias.map((item) => (
+              <li class="text-xs tracking-wider font-thin mx-3">
                 <a
                   class:list={[
                     {
@@ -49,66 +55,88 @@ const isHome =
             ))
         }
       </ul>
-      <label class="swap" class:list={[{ "md:hidden": isHome }]}>
-        <input id="menu" type="checkbox" />
-        <div class="swap-off">
-          <Icon class="icon-shadow" name="mdi:plus" size="32" />
-        </div>
-        <div class="swap-on">
-          <Icon class="icon-shadow" name="mdi:close" size="32" />
-        </div>
-      </label>
+
+      <!-- El + abre el contacto. Queda siempre a la derecha de las categorias. -->
+      <button
+        id="abrir-contacto"
+        type="button"
+        aria-label="Contacto"
+        class="leading-none hover:opacity-60 transition-opacity"
+      >
+        <Icon name="mdi:plus" size="30" />
+      </button>
     </div>
   </div>
 </header>
 
+<!-- Panel de contacto -->
 <div
-  id="backdrop"
-  class="flex md:hidden invisible opacity-0 fixed top-0 bg-white transition-all text-black justify-center items-center h-full w-full z-10"
+  id="panel-contacto"
+  class="invisible opacity-0 fixed inset-0 z-50 bg-white text-black transition-opacity duration-300 flex items-center justify-center"
 >
-  <div class="text-center">
-    <nav>
-      <ul>
-        {
-          categorias?.length &&
-            categorias.map((item) => (
-              <li class="my-4">
-                <a
-                  class="lg:hidden"
-                  class:list={[
-                    {
-                      "font-bold":
-                        categoria && categoria === item.frontmatter.title,
-                    },
-                  ]}
-                  href={item.url}
-                >
-                  {item.frontmatter.title}
-                </a>
-              </li>
-            ))
-        }
-      </ul>
-      <Footer />
-    </nav>
+  <button
+    id="cerrar-contacto"
+    type="button"
+    aria-label="Cerrar"
+    class="absolute top-4 right-4 hover:opacity-60"
+  >
+    <Icon name="mdi:close" size="30" />
+  </button>
+
+  <div class="text-center px-6">
+    <p class="text-xs tracking-[0.2em] uppercase opacity-40 mb-8">Contacto</p>
+    <ul>
+      {
+        site.socialLinks.map((item) => (
+          <li class="my-5">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-3 text-sm tracking-wider font-thin"
+            >
+              <Icon name={item.icon} size="18" />
+              <span>{texto(item)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <!-- En celular las categorias tambien viven aca -->
+    <ul class="lg:hidden mt-10 pt-8 border-t border-neutral-200">
+      {
+        sortedCategorias?.length &&
+          sortedCategorias.map((item) => (
+            <li class="my-3">
+              <a class="text-sm tracking-wider font-thin" href={item.url}>
+                {item.frontmatter.title}
+              </a>
+            </li>
+          ))
+      }
+    </ul>
   </div>
 </div>
 
-<script>
-  document.addEventListener("astro:page-load", () => {
-    const backdrop = document.getElementById("backdrop");
-    const checkbox = document.getElementById("menu");
-    const categorias = document.getElementById("categorias-inline");
+<script is:inline data-astro-rerun>
+  (function () {
+    var panel = document.getElementById("panel-contacto");
+    var abrir = document.getElementById("abrir-contacto");
+    var cerrar = document.getElementById("cerrar-contacto");
+    if (!panel || !abrir || !cerrar) return;
 
-    function toggleMenu() {
-      if (checkbox.checked) {
-        backdrop.classList.remove("invisible", "opacity-0");
-        categorias.classList.add("lg:flex");
-      } else {
-        backdrop.classList.add("invisible", "opacity-0");
-        categorias.classList.remove("lg:flex");
-      }
+    function mostrar() {
+      panel.classList.remove("invisible", "opacity-0");
     }
-    checkbox.addEventListener("click", toggleMenu);
-  });
+    function ocultar() {
+      panel.classList.add("invisible", "opacity-0");
+    }
+    abrir.addEventListener("click", mostrar);
+    cerrar.addEventListener("click", ocultar);
+    panel.addEventListener("click", function (e) {
+      if (e.target === panel) ocultar();
+    });
+    ocultar();
+  })();
 </script>
