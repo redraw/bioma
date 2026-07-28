@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Mercado 55
 category: XL
-subtitle: " "
+subtitle: ""
 description: La integración del estadio UNO al espacio público de la ciudad se
   logra por sus bajo gradas. Una de ellas, el ala norte la intervinimos
   respondiendo a una pasante que conecta la ciudad con el bosque. Propusimos una
@@ -12,6 +12,8 @@ description: La integración del estadio UNO al espacio público de la ciudad se
   interrumpidos visualmente. Toda la infraestructura del espacio de más de
   1500m2 responde a lógicas mudables, para poder entender al sector en el
   tiempo. Podemos verlo mutar, adaptarse y sostener diversos usos.
+anio: "2021"
+colaboradores: Felipe Carrizo - Tomás Randrup
 created: October 11, 2023 1:47 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713709746/MERCADO/1.M55_Foto_Interior-min_dfchnh.jpg
