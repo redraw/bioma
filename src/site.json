@@ -10,6 +10,7 @@
     "rows": 2,
     "columns": 10,
     "proyectos": [
+      "Casa Ruina",
       "Astor",
       "Casa a patio",
       "Clorindo",
@@ -21,15 +22,14 @@
       "The Wine Bar",
       "Loop",
       "Mercado 55",
-      "Casa del Mordisco",
       "Casa Ocular",
       "Casa en PH",
       "Pola",
       "Casa del Rio",
-      "Casa Ruina",
       "Sanguchán",
       "Casa Tangram",
-      "Lebrel"
+      "Lebrel",
+      "Casa del Mordisco"
     ]
   },
   "titleFontFamily": "Almarose bold",
