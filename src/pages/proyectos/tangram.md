@@ -5,7 +5,7 @@ mostrar_home_grid: true
 layout: ../../layouts/ProyectoLayout.astro
 title: Casa Tangram
 category: vivienda
-subtitle: " "
+subtitle: ""
 description: "La Casa Tangram es un prototipo mínimo y ampliable. Un cuadrado de
   8 x 8 metros se eleva levemente del suelo y define una pieza liviana, capaz de
   posarse en el paisaje sin fijarlo ni dominarlo. Su organización parte de una
@@ -21,8 +21,8 @@ description: "La Casa Tangram es un prototipo mínimo y ampliable. Un cuadrado d
 anio: "2025"
 fotografia: Luis Barandiarán
 created: April 21, 2024 12:09 PM
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834548/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-3_jezsnj.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768845497/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_l5tlsw.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834544/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_dkibff.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834556/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-39_h07ry8.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
