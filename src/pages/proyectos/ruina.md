@@ -16,7 +16,7 @@ description: "Una estructura perimetral de hormigón delimita un vacío habitabl
 anio: "2023"
 created: February 14, 2026 5:50 PM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711561/RUINA/1.RUINA_Exterior-min_afm73i.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771101777/RUINA/RUINA_-_SQUARE_bld4hg.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image99_lxiudb.jpg
 mostrar_home_sliders: false
 slider_fotos:
