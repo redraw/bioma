@@ -2,15 +2,17 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Pola
 category: comercial
-subtitle: " "
+subtitle: ""
 description: El módulo en el centímetro. Las venecitas auspician de supertrama
   para mediante su singularidad de color generar una obra que expresa la
   identidad de la marca. Un paisaje de Bali hecho de venecitas, pensado como una
   obra de op-art se evidencia desde lejos y a medida que uno se acerca va
   transformándose en abstracto.
+anio: "2022"
+colaboradores: Felipe Carrizo
 created: April 21, 2024 9:39 PM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713746657/POLA/Screenshot_2024-04-21_at_21.38.32-min_tym4jw.png
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713746656/POLA/2.POLA_Frente_I-min_ufltdn.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771336070/POLA/1.POLA_SQUARE_w8pvpi.jpg
 mostrar_home_sliders: false
 slider_fotos:
