@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Canillita
 category: cultural
-subtitle: " "
+subtitle: ""
 description: "Canillita trabaja sobre una pieza urbana en retirada: el puesto de
   diarios. Donde una función desaparece, el proyecto reconoce una permanencia
   material, simbólica y territorial. Su objetivo es reactivar esa presencia. El
@@ -16,7 +16,8 @@ description: "Canillita trabaja sobre una pieza urbana en retirada: el puesto de
   memoria ornamental del entorno y la traducen en una geometría contemporánea.
   Abierto o cerrado, el puesto mantiene su condición pública: una pequeña
   arquitectura capaz de producir ciudad desde la vereda."
-anio: "2025"
+anio: Barrancas de Belgrano, Buenos Aires, Argentina. 2025
+colaboradores: Felipe Carrizo - Tomás Randrup - Juan Ignacio Depetri - Facundo Roig
 fotografia: Javier Agustín Rojas
 created: April 15, 2024 2:43 AM
 draft: false
