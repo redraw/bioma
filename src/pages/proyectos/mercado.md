@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Mercado 55
-category: XL
+category: comercial
 subtitle: ""
 description: La integración del estadio UNO al espacio público de la ciudad se
   logra por sus bajo gradas. Una de ellas, el ala norte la intervinimos
