@@ -2,12 +2,15 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Lebrel
 category: gastronomía
-subtitle: " "
+subtitle: ""
 description: ""
+anio: La Plata, Buenos Aires, Argentina. 2025
+colaboradores: Felipe Carrizo - Tomás Randrup - Sofìa Macluf
+fotografia: Luis Barandiarán
 created: April 21, 2024 7:37 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777325847/TEATRO/LEBREL_-5_k9tfmo.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777325867/TEATRO/LEBREL_-12_k7poea.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777325847/TEATRO/LEBREL_-19_rvildb.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
