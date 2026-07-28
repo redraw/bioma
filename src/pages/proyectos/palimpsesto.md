@@ -3,10 +3,13 @@ layout: ../../layouts/ProyectoLayout.astro
 title: Casa en PH
 category: vivienda
 subtitle: ""
+anio: "2023"
+colaboradores: Felipe Carrizo - Tomás Randrup - Sofía Macluf
+fotografia: Luis Barandiarán
 created: August 8, 2024 8:02 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300598/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-8_idcnk0.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771335392/PALIMPSESTO/IMG_1786_t9q3eh.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777300591/PALIMPSESTO/BIOMA_-_PH_-_Luis_Barandiar%C3%A1n_-11_zybnqc.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
