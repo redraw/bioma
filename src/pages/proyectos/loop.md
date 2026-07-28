@@ -12,7 +12,7 @@ colaboradores: Felipe Carrizo
 created: April 21, 2024 7:13 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771106246/LOOP/LOOP_SQUARE_ni9dvb.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771106246/LOOP/LOOP_SQUARE_ni9dvb.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713738069/LOOP/1.LOOP_Esquema-min_bba3nz.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
