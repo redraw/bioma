@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Loop
 category: cultural
-subtitle: " "
+subtitle: ""
 description: >-
   Un bucle de rebotes de luz que se proyecta en el infinito.\
 
