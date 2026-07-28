@@ -17,7 +17,7 @@ anio: "2023"
 created: February 14, 2026 5:50 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711561/RUINA/1.RUINA_Exterior-min_afm73i.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922868/RUINA/image3_vh0qug.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image99_lxiudb.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
