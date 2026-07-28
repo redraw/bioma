@@ -14,10 +14,16 @@ description: Como primer gesto de proyecto pensamos en una sombra que colonice
   genera el foco, siendo el mismo que una vez adentro deje su rol protagónico
   para abrir la perspectiva, integrar el jardín y jugar con el sol proyectando
   su sombra.
+anio: La Plata, Buenos Aires, Argentina. 2022
+colaboradores: Felipe Carrizo - Tomás Randrup
+fotografia: Luis Barandiarán
 created: April 15, 2024 12:39 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498929/CASCARA/3-Casa_en_el_Jardin-min_irijsa.jpg
 logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498925/CASCARA/7-Casa_en_el_Jardin-min_dltd6i.jpg
+blocks: []
+slug: cascara
+mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
   effect: slide
@@ -30,9 +36,6 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498929/CASCARA/3-Casa_en_el_Jardin-min_irijsa.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498929/CASCARA/1-Casa_en_el_Jardin-min_qqzi0s.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498925/CASCARA/10-Casa_en_el_Jardin-min_z9ssge.jpg
-blocks: []
-slug: cascara
-mostrar_home_sliders: false
 slider_planos:
   autoplay: false
   effect: slide
