@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: CONCURSO 9J
+title: Concurso 9J
 category: cultural
 subtitle: 2do premio
 description: >-
