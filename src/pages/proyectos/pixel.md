@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Pixel
+title: Pola
 category: comercial
 subtitle: " "
 description: El módulo en el centímetro. Las venecitas auspician de supertrama
