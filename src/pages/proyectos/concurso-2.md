@@ -28,11 +28,13 @@ description: >-
   El árbol entre nosotros,
 
   entre los vivos que seguimos recordando.
-anio: 9 de Julio, Buenos Aires, Argentina, 2026
+anio: 9 de Julio, Buenos Aires, Argentina. 2026
+colaboradores: Felipe Carrizo - Tomás Randrup - Lucía Allende - Juan Ignacio
+  Depetri - Facundo Roig - Sofia Macluf - Manuel Beltrán - Santiago López Bares
 created: April 29, 2026 10:26 AM
 draft: false
-cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777471895/CREMATORIO/C9J_-_L1_-_Principal_3_mot0xr.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777477771/CREMATORIO/C9J_SQUARE_y46jr3.jpg
+cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785252171/CREMATORIO/C9J_-_Principal_recorte_xpayvo.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1777475255/CREMATORIO/C9J_-_L3_-_4_Maqueta_mpss4g.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
