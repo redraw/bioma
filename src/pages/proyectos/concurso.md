@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
 title: Concurso L
-category: XL
+category: cultural
 subtitle: 1er premio
 anio: "2022"
 created: April 15, 2024 2:40 AM
