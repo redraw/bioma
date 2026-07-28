@@ -9,10 +9,12 @@ description: El tap room de la cervecería Astor se pensó como un espacio de
   está pensada como parte indisoluble del espíritu local, lo portuario, el
   ladrillo, la chapa. El color verde acetuando la continuidad de los parques de
   frente y de fondo.
+anio: "2022"
+colaboradores: Felipe Carrizo - Tomás Randrup
 created: June 8, 2024 2:24 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867830/ASTOR/classicu_2023-04-15_145536.785_v8f5os.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771367768/ASTOR/ASTOR_SQUARE_zulswm.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867829/ASTOR/classicu_2023-04-15_145540.574_jjlxif.jpg
 mostrar_home_sliders: false
 slider_fotos:
   autoplay: false
@@ -28,6 +30,7 @@ blocks:
     gap: 2
     columns:
       - images:
+          - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867830/ASTOR/classicu_2023-04-15_145536.785_v8f5os.jpg
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867831/ASTOR/classicu_2023-04-15_145543.264_vetis2.jpg
       - images:
           - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1717867829/ASTOR/classicu_2023-04-15_145540.574_jjlxif.jpg
