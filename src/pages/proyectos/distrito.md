@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Gorina
+title: Distrito Gorina
 category: XL
 subtitle: " "
 description: Distrito Gorina se ubica en un borde donde la ciudad aún no se
