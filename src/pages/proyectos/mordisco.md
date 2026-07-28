@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Casa Mordisco
+title: Casa del Mordisco
 category: vivienda
 subtitle: " "
 description: "Una muesca en la sierra de Balcarce da nombre al proyecto. La casa
