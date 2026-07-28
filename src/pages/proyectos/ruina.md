@@ -14,6 +14,7 @@ description: "Una estructura perimetral de hormigón delimita un vacío habitabl
   aquí un artefacto de mediación entre lo natural y lo construido, entre la
   ruina como evocación y la técnica como presente."
 anio: "2023"
+colaboradores: Felipe Carrizo - Tomás Randrup - Sofía Macluf - Lucía Allende
 created: February 14, 2026 5:50 PM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771101777/RUINA/RUINA_-_SQUARE_bld4hg.jpg
