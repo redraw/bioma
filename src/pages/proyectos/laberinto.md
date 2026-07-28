@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProyectoLayout.astro
-title: Laberinto
+title: The Wine Bar
 category: gastronomía
 subtitle: " "
 description: The Wine Bar es una marca originaria de Mar Del Plata para la que
