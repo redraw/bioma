@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Casa del Mordisco
 category: vivienda
-subtitle: " "
+subtitle: ""
 description: "Una muesca en la sierra de Balcarce da nombre al proyecto. La casa
   se vincula con el paisaje a través de su lectura. Su cubierta, formada por
   seis bóvedas de hormigón, proyecta una sombra continua que organiza la vida
