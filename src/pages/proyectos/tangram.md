@@ -18,7 +18,8 @@ description: "La Casa Tangram es un prototipo mínimo y ampliable. Un cuadrado d
   como acciones: dormir, cocinar, mirar, guardar, abrir. Desde esa economía de
   medios, la vivienda ensaya una lógica mayor: un sistema repetible, variable y
   expansivo, capaz de crecer sin perder claridad."
-anio: "2025"
+anio: Chapadmalal, Buenos Aires, Argentina. 2025
+colaboradores: Felipe Carrizo - Héctor Tomás - Tomás Randrup - Lucía Allende
 fotografia: Luis Barandiarán
 created: April 21, 2024 12:09 PM
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1768834544/TANGRAM/BIOMA_-_TANGRAM_-_LUIS_BARANDIAR%C3%81N_-9_dkibff.jpg
