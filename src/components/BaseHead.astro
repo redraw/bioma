@@ -28,26 +28,6 @@ const title =
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 <link rel="manifest" href="/site.webmanifest" />
 
-<!-- Font preloads -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-{
-  site.fontFamily && (
-    <link
-      rel="stylesheet"
-      href={`https://fonts.googleapis.com/css2?family=${site.fontFamily}:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap`}
-    />
-  )
-}
-{
-  site.titleFontFamily && (
-    <link
-      rel="stylesheet"
-      href={`https://fonts.googleapis.com/css2?family=${site.titleFontFamily}:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap`}
-    />
-  )
-}
-
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
@@ -85,14 +65,29 @@ const title =
 
 <style
   set:html={`
-body {
-  font-family: ${site.fontFamily || 'Helvetica'}, sans-serif;
+html, body {
+  font-family: "Almarose", Helvetica, Arial, sans-serif;
 }
 
 #site-name {
-  font-family: ${site.titleFontFamily || 'Helvetica'}, sans-serif;
+  font-family: "AlmaroseBold", Helvetica, Arial, sans-serif;
 }
 `}
 ></style>
+
+<link
+  rel="preload"
+  as="font"
+  type="font/otf"
+  href="/fonts/Almarose-Light.otf"
+  crossorigin
+/>
+<link
+  rel="preload"
+  as="font"
+  type="font/otf"
+  href="/fonts/Almarose-Bold.otf"
+  crossorigin
+/>
 
 <ViewTransitions />

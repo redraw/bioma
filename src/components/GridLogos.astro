@@ -26,7 +26,7 @@ const GRANDE = "c_limit,w_1400,f_auto,q_auto";
         return (
           <a
             href={url}
-            class="grupo-proyecto group block w-full mb-12 md:mb-16"
+            class="grupo-proyecto group relative block w-full mb-[55px]"
           >
             <div
               class:list={[
@@ -56,7 +56,8 @@ const GRANDE = "c_limit,w_1400,f_auto,q_auto";
             </div>
             <div
               class:list={[
-                "pt-3 transition-opacity duration-300",
+                "absolute top-full left-0 right-0 pt-2 leading-tight",
+                "transition-opacity duration-300",
                 "opacity-100 md:opacity-0 md:group-hover:opacity-100",
                 { "!opacity-20": atenuado },
               ]}
