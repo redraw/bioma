@@ -109,15 +109,17 @@ const soloUnLado = !planos.length || !fotos.length;
         <h1 class="text-[15px] font-thin tracking-[0.15em] uppercase mb-2">
           {title}
         </h1>
-        <div class="grid grid-cols-[46px_1fr] gap-x-2 text-xs leading-relaxed opacity-70">
-          <span class="opacity-50 tracking-[0.1em]">ARQ</span>
-          <span>BIOMA</span>
-          {colaboradores && <span class="opacity-50 tracking-[0.1em]">COLAB</span>}
-          {colaboradores && <span>{colaboradores}</span>}
-          {fotografia && <span class="opacity-50 tracking-[0.1em]">FOT</span>}
-          {fotografia && <span>{fotografia}</span>}
+        <div class="grid grid-cols-[92px_1fr] gap-x-2 text-xs leading-relaxed opacity-70">
           {anio && <span class="opacity-50 tracking-[0.1em]">AÑO</span>}
           {anio && <span>{anio}</span>}
+          {colaboradores && (
+            <span class="opacity-50 tracking-[0.1em]">EQUIPO</span>
+          )}
+          {colaboradores && <span>{colaboradores}</span>}
+          {fotografia && (
+            <span class="opacity-50 tracking-[0.1em]">FOTOGRAFÍA</span>
+          )}
+          {fotografia && <span>{fotografia}</span>}
         </div>
       </div>
       <div class="text-[13px] leading-relaxed opacity-80 max-w-[96ch] font-thin">

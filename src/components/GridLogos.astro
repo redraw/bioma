@@ -1,7 +1,6 @@
 ---
 const { posts, categoria, class: className } = Astro.props;
 
-// Reemplaza los parametros de Cloudinary por los que queremos.
 function cloud(src, params) {
   if (!src) return src;
   return src.replace(/\/image\/upload\/[^/]+\/v/, `/image/upload/${params}/v`);
@@ -10,11 +9,15 @@ const GRANDE = "c_limit,w_1400,f_auto,q_auto";
 ---
 
 <div class:list={[className, "w-full px-4 md:px-6 pt-2 pb-24"]}>
-  <div class="columns-1 sm:columns-2 lg:columns-4 gap-8 md:gap-11">
+  <!-- El orden del DOM es el orden elegido en SITE.
+       El script reparte las tarjetas en columnas de izquierda a derecha. -->
+  <div
+    id="grilla-proyectos"
+    class="flex flex-col md:flex-row gap-0 md:gap-11 items-start"
+  >
     {
       [...posts].map(({ url, frontmatter }) => {
         const portada = cloud(frontmatter.cover, GRANDE);
-        // La segunda imagen (hover) sale del campo LOGO del panel.
         const segunda =
           frontmatter.logo && frontmatter.logo !== frontmatter.cover
             ? cloud(frontmatter.logo, GRANDE)
@@ -23,23 +26,33 @@ const GRANDE = "c_limit,w_1400,f_auto,q_auto";
         return (
           <a
             href={url}
-            class="grupo-proyecto group block break-inside-avoid mb-12 md:mb-16"
-            data-hover={segunda}
+            class="grupo-proyecto group block w-full mb-12 md:mb-16"
           >
             <div
               class:list={[
-                "marco relative w-full overflow-hidden bg-neutral-50 transition-all duration-500",
+                "relative w-full overflow-hidden bg-neutral-50 transition-all duration-500",
                 { "grayscale opacity-20": atenuado },
               ]}
             >
+              {/* Esta imagen define la caja: su proporcion manda siempre */}
               <img
-                class="imagen-proyecto w-full h-auto block"
+                class="w-full h-auto block"
                 src={portada}
-                data-base={portada}
                 alt={frontmatter.title}
                 loading="lazy"
                 decoding="async"
               />
+              {/* La segunda se recorta dentro de esa misma caja */}
+              {segunda && (
+                <img
+                  class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 md:group-hover:opacity-100"
+                  src={segunda}
+                  alt=""
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
             </div>
             <div
               class:list={[
@@ -64,21 +77,54 @@ const GRANDE = "c_limit,w_1400,f_auto,q_auto";
 
 <script is:inline data-astro-rerun>
   (function () {
-    document.querySelectorAll(".grupo-proyecto").forEach(function (tarjeta) {
-      var img = tarjeta.querySelector(".imagen-proyecto");
-      var alterna = tarjeta.getAttribute("data-hover");
-      if (!img || !alterna || alterna === "null") return;
+    var cont = document.getElementById("grilla-proyectos");
+    if (!cont) return;
 
-      var base = img.getAttribute("data-base");
-      var precarga = new Image();
-      precarga.src = alterna;
+    var tarjetas = Array.prototype.slice.call(
+      cont.querySelectorAll(".grupo-proyecto")
+    );
+    if (!tarjetas.length) return;
 
-      tarjeta.addEventListener("mouseenter", function () {
-        img.src = alterna;
+    function cuantasColumnas() {
+      var w = window.innerWidth;
+      if (w >= 1024) return 4;
+      if (w >= 640) return 2;
+      return 1;
+    }
+
+    function repartir() {
+      var n = cuantasColumnas();
+      if (cont.getAttribute("data-cols") === String(n)) return;
+      cont.setAttribute("data-cols", String(n));
+
+      while (cont.firstChild) cont.removeChild(cont.firstChild);
+
+      if (n === 1) {
+        tarjetas.forEach(function (t) {
+          cont.appendChild(t);
+        });
+        return;
+      }
+
+      var columnas = [];
+      for (var i = 0; i < n; i++) {
+        var col = document.createElement("div");
+        col.className = "flex-1 min-w-0";
+        cont.appendChild(col);
+        columnas.push(col);
+      }
+      // De izquierda a derecha: la tarjeta 1 va a la columna 1, la 2 a la 2...
+      tarjetas.forEach(function (t, i) {
+        columnas[i % n].appendChild(t);
       });
-      tarjeta.addEventListener("mouseleave", function () {
-        img.src = base;
-      });
+    }
+
+    repartir();
+
+    var reloj;
+    window.addEventListener("resize", function () {
+      clearTimeout(reloj);
+      reloj = setTimeout(repartir, 150);
     });
   })();
 </script>
