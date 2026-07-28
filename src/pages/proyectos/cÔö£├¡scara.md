@@ -17,7 +17,7 @@ description: Como primer gesto de proyecto pensamos en una sombra que colonice
 created: April 15, 2024 12:39 AM
 draft: false
 cover: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498929/CASCARA/3-Casa_en_el_Jardin-min_irijsa.jpg
-logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771104403/CASCARA/CASA_JARDIN_-_SQUARE_vjxeuz.jpg
+logo: https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713498925/CASCARA/7-Casa_en_el_Jardin-min_dltd6i.jpg
 slider_fotos:
   autoplay: false
   effect: slide
