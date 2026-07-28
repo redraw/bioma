@@ -24,10 +24,10 @@ slider_fotos:
   autoplay: false
   effect: slide
   images:
-    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711561/RUINA/1.RUINA_Exterior-min_afm73i.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922880/RUINA/image99_lxiudb.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922867/RUINA/image1_fxptzm.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1772922868/RUINA/image3_vh0qug.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711561/RUINA/1.RUINA_Exterior-min_afm73i.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711560/RUINA/9.RUINA_Patio-min_drritt.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/2.RUINA_Maqueta_I-min_t0b5ld.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1713711559/RUINA/3.RUINA_Maqueta_II-min_ezlvrg.jpg
