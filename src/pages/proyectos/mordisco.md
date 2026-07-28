@@ -16,6 +16,7 @@ description: "Una muesca en la sierra de Balcarce da nombre al proyecto. La casa
   integren bajo la cubierta. Cada apertura introduce una variación: un árbol,
   una sombra, una porción de cielo o un perímetro que contiene el interior."
 anio: "2023"
+colaboradores: Felipe Carrizo - Tomás Randrup
 fotografia: Javier Agustín Rojas
 created: July 27, 2026 7:31 PM
 draft: false
