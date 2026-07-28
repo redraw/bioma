@@ -2,7 +2,7 @@
 layout: ../../layouts/ProyectoLayout.astro
 title: Distrito Gorina
 category: XL
-subtitle: " "
+subtitle: ""
 description: Distrito Gorina se ubica en un borde donde la ciudad aún no se
   consolida. Frente a esta condición, el edificio propone una forma posible de
   urbanidad a partir de un uso mixto que articula lo público y lo privado. La
