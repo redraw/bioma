@@ -3,16 +3,19 @@ layout: ../../layouts/ProyectoLayout.astro
 title: Canillita
 category: cultural
 subtitle: ""
-description: >-
-  Canillita trabaja sobre una pieza urbana en retirada: el puesto de diarios.
-  Donde una función desaparece, el proyecto reconoce una permanencia material,
-  simbólica y territorial. Su objetivo es reactivar esa presencia. 
-
-
-  El dispositivo se organiza a partir del despliegue. Un cuerpo compacto se abre mediante paneles, gajos y superficies móviles, extendiendo su espesor sobre la vereda. Este movimiento es técnico y urbano: al abrirse, el puesto cambia de escala, multiplica sus usos y redefine su relación con la calle. 
-
-
-  Cada pieza responde a su contexto dentro de una lógica común. Café, soporte cultural, galería mínima y artefacto luminoso conviven en una infraestructura de pequeña escala. En Santa Fe y Maipú, junto al Palacio Paz, los gajos curvos toman una memoria ornamental del entorno y la traducen en una geometría contemporánea. Abierto o cerrado, el puesto mantiene su condición pública: una pequeña arquitectura capaz de producir ciudad desde la vereda.
+description: "Canillita trabaja sobre una pieza urbana en retirada: el puesto de
+  diarios. Donde una función desaparece, el proyecto reconoce una permanencia
+  material, simbólica y territorial. Su objetivo es reactivar esa presencia. El
+  dispositivo se organiza a partir del despliegue. Un cuerpo compacto se abre
+  mediante paneles, gajos y superficies móviles, extendiendo su espesor sobre la
+  vereda. Este movimiento es técnico y urbano: al abrirse, el puesto cambia de
+  escala, multiplica sus usos y redefine su relación con la calle. Cada pieza
+  responde a su contexto dentro de una lógica común. Café, soporte cultural,
+  galería mínima y artefacto luminoso conviven en una infraestructura de pequeña
+  escala. En Santa Fe y Maipú, junto al Palacio Paz, los gajos curvos toman una
+  memoria ornamental del entorno y la traducen en una geometría contemporánea.
+  Abierto o cerrado, el puesto mantiene su condición pública: una pequeña
+  arquitectura capaz de producir ciudad desde la vereda."
 anio: "Buenos Aires, Argentina. Palacio Paz - 2025. Barrancas de Belgrano - 2026 "
 colaboradores: Felipe Carrizo - Tomás Randrup - Juan Ignacio Depetri - Facundo Roig
 fotografia: Javier Agustín Rojas
