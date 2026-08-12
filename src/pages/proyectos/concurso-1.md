@@ -16,7 +16,7 @@ description: "Canillita trabaja sobre una pieza urbana en retirada: el puesto de
   memoria ornamental del entorno y la traducen en una geometría contemporánea.
   Abierto o cerrado, el puesto mantiene su condición pública: una pequeña
   arquitectura capaz de producir ciudad desde la vereda."
-anio: Barrancas de Belgrano, Buenos Aires, Argentina. 2025
+anio: "Buenos Aires, Argentina. Palacio Paz - 2025. Barrancas de Belgrano - 2026 "
 colaboradores: Felipe Carrizo - Tomás Randrup - Juan Ignacio Depetri - Facundo Roig
 fotografia: Javier Agustín Rojas
 created: April 15, 2024 2:43 AM
