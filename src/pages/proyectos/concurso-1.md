@@ -36,6 +36,14 @@ slider_fotos:
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254833/cc%20cordoba/javier_agustin_rojas_canillita_DSF2028_high_mg1ktg.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1771254838/cc%20cordoba/javier_agustin_rojas_canillita_DSF1981_high_uqcrsp.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1778109803/cc%20cordoba/javier_agustin_rojas_canillita_DSF1986_high_-_copia_-_copia_li5z9i.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997263/cc%20cordoba/jar_canillita_7783_low_m83oi8.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997263/cc%20cordoba/jar_canillita_7575_low_wsqpfr.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997262/cc%20cordoba/jar_canillita_7688_low_rb7mit.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997265/cc%20cordoba/jar_canillita_7728_low_dpksy0.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997265/cc%20cordoba/jar_canillita_7698_low_efq50l.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997264/cc%20cordoba/jar_canillita_7692_low_nxyscj.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997266/cc%20cordoba/jar_canillita_7622-21_low_unzbhn.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1786997263/cc%20cordoba/jar_canillita_7715_low_nnjhmq.jpg
 slider_planos:
   autoplay: false
   effect: slide
