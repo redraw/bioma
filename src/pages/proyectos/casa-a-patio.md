@@ -26,7 +26,7 @@ slider_planos:
   autoplay: false
   effect: slide
   images:
-    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190382/CASA%20A%20PATIO/CEP_-_AP_page-0006_fmjikz.jpg
+    - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1792419020/CASA%20A%20PATIO/CEP_-_AP_page-0006_j65b7c.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190377/CASA%20A%20PATIO/CEP_-_AP_page-0001_esoos0.jpg
     - https://res.cloudinary.com/biomaarquitectos/image/upload/c_scale,f_auto,q_auto,w_160/v1785190383/CASA%20A%20PATIO/CEP_-_AP_page-0002_hcfnhh.jpg
 blocks: []
